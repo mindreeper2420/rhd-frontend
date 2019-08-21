@@ -6,7 +6,7 @@
     <description>Recent content in component on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Aug 2019 14:30:10 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 09:28:14 -0400</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/component/index.xml" rel="self" type="application/rss+xml" />
     
@@ -103,6 +103,15 @@ Card Variations</description>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/community/</guid>
       <description>&amp;lt;div data-product-id=&amp;#34;fuse&amp;#34;&amp;gt; &amp;lt;rhdp-projects dcp-url=&amp;#34;https://dcp2.jboss.org/v2/rest/search/suggest_project_name_ngram_more_fields?sort=sys_title&amp;amp;amp;query=&amp;#34; upstream-product-id=&amp;#34;fuse&amp;#34;&amp;gt; &amp;lt;rhdp-project-query&amp;gt;&amp;lt;/rhdp-project-query&amp;gt; &amp;lt;rhdp-project-url&amp;gt;&amp;lt;/rhdp-project-url&amp;gt; &amp;lt;/rhdp-projects&amp;gt; &amp;lt;/div&amp;gt;        </description>
+    </item>
+    
+    <item>
+      <title>Call To Action</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/cta/</link>
+      <pubDate>Wed, 21 Aug 2019 09:28:14 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/cta/</guid>
+      <description></description>
     </item>
     
     <item>

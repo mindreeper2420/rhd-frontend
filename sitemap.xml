@@ -73,6 +73,11 @@
   </url>
   
   <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/cta/</loc>
+    <lastmod>2019-08-21T09:28:14-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/</loc>
     <lastmod>2019-08-15T14:30:10-04:00</lastmod>
   </url>
@@ -94,13 +99,19 @@
   
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/</loc>
-    <lastmod>2019-08-15T16:18:01-04:00</lastmod>
+    <lastmod>2019-08-21T09:28:14-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/</loc>
-    <lastmod>2019-08-15T16:18:01-04:00</lastmod>
+    <lastmod>2019-08-21T09:28:14-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/tags/component/</loc>
+    <lastmod>2019-08-21T09:28:14-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -112,12 +123,6 @@
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/tags/component/</loc>
-    <lastmod>2019-08-15T14:30:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,13 +179,13 @@
   </url>
   
   <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/categories/page/</loc>
+    <loc>https://redhat-developer.github.io/rhd-frontend/tags/page/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/tags/page/</loc>
+    <loc>https://redhat-developer.github.io/rhd-frontend/categories/page/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
     <priority>0</priority>
   </url>
