@@ -1,3 +1,9 @@
+
+
+
+
+
+      
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,21 +13,9 @@
     <title>
 Card – RHD Front-end Code and Documentation
 </title>
-
-    
-    
-    
-    
-
-    
-        
-    
-    
-    
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/@patternfly/pfe-layouts/pfe-layouts.min.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/advanced-theme.min.css">
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.min.css">
-    
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
     <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
     <script src="https://redhat-developer.github.io/rhd-frontend/@fortawesome/fontawesome-pro/js/all.min.js"></script>
@@ -97,17 +91,19 @@ Card – RHD Front-end Code and Documentation
     
     
 
-<div class="pfe-l-grid pfe-m-gutters pfe-m-all-5-col-on-sm pfe-m-all-3-col-on-md pfe-m-all-2-col-on-lg">
+<div class="pfe-l-grid pfe-m-gutters">
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">Articles and Blogs</h2>
+    <h2 class="pfe-m-12-col">Articles and Blogs</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">Title of the article that can be two li...</a>&nbsp;
@@ -117,8 +113,8 @@ Card – RHD Front-end Code and Documentation
             </h3>
           </div>
         </pfe-card>
-        
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">Title of the article</a>&nbsp;
@@ -128,40 +124,48 @@ Card – RHD Front-end Code and Documentation
             </h3>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
             <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. <span class="rhd-m-list__comment"><i class="fas fa-comment"></i> 2</span></p>
           </div>
         </pfe-card>
-        
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
             <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. <span class="rhd-m-list__comment"><i class="fas fa-comment"></i> 2</span></p>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
           <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
@@ -175,17 +179,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="fas fa-newspaper"></i>
           Quickstart
@@ -203,17 +211,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg" class="rhd-c-card__image"/>
         <div class="rhd-c-card__tag">
           <i class="fas fa-newspaper"></i>
@@ -232,21 +244,25 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">Cheat Sheets</h2>
+    <h2 class="pfe-m-12-col">Cheat Sheets</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
             <div class="rhd-c-card-content">
               <h3 class="rhd-c-card__title">
                 <a href="#" class="rhd-m-link">
@@ -256,8 +272,8 @@ Card – RHD Front-end Code and Documentation
               </h3>
             </div>
           </pfe-card>
-        
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">
@@ -267,17 +283,21 @@ Card – RHD Front-end Code and Documentation
             </h3>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">
@@ -292,8 +312,8 @@ Card – RHD Front-end Code and Documentation
             </div>
           </div>
         </pfe-card>
-        
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">
@@ -308,8 +328,8 @@ Card – RHD Front-end Code and Documentation
             </div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">
@@ -324,17 +344,21 @@ Card – RHD Front-end Code and Documentation
             </div>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title">
             <i class="far fa-file-code"></i>
@@ -352,17 +376,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="far fa-file-code"></i>
           Cheat sheet
@@ -383,17 +411,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="far fa-file-code"></i>
           Cheat sheet
@@ -415,21 +447,25 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">eBooks</h2>
+    <h2 class="pfe-m-12-col">eBooks</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">
@@ -449,17 +485,21 @@ Card – RHD Front-end Code and Documentation
             </h3>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">
@@ -504,17 +544,21 @@ Card – RHD Front-end Code and Documentation
             </div>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title">
             <i class="fas fa-book"></i>
@@ -532,17 +576,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="fas fa-book"></i>
           eBook
@@ -563,17 +611,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="fas fa-book"></i>
           eBook
@@ -595,58 +647,66 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">Katacoda Lessons</h2>
+    <h2 class="pfe-m-12-col">Katacoda Lessons</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Getting started with OpenShift</a></h3>
             <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Getting started with OpenShift</a></h3>
             <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Getting started with OpenShift</a></h3>
             <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Getting started with OpenShift</a></h3>
             <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Getting started with OpenShift</a></h3>
             <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
@@ -660,17 +720,21 @@ Card – RHD Front-end Code and Documentation
             <p class="rhd-c-card__body">Use the OpenShift Container Platform to build and deploy applications using both containers and orchestration.</p>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title">
             Getting started with OpenShift
@@ -687,17 +751,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="fas fa-terminal"></i>
           Lesson
@@ -718,17 +786,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="fas fa-terminal"></i>
           Lesson
@@ -750,54 +822,62 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">Products</h2>
+    <h2 class="pfe-m-12-col">Products</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Red Hat Enterprise Linux</a></h3>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Red Hat Enterprise Linux</a></h3>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Red Hat Enterprise Linux</a></h3>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Red Hat Enterprise Linux</a></h3>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Red Hat Enterprise Linux</a></h3>
             <p class="rhd-c-card__body">A stable, proven foundation that’s versatile enough for rolling out new applications, virtualizing environments, and creating a secure hybrid cloud.</p>
@@ -808,8 +888,8 @@ Card – RHD Front-end Code and Documentation
             </div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Red Hat Enterprise Linux</a></h3>
             <p class="rhd-c-card__body">A stable, proven foundation that’s versatile enough for rolling out new applications, virtualizing environments, and creating a secure hybrid cloud.</p>
@@ -820,17 +900,21 @@ Card – RHD Front-end Code and Documentation
             </div>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title">Red Hat Enterprise Linux</h3>
           <p class="rhd-c-card__body">A stable, proven foundation that’s versatile enough for rolling out new applications, virtualizing environments, and creating a secure hybrid cloud.</p>
@@ -841,17 +925,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="fas fa-paper-plane"></i>
           Try it
@@ -866,17 +954,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <img src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/fc954fdb2506fde810a74701776127e6.png?itok=y5At3nm0" class="rhd-c-card__image"/>
         <div class="rhd-c-card-content">
           <p class="rhd-c-card__body">A stable, proven foundation that’s versatile enough for rolling out new applications, virtualizing environments, and creating a secure hybrid cloud.</p>
@@ -887,21 +979,25 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">Series</h2>
+    <h2 class="pfe-m-12-col">Series</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">Title of the series that can be two lines</a>&nbsp;
@@ -911,8 +1007,8 @@ Card – RHD Front-end Code and Documentation
             </h3>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title">
               <a href="#" class="rhd-m-link">Title of the series</a>&nbsp;
@@ -922,17 +1018,21 @@ Card – RHD Front-end Code and Documentation
             </h3>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Series title</a></h3>
             <p class="rhd-c-card__body">
@@ -943,8 +1043,8 @@ Card – RHD Front-end Code and Documentation
             </p>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Series title</a></h3>
             <p class="rhd-c-card__body">
@@ -955,17 +1055,21 @@ Card – RHD Front-end Code and Documentation
             </p>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Series title</a></h3>
           <div class="rhd-c-card__subtitle">3 articles</div>
@@ -977,17 +1081,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__tag">
           <i class="far fa-clone"></i>
           Series
@@ -1003,17 +1111,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-414171.jpg&fm=jpg" class="rhd-c-card__image"/>
         <div class="rhd-c-card__tag">
           <i class="far fa-clone"></i>
@@ -1030,21 +1142,25 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 
-    <h2 class="pfe-m-12-col-on-sm pfe-m-12-col-on-md pfe-m-12-col-on-lg">Videos</h2>
+    <h2 class="pfe-m-12-col">Videos</h2>
     
     
      
-    <div>
-        <h4>List</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title rhd-m-card-title__no-max-height">
               <a href="#" class="rhd-m-link">
@@ -1055,8 +1171,8 @@ Card – RHD Front-end Code and Documentation
             <div class="rhd-c-card__subtitle">2 minutes</div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title rhd-m-card-title__no-max-height">
               <a href="#" class="rhd-m-link">
@@ -1067,17 +1183,21 @@ Card – RHD Front-end Code and Documentation
             <div class="rhd-c-card__subtitle">2 minutes</div>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>List with Description</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            <h4>List with Description</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title rhd-m-card-title__no-max-height">
               <a href="#" class="rhd-m-link">
@@ -1089,8 +1209,8 @@ Card – RHD Front-end Code and Documentation
             <div class="rhd-c-card__subtitle">2 minutes</div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title rhd-m-card-title__no-max-height">
               <a href="#" class="rhd-m-link">
@@ -1102,8 +1222,8 @@ Card – RHD Front-end Code and Documentation
             <div class="rhd-c-card__subtitle">2 minutes</div>
           </div>
         </pfe-card>
-        
-                    <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
+            
+                        <pfe-card color="lightest" size-"small" class="rhd-c-card__list rhd-m-card__courses">
           <div class="rhd-c-card-content">
             <h3 class="rhd-c-card__title rhd-m-card-title__no-max-height">
               <a href="#" class="rhd-m-link">
@@ -1115,17 +1235,21 @@ Card – RHD Front-end Code and Documentation
             <div class="rhd-c-card__subtitle">2 minutes</div>
           </div>
         </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__video">
           <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg">
         </div>
@@ -1135,17 +1259,21 @@ Card – RHD Front-end Code and Documentation
           </h3>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Flag</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Flag</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__video">
           <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg">
         </div>
@@ -1160,17 +1288,21 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
      
-    <div>
-        <h4>Card with Image</h4>
         
+        <div class="pfe-m-5-col-on-sm pfe-m-3-col-on-md pfe-m-2-col-on-lg">
         
-            <pfe-card color="lightest" size-"small" class="rhd-c-card">
+            <h4>Card with Image</h4>
+            
+            
+                <pfe-card color="lightest" size-"small" class="rhd-c-card">
         <div class="rhd-c-card__video">
           <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg">
         </div>
@@ -1188,9 +1320,11 @@ Card – RHD Front-end Code and Documentation
           </div>
         </div>
       </pfe-card>
+            
+            
         
+        </div>
         
-    </div>
     
     
 

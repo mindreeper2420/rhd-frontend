@@ -1,3 +1,9 @@
+
+
+
+
+
+      
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,21 +13,9 @@
     <title>
 Typography – RHD Front-end Code and Documentation
 </title>
-
-    
-    
-    
-    
-
-    
-        
-    
-    
-    
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/@patternfly/pfe-layouts/pfe-layouts.min.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/advanced-theme.min.css">
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.min.css">
-    
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
     <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
     <script src="https://redhat-developer.github.io/rhd-frontend/@fortawesome/fontawesome-pro/js/all.min.js"></script>
@@ -82,91 +76,543 @@ Typography – RHD Front-end Code and Documentation
 <header class="pfe-l-grid"><h1 class="pfe-m-10-col pfe-m-startat-2-col">Typography</h1></header>
 <aside class="pfe-l-grid">
     
+        <a class="previous pfe-m-5-col pfe-m-startat-2-col" href="https://redhat-developer.github.io/rhd-frontend/patterns/design/graphics/"> Graphics</a>
     
-        <a class="next pfe-m-5-col pfe-l--text-align--right" href="https://redhat-developer.github.io/rhd-frontend/patterns/design/color/"> Color</a>
     
     
 </aside>
 <section>
 
-<h2 id="headings-and-text">Headings and Text</h2>
+<style>
+  section {
+    margin: 0 32px;
+  }
+  table {
+    width: 100%;
+    background-color: #fff;
+  }
+  table thead tr th {
+    text-align: left;
+  }
+  tr {
+    border-bottom: 1px solid #d7d7d7;
+  }
+  table tbody tr {
+    background-color: #fff;
+  }
+  table thead tr th,
+  table tbody tr td {
+    padding: 16px 0 16px 16px;
+  }
+</style>
 
-<div class="pfe-l-grid">
-<pre class="pfe-m-10-col pfe-m-startat-2-col" style="max-height: 10em;">
-<code class="language-html">&lt;h1&gt;Heading 1&lt;/h1&gt;
-&lt;h2&gt;Heading 2&lt;/h2&gt;
-&lt;h3&gt;Heading 3&lt;/h3&gt;
-&lt;h4&gt;Heading 4&lt;/h4&gt;
-&lt;h5&gt;Heading 5&lt;/h5&gt;
-&lt;p&gt;Standard Paragraph Text&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;span&gt;Standard Span Text&lt;/span&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Standard Link Text&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Strong/Bold&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Emphasis/Italics&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</code>
-</pre>
-</div>
-<div class="code-sample">
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<p>Standard Paragraph Text</p>
-<ul><li><span>Standard Span Text</span></li> 
-<li><a href="#">Standard Link Text</a></li>
-<li><strong>Strong/Bold</strong></li>
-<li><em>Emphasis/Italics</em></li>
-</ul>
+<h2 id="our-font-family">Our font family</h2>
+
+<p>We use the open source Red Hat Text and Red Hat Display fonts.</p>
+
+<h2 id="heading-xl-992px-and-above">Heading XL (992px and above)</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>40px</td>
+<td>300</td>
+<td>53</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote><h1 style="font-family: var(--pfe-theme--font-family--heading); font-size: 40px; font-weight: 300;">This is heading XL (992px and above) for the developer site</h1></blockquote>
+
+<h2 id="heading-1">Heading 1</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>32px</td>
+<td>400</td>
+<td>42</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote><span style="font-family: var(--pfe-theme--font-family--heading); font-size: 32px; font-weight: 400;">This is heading 1 for the developer site</span></blockquote>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>28px</td>
+<td>400</td>
+<td>37</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote><span style="font-family: var(--pfe-theme--font-family--heading); font-size: 28px; font-weight: 400;">This is heading 2 for the developer site</span></blockquote>
+
+<h2 id="heading-3">Heading 3</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>24px</td>
+<td>400</td>
+<td>31</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote><span style="font-family: var(--pfe-theme--font-family--heading); font-size: 24px; font-weight: 400;">This is heading 3 for the developer site</span></blockquote>
+
+<h2 id="heading-4">Heading 4</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>20px</td>
+<td>400</td>
+<td>26</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote><span style="font-family: var(--pfe-theme--font-family--heading); font-size: 20px; font-weight: 400;">This is heading 4 for the developer site</span></blockquote>
+
+<h2 id="standard-text-link-text-line-text-hover">Standard text / Link text / Line text + hover</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+<th>Color</th>
+<th>Text decoration</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td>#333</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td><span style="color: #0066CC">#0066cc</span></td>
+<td>none</td>
+</tr>
+
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td><span style="color: #004080; text-decoration: underline;">#004080</span></td>
+<td>underline</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400;">This is standard text for the developer site</p>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #0066CC">This is link text for the developer site</p>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #004080; text-decoration: underline;">This is hovered link text for the developer site</p>
+</blockquote>
+
+<h1 id="light-ctas-light-pfe-theme">Light CTAs (light - pfe-theme)</h1>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+<th>Color</th>
+<th>Variation</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td>#151515</td>
+<td>base</td>
+</tr>
+
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td><span style="color: #0066CC">#0066cc</span></td>
+<td>hover</td>
+</tr>
+
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td><span style="color: #004080;">#004080</span></td>
+<td>dark</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; display: flex; align-items: center;">This is a light CTA for the developer site <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
+<p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; color: #0066CC; display: flex; align-items: center;">This is a light CTA for the developer site<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
+<p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; color: #004080; display: flex; align-items: center;">This is a light CTA for the developer site<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
+</blockquote>
+
+<div style="margin: 32px 0;">
+  <hr>
 </div>
 
-<h2 id="attribute-based-formatting">Attribute-based Formatting</h2>
+<h1 id="dark-typography-on-dark-background-pfe-theme">Dark typography - on dark background (pfe-theme)</h1>
 
-<div class="pfe-l-grid">
-<pre class="pfe-m-10-col pfe-m-startat-2-col" style="max-height: 10em;">
-<code class="language-html">&lt;ul&gt;&lt;li&gt;&lt;span class=&#34;&#34;&gt;Heading XL&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Heading 1&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Heading 2&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Heading 3&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Heading 4&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Standard Text&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Link Text&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;&#34;&gt;Link Hover&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;</code>
-</pre>
+<h2 id="heading-xl-992px-and-above-1">Heading XL (992px and above)</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>40px</td>
+<td>300</td>
+<td>53</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <div style="background-color: #000; padding: 16px;">
+    <span style="font-family: var(--pfe-theme--font-family--heading); font-size: 40px; font-weight: 300; color: #fff;">This is heading XL (992px and above) for the developer site</span>
+  </div>
+</blockquote>
+
+<h2 id="heading-1-1">Heading 1</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>32px</td>
+<td>400</td>
+<td>42</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <div style="background-color: #000; padding: 16px;">
+    <span style="font-family: var(--pfe-theme--font-family--heading); font-size: 32px; font-weight: 400; color: #fff;">This is heading 1 for the developer site</span>
+  </div>
+</blockquote>
+
+<h2 id="heading-2-1">Heading 2</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>28px</td>
+<td>400</td>
+<td>37</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <div style="background-color: #000; padding: 16px;">
+    <span style="font-family: var(--pfe-theme--font-family--heading); font-size: 28px; font-weight: 400; color: #fff;">This is heading 2 for the developer site</span>
+  </div>
+</blockquote>
+
+<h2 id="heading-3-1">Heading 3</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>24px</td>
+<td>400</td>
+<td>31</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <div style="background-color: #000; padding: 16px;">
+    <span style="font-family: var(--pfe-theme--font-family--heading); font-size: 24px; font-weight: 400; color: #fff;">This is heading 3 for the developer site</span>
+  </div>
+</blockquote>
+
+<h2 id="heading-4-1">Heading 4</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>20px</td>
+<td>400</td>
+<td>26</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+  <div style="background-color: #000; padding: 16px;">
+    <span style="font-family: var(--pfe-theme--font-family--heading); font-size: 20px; font-weight: 400; color: #fff;">This is heading 4 for the developer site</span>
+  </div>
+</blockquote>
+
+<h2 id="standard-text-link-text-line-text-hover-1">Standard text / Link text / Line text + hover</h2>
+
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+<th>Color</th>
+<th>Text decoration</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td>#fff</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td><span style="color: #0066CC">#0066cc</span></td>
+<td>none</td>
+</tr>
+
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td><span style="color: #004080; text-decoration: underline;">#004080</span></td>
+<td>underline</td>
+</tr>
+
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td>#fff</td>
+<td>none</td>
+</tr>
+
+<tr>
+<td>RedHatText</td>
+<td>16px</td>
+<td>400</td>
+<td>24</td>
+<td><span style="color: #d2d2d2; text-decoration: underline;">#d2d2d2</span></td>
+<td>underline</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<div style="background-color: #000; padding: 16px;">
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #fff;">This is standard text for the developer site</p>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #73bcf7">This is link text for the developer site</p>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #2b9af3; text-decoration: underline;">This is hovered link text for the developer site</p>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #fff;">This is standard text for the developer site</p>
+  <p style="font-family: var(--pfe-theme--font-family); font-size: 16px; font-weight: 400; color: #d2d2d2; text-decoration: underline;">This is hovered link text for the developer site</p>
 </div>
-<div class="code-sample">
-<ul><li><span class="">Heading XL</span></li>
-<li><span class="">Heading 1</span></li>
-<li><span class="">Heading 2</span></li>
-<li><span class="">Heading 3</span></li>
-<li><span class="">Heading 4</span></li>
-<li><span class="">Standard Text</span></li>
-<li><span class="">Link Text</span></li>
-<li><span class="">Link Hover</span></li>
-</ul>
+</blockquote>
+
+<div style="margin: 32px 0;">
+  <hr>
 </div>
 
-<h2 id="variable-based-sizing">Variable-based Sizing</h2>
+<h1 id="light-ctas-dark-pfe-theme">Light CTAs (dark - pfe-theme)</h1>
 
-<div class="pfe-l-grid">
-<pre class="pfe-m-10-col pfe-m-startat-2-col" style="max-height: 10em;">
-<code class="language-html">&lt;span&gt;Heading XL&lt;/span&gt;
-&lt;span&gt;Heading XL&lt;/span&gt;
-&lt;span&gt;Heading XL&lt;/span&gt;
-&lt;span&gt;Heading XL&lt;/span&gt;
-&lt;span&gt;Heading XL&lt;/span&gt;
-&lt;span&gt;Heading XL&lt;/span&gt;</code>
-</pre>
+<table>
+<thead>
+<tr>
+<th>Font family</th>
+<th>Font size</th>
+<th>Font weight</th>
+<th>Line height</th>
+<th>Color</th>
+<th>Variation</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td>#fff</td>
+<td>base</td>
+</tr>
+
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td><span style="color: #d2d2d2">#d2d2d2</span></td>
+<td>hover</td>
+</tr>
+
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td><span style="color: #73bcf7;">#73bcf7</span></td>
+<td>link</td>
+</tr>
+
+<tr>
+<td>RedHatDisplay</td>
+<td>16px</td>
+<td>700</td>
+<td>23</td>
+<td><span style="color: #2b9af3">#2b9af3</span></td>
+<td>hover</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<div style="background-color: #000; padding: 16px;">
+  <p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; display: flex; align-items: center; color: #fff;">This is a light CTA for the developer site <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
+  <p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; color: #d2d2d2; display: flex; align-items: center;">This is a light CTA for the developer site<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
+  <p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; color: #73bcf7; display: flex; align-items: center;">This is a light CTA for the developer site<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
+  <p style="font-family: var(--pfe-theme--font-family--heading); font-size: 16px; font-weight: 700; color: #2b9af3; display: flex; align-items: center;">This is a light CTA for the developer site<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-14" style="width: 14px; margin-left: 6px;" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></p>
 </div>
-<div class="code-sample">
-<span>Heading XL</span>
-<span>Heading XL</span>
-<span>Heading XL</span>
-<span>Heading XL</span>
-<span>Heading XL</span>
-<span>Heading XL</span>
-</div>
+</blockquote>
 </section>
 
 

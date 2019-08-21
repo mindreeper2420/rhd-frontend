@@ -6,10 +6,20 @@
     <description>Recent content in design on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2017 14:57:35 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2019 16:18:01 -0400</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Typography</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</link>
+      <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</guid>
+      <description>section { margin: 0 32px; } table { width: 100%; background-color: #fff; } table thead tr th { text-align: left; } tr { border-bottom: 1px solid #d7d7d7; } table tbody tr { background-color: #fff; } table thead tr th, table tbody tr td { padding: 16px 0 16px 16px; }  Our font family We use the open source Red Hat Text and Red Hat Display fonts.
+Heading XL (992px and above)    Font family Font size Font weight Line height     RedHatDisplay 40px 300 53    This is heading XL (992px and above) for the developer site Heading 1    Font family Font size Font weight Line height     RedHatDisplay 32px 400 42    This is heading 1 for the developer site Heading 2    Font family Font size Font weight Line height     RedHatDisplay 28px 400 37    This is heading 2 for the developer site Heading 3    Font family Font size Font weight Line height     RedHatDisplay 24px 400 31    This is heading 3 for the developer site Heading 4    Font family Font size Font weight Line height     RedHatDisplay 20px 400 26    This is heading 4 for the developer site Standard text / Link text / Line text + hover    Font family Font size Font weight Line height Color Text decoration     RedHatText 16px 400 24 #333 none   RedHatText 16px 400 24 #0066cc none   RedHatText 16px 400 24 #004080 underline     This is standard text for the developer site</description>
+    </item>
     
     <item>
       <title>Graphics</title>
@@ -54,16 +64,6 @@
       
       <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/color/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Typography</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</link>
-      <pubDate>Thu, 03 Aug 2017 10:56:11 -0400</pubDate>
-      
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</guid>
-      <description> Headings and Text &amp;lt;h1&amp;gt;Heading 1&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;Heading 2&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;Heading 3&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;Heading 4&amp;lt;/h4&amp;gt; &amp;lt;h5&amp;gt;Heading 5&amp;lt;/h5&amp;gt; &amp;lt;p&amp;gt;Standard Paragraph Text&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;span&amp;gt;Standard Span Text&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;Standard Link Text&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;Strong/Bold&amp;lt;/strong&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;em&amp;gt;Emphasis/Italics&amp;lt;/em&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;   Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Standard Paragraph Text
-Standard Span Text Standard Link Text Strong/Bold Emphasis/Italics   Attribute-based Formatting &amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Heading XL&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Heading 1&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Heading 2&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Heading 3&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Heading 4&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Standard Text&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Link Text&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;span class=&amp;#34;&amp;#34;&amp;gt;Link Hover&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;   Heading XL Heading 1 Heading 2 Heading 3 Heading 4 Standard Text Link Text Link Hover   Variable-based Sizing &amp;lt;span&amp;gt;Heading XL&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Heading XL&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Heading XL&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Heading XL&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Heading XL&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;Heading XL&amp;lt;/span&amp;gt;   Heading XL Heading XL Heading XL Heading XL Heading XL Heading XL  </description>
     </item>
     
   </channel>

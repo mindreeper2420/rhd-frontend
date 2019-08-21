@@ -6,7 +6,7 @@
     <description>Recent content in Tags on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jul 2018 11:15:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2019 16:18:01 -0400</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title></title>
       <link>https://redhat-developer.github.io/rhd-frontend/tags/</link>
-      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/tags/design/</link>
+      <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/tags/component/</link>
+      <pubDate>Thu, 15 Aug 2019 14:30:10 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/tags/component/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/tags/cards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/component/</link>
-      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
-      
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/component/</guid>
       <description></description>
     </item>
     
@@ -98,15 +107,6 @@
       <pubDate>Thu, 03 Aug 2017 14:58:26 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/tags/2019summit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/design/</link>
-      <pubDate>Thu, 03 Aug 2017 14:57:35 -0400</pubDate>
-      
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/design/</guid>
       <description></description>
     </item>
     

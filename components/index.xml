@@ -106,6 +106,15 @@ Card Variations</description>
     </item>
     
     <item>
+      <title>Dynamic Content List</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/</link>
+      <pubDate>Thu, 15 Aug 2019 14:30:10 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/</guid>
+      <description> Dynamic Content List </description>
+    </item>
+    
+    <item>
       <title>Example Component</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/template/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
