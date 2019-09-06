@@ -1,0 +1,427 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+Buttons and CTAs – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
+    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@fortawesome/fontawesome-pro/js/all.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <header role="banner" class="pf-l-grid pf-m-all-12-col">
+    <div class="rh-universal-header">
+        <nav class="rh-nav-universal" aria-label="Red Hat Global Navigation">
+            
+                <img class="rh-header-logo" alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg">
+            
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="pf-m-10-col pf-m-offset-1-col">
+        <div class="rhd-masthead-inner">
+            <div class="rhd-header">
+                <a href="https://redhat-developer.github.io/rhd-frontend/" title="Home" rel="home" class="rhd-header-logo">
+                    <img src="https://developers.redhat.com/themes/custom/rhdp/logo.svg" alt="Home">
+                </a>
+                <nav role="navigation" aria-labelledby="rhd-navigation-menu" class="rhd-navigation-menu" data-block-plugin-id="system_menu_block:rhd-navigation">
+                    <h2 class="visually-hidden" id="rhd-navigation-menu">RHD Primary Navigation</h2>
+                    <ul class="rhd-menu">
+                        
+                        
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+    <main role="main">
+      <div class="layout-content">
+        <div id="block-rhdp-content" class="block block-system">
+          <article role="article" class="node">
+            <div class="node__content">
+              <div class="field">
+    
+<header class="pf-l-grid"><h1 class="pf-m-10-col pf-m-offset-1-col">Buttons and CTAs</h1></header>
+<aside class="pf-l-grid">
+    
+        <a class="previous pf-m-5-col pf-m-offset-1-col" href="https://redhat-developer.github.io/rhd-frontend/patterns/misc/a11y/"> Accessibility (a11y)</a>
+    
+    
+
+</aside>
+<section>
+
+<h2 id="button-variations">Button variations</h2>
+
+<div class="pfe-l-grid pfe-m-gutters">
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+  <h3>Regular button styles
+  <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+  &lt;button class=&#34;pf-c-button pf-m-primary&#34;&gt;Primary&lt;/button&gt;
+  &lt;button class=&#34;pf-c-button pf-m-secondary&#34;&gt;Secondary&lt;/button&gt;
+  &lt;button class=&#34;pf-c-button pf-m-tertiary&#34;&gt;Tertiary&lt;/button&gt;
+  &lt;button class=&#34;pf-c-button pf-m-danger&#34;&gt;Danger&lt;/button&gt;
+  &lt;button class=&#34;pf-c-button pf-m-link&#34;&gt;
+    Link button
+    &lt;span class=&#34;pf-c-button__icon&#34;&gt;&lt;i class=&#34;fas fa-arrow-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  </code>
+</pre>
+</div>
+<div class="code-sample">
+
+  <button class="pf-c-button pf-m-primary">Primary</button>
+  <button class="pf-c-button pf-m-secondary">Secondary</button>
+  <button class="pf-c-button pf-m-tertiary">Tertiary</button>
+  <button class="pf-c-button pf-m-danger">Danger</button>
+  <button class="pf-c-button pf-m-link">
+    Link button
+    <span class="pf-c-button__icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+  </button>
+  
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Large button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;pfe-cta pfe-priority=&#34;primary&#34; pfe-color=&#34;base&#34;&gt;CTA / Primary / base&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;secondary&#34; pfe-color=&#34;base&#34;&gt;CTA / Secondary / base&lt;/pfe-cta&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <pfe-cta pfe-priority="primary" pfe-color="base">CTA / Primary / base</pfe-cta>
+    <pfe-cta pfe-priority="secondary" pfe-color="base">CTA / Secondary / base</pfe-cta>
+    
+</div>
+
+  </div>
+</div>
+
+<h2 id="button-states">Button states</h2>
+
+<div class="pfe-l-grid pfe-m-gutters">
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Primary button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;button class=&#34;pf-c-button pf-m-primary&#34; type=&#34;button&#34;&gt;Primary&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-primary pf-m-active&#34; type=&#34;button&#34;&gt;Primary active&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-primary pf-m-focus&#34; type=&#34;button&#34;&gt;Primary focus&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-primary pf-m-disabled&#34; type=&#34;button&#34;&gt;Primary disabled&lt;/button&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <button class="pf-c-button pf-m-primary" type="button">Primary</button>
+    <button class="pf-c-button pf-m-primary pf-m-active" type="button">Primary active</button>
+    <button class="pf-c-button pf-m-primary pf-m-focus" type="button">Primary focus</button>
+    <button class="pf-c-button pf-m-primary pf-m-disabled" type="button">Primary disabled</button>
+    
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Secondary button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;button class=&#34;pf-c-button pf-m-secondary&#34; type=&#34;button&#34;&gt;Secondary&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-secondary pf-m-active&#34; type=&#34;button&#34;&gt;Secondary active&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-secondary pf-m-focus&#34; type=&#34;button&#34;&gt;Secondary focus&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-secondary pf-m-disabled&#34; type=&#34;button&#34;&gt;Secondary disabled&lt;/button&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <button class="pf-c-button pf-m-secondary" type="button">Secondary</button>
+    <button class="pf-c-button pf-m-secondary pf-m-active" type="button">Secondary active</button>
+    <button class="pf-c-button pf-m-secondary pf-m-focus" type="button">Secondary focus</button>
+    <button class="pf-c-button pf-m-secondary pf-m-disabled" type="button">Secondary disabled</button>
+    
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Tertiary button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;button class=&#34;pf-c-button pf-m-tertiary&#34; type=&#34;button&#34;&gt;Tertiary&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-tertiary pf-m-active&#34; type=&#34;button&#34;&gt;Tertiary active&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-tertiary pf-m-focus&#34; type=&#34;button&#34;&gt;Tertiary focus&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-tertiary pf-m-disabled&#34; type=&#34;button&#34;&gt;Tertiary disabled&lt;/button&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <button class="pf-c-button pf-m-tertiary" type="button">Tertiary</button>
+    <button class="pf-c-button pf-m-tertiary pf-m-active" type="button">Tertiary active</button>
+    <button class="pf-c-button pf-m-tertiary pf-m-focus" type="button">Tertiary focus</button>
+    <button class="pf-c-button pf-m-tertiary pf-m-disabled" type="button">Tertiary disabled</button>
+    
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Danger button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;button class=&#34;pf-c-button pf-m-danger&#34; type=&#34;button&#34;&gt;Danger&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-danger pf-m-active&#34; type=&#34;button&#34;&gt;Danger active&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-danger pf-m-focus&#34; type=&#34;button&#34;&gt;Danger focus&lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-danger pf-m-disabled&#34; type=&#34;button&#34;&gt;Danger disabled&lt;/button&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <button class="pf-c-button pf-m-danger" type="button">Danger</button>
+    <button class="pf-c-button pf-m-danger pf-m-active" type="button">Danger active</button>
+    <button class="pf-c-button pf-m-danger pf-m-focus" type="button">Danger focus</button>
+    <button class="pf-c-button pf-m-danger pf-m-disabled" type="button">Danger disabled</button>
+    
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Link button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;button class=&#34;pf-c-button pf-m-link&#34; type=&#34;button&#34;&gt;
+      Link button
+      &lt;span class=&#34;pf-c-button__icon&#34;&gt;&lt;i class=&#34;fas fa-arrow-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-link pf-m-active&#34; type=&#34;button&#34;&gt;
+      Link button
+      &lt;span class=&#34;pf-c-button__icon&#34;&gt;&lt;i class=&#34;fas fa-arrow-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-link pf-m-focus&#34; type=&#34;button&#34;&gt;
+      Link button
+      &lt;span class=&#34;pf-c-button__icon&#34;&gt;&lt;i class=&#34;fas fa-arrow-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pf-c-button pf-m-link pf-m-disabled&#34; type=&#34;button&#34;&gt;
+      Link button
+      &lt;span class=&#34;pf-c-button__icon&#34;&gt;&lt;i class=&#34;fas fa-arrow-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <button class="pf-c-button pf-m-link" type="button">
+      Link button
+      <span class="pf-c-button__icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </button>
+    <button class="pf-c-button pf-m-link pf-m-active" type="button">
+      Link button
+      <span class="pf-c-button__icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </button>
+    <button class="pf-c-button pf-m-link pf-m-focus" type="button">
+      Link button
+      <span class="pf-c-button__icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </button>
+    <button class="pf-c-button pf-m-link pf-m-disabled" type="button">
+      Link button
+      <span class="pf-c-button__icon"><i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </button>
+    
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <h3>Large button styles</h3>
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;pfe-cta pfe-priority=&#34;primary&#34; pfe-color=&#34;base&#34;&gt;CTA / Primary / base&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;primary&#34; pfe-color=&#34;base&#34;&gt;CTA / Primary / active&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;primary&#34; pfe-color=&#34;base&#34;&gt;CTA / Primary / focus&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;primary&#34; pfe-color=&#34;base&#34;&gt;CTA / Primary / disabled&lt;/pfe-cta&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <pfe-cta pfe-priority="primary" pfe-color="base">CTA / Primary / base</pfe-cta>
+    <pfe-cta pfe-priority="primary" pfe-color="base">CTA / Primary / active</pfe-cta>
+    <pfe-cta pfe-priority="primary" pfe-color="base">CTA / Primary / focus</pfe-cta>
+    <pfe-cta pfe-priority="primary" pfe-color="base">CTA / Primary / disabled</pfe-cta>
+    
+</div>
+
+  </div>
+  <div class="pfe-l-grid__item pfe-m-startat-2-col-on-md">
+    <div class="pf-l-grid">
+<pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+<code class="language-html">
+    &lt;pfe-cta pfe-priority=&#34;secondary&#34; pfe-color=&#34;base&#34;&gt;CTA / Secondary / base&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;secondary&#34; pfe-color=&#34;base&#34;&gt;CTA / Secondary / active&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;secondary&#34; pfe-color=&#34;base&#34;&gt;CTA / Secondary / focus&lt;/pfe-cta&gt;
+    &lt;pfe-cta pfe-priority=&#34;secondary&#34; pfe-color=&#34;base&#34;&gt;CTA / Secondary / disabled&lt;/pfe-cta&gt;
+    </code>
+</pre>
+</div>
+<div class="code-sample">
+
+    <pfe-cta pfe-priority="secondary" pfe-color="base">CTA / Secondary / base</pfe-cta>
+    <pfe-cta pfe-priority="secondary" pfe-color="base">CTA / Secondary / active</pfe-cta>
+    <pfe-cta pfe-priority="secondary" pfe-color="base">CTA / Secondary / focus</pfe-cta>
+    <pfe-cta pfe-priority="secondary" pfe-color="base">CTA / Secondary / disabled</pfe-cta>
+    
+</div>
+
+  </div>
+</div>
+</section>
+
+    
+    
+
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-10-col pf-m-offset-1-col">
+        <h2>All Contexts</h2>
+    </div>
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-10-col pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Primary</h4>
+            
+            
+                  <pfe-cta pfe-priority="primary"><a href="#">Primary</a></pfe-cta>
+  <pfe-cta pfe-priority="primary" pfe-color="base"><a href="#">Primary</a></pfe-cta>
+  <pfe-cta pfe-priority="primary" pfe-color="accent"><a href="#">Primary</a></pfe-cta>
+  <pfe-cta pfe-priority="primary" pfe-color="complement"><a href="#">Primary</a></pfe-cta>
+  <pfe-cta pfe-priority="primary" pfe-color="lightest"><a href="#">Primary</a></pfe-cta>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-10-col pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Secondary</h4>
+            
+            
+                  <pfe-cta pfe-priority="secondary"><a href="#">Secondary</a></pfe-cta>
+  <pfe-cta pfe-priority="secondary" pfe-color="base"><a href="#">Secondary</a></pfe-cta>
+  <pfe-cta pfe-priority="secondary" pfe-color="accent"><a href="#">Secondary</a></pfe-cta>
+  <pfe-cta pfe-priority="secondary" pfe-color="complement"><a href="#">Secondary</a></pfe-cta>
+  <pfe-cta pfe-priority="secondary" pfe-color="lightest"><a href="#">Secondary</a></pfe-cta>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-10-col pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Default</h4>
+            
+            
+                  <p><pfe-cta><a href="#">Default</a></pfe-cta></p>
+  <p><pfe-cta pfe-color="base"><a href="#">Default</a></pfe-cta></p>
+  <p><pfe-cta pfe-color="accent"><a href="#">Default</a></pfe-cta></p>
+  <p><pfe-cta pfe-color="complement"><a href="#">Default</a></pfe-cta></p>
+  <p><pfe-cta pfe-color="lightest"><a href="#">Default</a></pfe-cta></p>
+
+            
+            
+        
+        </div>
+        
+    
+    
+
+</div>
+
+    
+
+
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+    
+    
+    
+    <footer role="contentinfo">
+    <div class="region region-rhd-footer">
+        
+        <div id="block-universalfooter" class="rh-universal-footer">
+            <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg">
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+    
+    
+    
+    <script>
+        var require = {
+            baseUrl: "https:\/\/redhat-developer.github.io\/rhd-frontend\/",
+            deps: [
+           "@patternfly\/pfe-cta\/pfe-cta.umd",
+            ]
+        };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    
+
+  </body>
+</html>
