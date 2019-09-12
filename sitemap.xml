@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/icons/</loc>
+    <lastmod>2019-09-09T12:45:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/components/footer/</loc>
     <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
@@ -140,6 +145,16 @@
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/</loc>
     <lastmod>2019-09-11T09:44:23-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</loc>
+    <lastmod>2019-08-22T08:39:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/tags/page/</loc>
+    <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
@@ -199,11 +214,6 @@
   
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/patterns/misc/</loc>
-    <lastmod>2018-04-17T14:39:40-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/tags/page/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   

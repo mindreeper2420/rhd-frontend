@@ -6,7 +6,7 @@
     <description>Recent content in page on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Apr 2018 14:39:40 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2019 08:39:15 -0400</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,6 +36,16 @@
       
       <guid>https://redhat-developer.github.io/rhd-frontend/pages/topic/</guid>
       <description>    </description>
+    </item>
+    
+    <item>
+      <title>Katacoda Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
+      <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</guid>
+      <description>Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
+ Burr Sutter  Chief Developer Evangelist       Introduction to Istio Service Mesh A service mesh provides traffic monitoring, access control, discovery, security, resiliency, and other useful things to a group of services.</description>
     </item>
     
   </channel>

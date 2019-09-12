@@ -179,6 +179,15 @@ Jump-To Nav Variations</description>
     </item>
     
     <item>
+      <title>Icons</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/icons/</link>
+      <pubDate>Mon, 09 Sep 2019 12:45:46 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/icons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Footer References</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/footer/</link>
       <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
@@ -251,6 +260,16 @@ Sample Variations</description>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/stack-overflow/</guid>
       <description>&amp;lt;div ng-app=&amp;#34;search&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34; ng-controller=&amp;#34;SearchController&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;large-24 columns&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;large-24 columns&amp;#34;&amp;gt; &amp;lt;form class=&amp;#34;search-bar&amp;#34; ng-submit=&amp;#34;updateSearch(); resetPagination();&amp;#34; role=&amp;#34;search&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;large-24 columns&amp;#34; id=&amp;#34;scrollPoint&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;large-14 columns stackoverflow-filters&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;filterByProduct&amp;#34;&amp;gt;Filter by Product&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;styled-select&amp;#34;&amp;gt; &amp;lt;select id=&amp;#34;filterByProduct&amp;#34; name=&amp;#34;filter-by-product&amp;#34; ng-change=&amp;#34;updateSearch(); resetPagination();&amp;#34; ng-model=&amp;#34;params.product&amp;#34;&amp;gt;&amp;lt;option value=&amp;#34;&amp;#34;&amp;gt;Show all&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;openjdk&amp;#34;&amp;gt;OpenJDK&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhamt&amp;#34;&amp;gt;Red Hat Application Migration Toolkit&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;cdk&amp;#34;&amp;gt;Red Hat Developer Container Kit&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;developertoolset&amp;#34;&amp;gt;Red Hat Developer Toolset&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhel&amp;#34;&amp;gt;Red Hat Enterprise Linux&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;amq&amp;#34;&amp;gt;Red Hat JBoss AMQ&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;bpmsuite&amp;#34;&amp;gt;Red Hat JBoss BPM Suite&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;brms&amp;#34;&amp;gt;Red Hat Decision Manager&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;datagrid&amp;#34;&amp;gt;Red Hat JBoss Data Grid&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;datavirt&amp;#34;&amp;gt;Red Hat JBoss Data Virtualization&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;devstudio&amp;#34;&amp;gt;Red Hat JBoss Developer Studio&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;eap&amp;#34;&amp;gt;Red Hat JBoss Enterprise Application Platform&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;fuse&amp;#34;&amp;gt;Red Hat JBoss Fuse&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;webserver&amp;#34;&amp;gt;Red Hat JBoss Web Server&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhmap&amp;#34;&amp;gt;Red Hat Mobile Application Platform&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhoar&amp;#34;&amp;gt;Red Hat Openshift Application Runtimes&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;openshift&amp;#34;&amp;gt;Red Hat OpenShift Container Platform&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;softwarecollections&amp;#34;&amp;gt;Red Hat Software Collections&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;dotnet&amp;#34;&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>Katacoda Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
+      <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</guid>
+      <description>Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
+ Burr Sutter  Chief Developer Evangelist       Introduction to Istio Service Mesh A service mesh provides traffic monitoring, access control, discovery, security, resiliency, and other useful things to a group of services.</description>
     </item>
     
     <item>
