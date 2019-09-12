@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>CSS Variables</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/css-variables/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/code/css-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TS - TypeScript</title>
       <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/ts/</link>
       <pubDate>Fri, 18 Aug 2017 15:15:45 -0400</pubDate>

@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/jump-to-nav/</loc>
+    <lastmod>2018-07-22T11:15:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/components/alerts/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
@@ -73,13 +78,28 @@
   </url>
   
   <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/components/navigation/</loc>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/code-snippet/</loc>
+    <lastmod>2019-09-11T09:44:23-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/bonus-content-item/</loc>
+    <lastmod>2019-09-10T13:38:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/curated-links/</loc>
+    <lastmod>2019-09-10T12:59:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/footer/</loc>
     <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/components/cta/</loc>
-    <lastmod>2019-08-21T09:28:14-04:00</lastmod>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/navigation/</loc>
+    <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
   
   <url>
@@ -93,7 +113,7 @@
   </url>
   
   <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/patterns/misc/btn-cta/</loc>
+    <loc>https://redhat-developer.github.io/rhd-frontend/components/btn-cta/</loc>
     <lastmod>2019-08-14T11:19:07-04:00</lastmod>
   </url>
   
@@ -114,12 +134,12 @@
   
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/component/</loc>
-    <lastmod>2019-08-26T17:14:15-04:00</lastmod>
+    <lastmod>2019-09-11T09:44:23-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/</loc>
-    <lastmod>2019-08-26T17:14:15-04:00</lastmod>
+    <lastmod>2019-09-11T09:44:23-07:00</lastmod>
   </url>
   
   <url>
@@ -130,6 +150,16 @@
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/tags/code/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://redhat-developer.github.io/rhd-frontend/patterns/code/css-variables/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -205,11 +235,6 @@
   <url>
     <loc>https://redhat-developer.github.io/rhd-frontend/tags/layout/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://redhat-developer.github.io/rhd-frontend/tags/code/</loc>
-    <lastmod>2017-08-18T15:15:45-04:00</lastmod>
   </url>
   
   <url>
