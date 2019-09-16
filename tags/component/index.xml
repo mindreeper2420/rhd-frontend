@@ -6,7 +6,7 @@
     <description>Recent content in component on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2019 09:44:23 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2019 15:32:54 -0700</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/component/index.xml" rel="self" type="application/rss+xml" />
     
@@ -116,6 +116,15 @@ Jump-To Nav Variations</description>
     </item>
     
     <item>
+      <title>CTA</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/cta/</link>
+      <pubDate>Thu, 12 Sep 2019 15:32:54 -0700</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/cta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Code snippet</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/code-snippet/</link>
       <pubDate>Wed, 11 Sep 2019 09:44:23 -0700</pubDate>
@@ -215,6 +224,16 @@ Sample Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/template/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
+    </item>
+    
+    <item>
+      <title>Featured Resources</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-resources/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-resources/</guid>
+      <description>Featured Resources
+All Variations</description>
     </item>
     
     <item>
