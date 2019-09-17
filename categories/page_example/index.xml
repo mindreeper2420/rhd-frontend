@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>page_example on RHD Front-end Code and Documentation</title>
+    <link>https://redhat-developer.github.io/rhd-frontend/categories/page_example/</link>
+    <description>Recent content in page_example on RHD Front-end Code and Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Aug 2019 08:39:15 -0400</lastBuildDate>
+    
+	<atom:link href="https://redhat-developer.github.io/rhd-frontend/categories/page_example/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/home/</link>
+      <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/home/</guid>
+      <description>Learn about the Developer program   Learn about Red Hat and communities       Build here    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+    </item>
+    
+    <item>
+      <title>Product Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/product/</link>
+      <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/product/</guid>
+      <description>    </description>
+    </item>
+    
+    <item>
+      <title>Topic Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/topic/</link>
+      <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/topic/</guid>
+      <description>    </description>
+    </item>
+    
+    <item>
+      <title>Katacoda Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
+      <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</guid>
+      <description>Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
+ Burr Sutter  Chief Developer Evangelist       Introduction to Istio Service Mesh A service mesh provides traffic monitoring, access control, discovery, security, resiliency, and other useful things to a group of services.</description>
+    </item>
+    
+  </channel>
+</rss>
