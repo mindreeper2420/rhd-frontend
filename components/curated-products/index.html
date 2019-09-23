@@ -1,0 +1,600 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+Curated Products – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
+    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <div class="pf-c-page" id="page-layout-grouped-nav">
+      <header role="banner" class="pf-c-page__header">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link">
+      <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
+    </a>
+  </div>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
+      <ul class="pf-c-nav__horizontal-list">
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/" class="pf-c-nav__link">
+            Home
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/" class="pf-c-nav__link">
+            Assemblies
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/components/" class="pf-c-nav__link">
+            Components
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/" class="pf-c-nav__link">
+            Design
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/" class="pf-c-nav__link">
+            Layout
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/pages/" class="pf-c-nav__link">
+            Pages
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <a href="https://github.com/redhat-developer/rhd-frontend" target="_blank" class="pf-c-button pf-m-plain" aria-label="Alerts">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+      <main role="main" class="pf-c-page__main" tabindex="-1" id="main-content-page-layout">
+        <section class="pf-c-page__main-section pf-m-light">
+          <div class="layout-content">
+            <div id="block-rhdp-content" class="block block-system">
+              <article role="article" class="node">
+                <div class="node__content">
+                  
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/cta/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          CTA
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-products/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Curated Products
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"></section>
+
+
+
+
+<section class="pf-c-page__main-section">
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2></h2>
+    </div>
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">No visual style</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">No padding top</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center no-padding-top" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">No padding bottom</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center no-padding-bottom" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Dark</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center dark" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Left aligned</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Four up grid</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center four-up" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Basic Cards: Card style without the red border on top of the card</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center basic" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Featured Cards: Card style with the red border on top of the card</h4>
+            
+            
+                <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content center featured" style="background-image: url();">
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item">
+      <h1 class="featured_products__title pf-c-title pf-m-3xl">Develop with OpenShift</h1>
+    </div>
+  </div>
+  <div class="featured_products__cards pf-l-flex rhd-c-card-grid__wrapper">
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/CodeReadyWorkspaces_2.png?itok=UPcTxftX" width="411" height="168" alt="codereadyworkspaces" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">A collaborative kubernetes-native development solution that delivers OpenShift workspaces and in-browser IDE for rapid cloud application development.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/codeready-workspaces/download/" class="rhd-m-link">Download <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/ContainerDevelopmentKit_1.png?itok=I0Nq2QE7" width="414" height="168" alt="container_devkit" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Get OpenShift Container Platform up and running quickly in a VM on your laptop with Container Development Kit. The streamlined installer gets developing on OpenShift faster.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/cdk/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pf-c-card rhd-c-card">
+      <img src="https://developers.redhat.com/sites/default/files/styles/large/public/product/logo/2019-05/VSCode_Extensions_1.png?itok=L5O05AAj" width="414" height="160" alt="vscode_ext" typeof="foaf:Image" class="image-style-large">
+      <div class="rhd-c-card-content">
+        <p class="rhd-c-card__body ">Red Hat VS Code extensions allow software developers to use their favorite development environments within Red Hat technologies.</p>
+        <div class="rhd-c-card__footer">
+          <a href="https://redhat-developer.github.io/rhd-frontend/products/vscode_extensions/download/" class="rhd-m-link">
+            Download <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+
+</div>
+</section>
+
+
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <footer role="footer">
+  <div class="pf-l-grid">
+    <div class="pf-l-grid__item pf-m-3-col pf-m-2-col-on-sm pf-m-1-col-on-md">
+      <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg" class="pf-u-p-sm">
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+      </main>
+      
+
+
+
+    </div>
+  </body>
+</html>

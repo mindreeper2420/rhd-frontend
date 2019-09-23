@@ -6,10 +6,19 @@
     <description>Recent content in component on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2019 15:32:54 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2019 20:22:29 -0700</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/component/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Curated Products</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-products/</link>
+      <pubDate>Thu, 12 Sep 2019 20:22:29 -0700</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-products/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CTA</title>
@@ -94,7 +103,7 @@
     </item>
     
     <item>
-      <title>Dynamic Content List</title>
+      <title>Deprecated Dynamic Content List</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/</link>
       <pubDate>Thu, 15 Aug 2019 14:30:10 -0400</pubDate>
       
@@ -108,7 +117,7 @@
       <pubDate>Wed, 14 Aug 2019 11:19:07 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/btn-cta/</guid>
-      <description>Button variations Heavy Primary Secondary (blue) Secondary (black) Link button (blue)   Link button (black)     Button variations - dark background Secondary (dark) Link button   Link button     Button states Heavy CTA button styles Heavy CTA Heavy CTA active Heavy CTA focus Heavy CTA disabled  Primary button styles Primary Primary active Primary focus Primary disabled  Secondary (blue outline) button styles Secondary (blue outline) Secondary (blue outline) active Secondary (blue outline) focus Secondary (blue outline) disabled  Secondary (black outline) button styles Secondary (black outline) Secondary (black outline) active Secondary (black outline) focus Secondary (black outline) disabled  Link button (default) Link button   Link button   Link button   Link button    Link button (black) Link button   Link button   Link button   Link button     </description>
+      <description>Button variations Heavy Primary Secondary (blue) Secondary (red) Secondary (black) Link button (blue)   Link button (black)     Button variations - dark background Secondary blue (dark) Secondary red (dark) Secondary black (dark) Link button   Link button     Legacy Button Styles for existing rich text content Primary / Heavy CTA Primary / Heavy CTA Blue Secondary / Medium CTA Secondary / Medium CTA Blue Secondary / Medium CTA Red   Button states Heavy CTA button styles Heavy CTA Heavy CTA active Heavy CTA focus Heavy CTA disabled  Primary button styles Primary Primary active Primary focus Primary disabled  Secondary (blue outline) button styles Secondary (blue outline) Secondary (blue outline) active Secondary (blue outline) focus Secondary (blue outline) disabled  Secondary (red outline) button styles Secondary (red outline) Secondary (red outline) active Secondary (red outline) focus Secondary (red outline) disabled  Secondary (black outline) button styles Secondary (black outline) Secondary (black outline) active Secondary (black outline) focus Secondary (black outline) disabled  Link button (default) Link button   Link button   Link button   Link button    Link button (black) Link button   Link button   Link button   Link button     </description>
     </item>
     
     <item>
@@ -118,6 +127,16 @@
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/</guid>
       <description>TEMPLATE COMPONENT
+Sample Variations</description>
+    </item>
+    
+    <item>
+      <title>Product Download List</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/product-download-list/</link>
+      <pubDate>Mon, 20 Aug 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/product-download-list/</guid>
+      <description>PRODUCT DOWNLOAD LIST COMPONENT
 Sample Variations</description>
     </item>
     
@@ -159,6 +178,36 @@ Sample Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/card/</guid>
       <description>Articles and Blogs
 Card Variations</description>
+    </item>
+    
+    <item>
+      <title>Comment List Card Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/</guid>
+      <description>TEMPLATE COMPONENT
+Sample Variations</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Content Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content/</guid>
+      <description>DYNAMIC CONTENT COMPONENT
+Sample Variations</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Content List with Comments</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content-list/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content-list/</guid>
+      <description>DYNAMIC CONTENT LIST COMPONENT
+Sample Variations</description>
     </item>
     
     <item>

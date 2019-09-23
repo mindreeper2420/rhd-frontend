@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-CTA – RHD Front-end Code and Documentation
+Product Download List – RHD Front-end Code and Documentation
 </title>
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
@@ -102,21 +102,21 @@ CTA – RHD Front-end Code and Documentation
     <ul class="pf-c-nav__tertiary-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-try-it/" class="pf-c-nav__link">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/rich_text/" class="pf-c-nav__link">
           <i class="fad fa-arrow-left"></i>
-          Product Try-it
+          Rich Text
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/cta/" class="pf-c-nav__link pf-m-current" aria-current="page">
-          CTA
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-download-list/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Product Download List
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-products/" class="pf-c-nav__link">
-          Curated Products
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/" class="pf-c-nav__link">
+          Product Download Hero
           <i class="fad fa-arrow-right"></i>
         </a>
       </li>
@@ -124,7 +124,10 @@ CTA – RHD Front-end Code and Documentation
     </ul>
   </nav>
 </section>
-<section class="pf-c-page__main-section"></section>
+<section class="pf-c-page__main-section"><p><strong>PRODUCT DOWNLOAD LIST COMPONENT</strong></p>
+
+<p>Sample Variations</p>
+</section>
 
 
 
@@ -133,91 +136,96 @@ CTA – RHD Front-end Code and Documentation
 <div class="pf-l-grid pf-m-gutter">
 
     <div class="pf-l-grid__item pf-m-offset-1-col">
-        <h2>Call to Action</h2>
+        <h2>DEFAULT CONTEXT</h2>
     </div>
     
     
         
         <div class="pf-l-grid__item pf-m-offset-1-col">
         
-            <h4 class="pf-c-title pf-m-lg">No visual style set</h4>
+            <h4 class="pf-c-title pf-m-lg">Default Variant</h4>
             
             
-                  <div class="cta assembly assembly-type-call_to_action component" style="background-image: url();">
-    <div class="cta__container pf-l-grid">
-      <h2 class="cta__title pf-c-title pf-m-3xl">Join us for our next live developer tech talk.</h2>
-
-      <div class="cta__content">
-        <p><strong>DevNation Live:</strong> Testing in Production. From DevTestOops to DevTestOps</p>
-
-        <p>Presented by Alex Soto Bueno&nbsp;on September 19, 2019 at 12:00 PM ET / 16:00 UTC</p>
-      </div>
-    
-      <div class="cta__cta">
-        <a href="https://onlinexperiences.com/Launch/QReg/ShowUUID=6D298284-3770-4C13-914C-77D1033BD5AC" class="pf-c-button pf-m-heavy">Learn more</a>
-      </div>
-    </div>
-  </div>
-
-            
-            
-        
+                <div class="component rhd-c-product-download-list pf-c-content">
+    <div class="pf-l-grid pf-m-gutter pf-u-pt-lg pf-u-pb-lg">
+      <h2>All Downloads</h2>
+      <!-- Start of version row -->
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h3>2.0.0</h3>
+        <!-- Start of version row item -->
+        <div class="pf-l-grid pf-m-gutter product-version">
+          <div class="pf-l-grid__item product-version__file-label-wrapper">
+            <p class="product-version__file-label">jdk-8u222-x64 ZIP</p>
+          </div>
+          <div class="pf-l-grid__item product-version__file-description">
+              <p>OpenJDK 8 Windows 64-bit</p>
+          </div>
+          <div class="pf-l-grid__item product-version__release-date-wrapper">
+            <i class="fa fa-calendar-alt"></i> Release date <br/><span class="product-version__release-date">August 8, 2019</span>
+          </div>
+          <div class="pf-l-grid__item product-version__cta">
+            <a class="pf-c-button pf-m-secondary" href="#">Download (10.5 MB)</a>
+          </div>
         </div>
-        
-    
-    
-    
-        
-        <div class="pf-l-grid__item pf-m-offset-1-col">
-        
-            <h4 class="pf-c-title pf-m-lg">Aligned left</h4>
-            
-            
-                  <div class="cta assembly assembly-type-call_to_action left component" style="background-image: url();">
-    <div class="cta__container pf-l-grid">
-      <h2 class="cta__title pf-c-title pf-m-3xl">Join us for our next live developer tech talk.</h2>
-
-      <div class="cta__content">
-        <p><strong>DevNation Live:</strong> Testing in Production. From DevTestOops to DevTestOps</p>
-
-        <p>Presented by Alex Soto Bueno&nbsp;on September 19, 2019 at 12:00 PM ET / 16:00 UTC</p>
+        <!-- End of version row item -->
       </div>
-    
-      <div class="cta__cta">
-        <a href="https://onlinexperiences.com/Launch/QReg/ShowUUID=6D298284-3770-4C13-914C-77D1033BD5AC" class="pf-c-button pf-m-heavy">Learn more</a>
-      </div>
-    </div>
-  </div>
+      <!-- End of version row -->
 
-            
-            
-        
+      <!-- Start of version row -->
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h3>1.0.0</h3>
+        <!-- Start of version row item -->
+        <div class="pf-l-grid pf-m-gutter product-version">
+          <div class="pf-l-grid__item product-version__file-label-wrapper">
+            <p class="product-version__file-label">jdk-8u222-x64 ZIP</p>
+          </div>
+          <div class="pf-l-grid__item product-version__file-description">
+              <p>OpenJDK 8 Windows 64-bit</p>
+          </div>
+          <div class="pf-l-grid__item product-version__release-date-wrapper">
+            <i class="fa fa-calendar-alt"></i> Release date <br/><span class="product-version__release-date">August 8, 2019</span>
+          </div>
+          <div class="pf-l-grid__item product-version__cta">
+            <a class="pf-c-button pf-m-secondary" href="#">Download (10.5 MB)</a>
+          </div>
         </div>
-        
-    
-    
-    
-        
-        <div class="pf-l-grid__item pf-m-offset-1-col">
-        
-            <h4 class="pf-c-title pf-m-lg">Dark background, light text</h4>
-            
-            
-                  <div class="cta assembly assembly-type-call_to_action dark component" style="background-image: url();">
-    <div class="cta__container pf-l-grid">
-      <h2 class="cta__title pf-c-title pf-m-3xl">Join us for our next live developer tech talk.</h2>
-
-      <div class="cta__content">
-        <p><strong>DevNation Live:</strong> Testing in Production. From DevTestOops to DevTestOps</p>
-
-        <p>Presented by Alex Soto Bueno&nbsp;on September 19, 2019 at 12:00 PM ET / 16:00 UTC</p>
+        <!-- End of version row item -->
+        <!-- Start of version row item -->
+        <div class="pf-l-grid pf-m-gutter product-version">
+          <div class="pf-l-grid__item product-version__file-label-wrapper">
+            <p class="product-version__file-label">jdk-8u222-x64 ZIP</p>
+          </div>
+          <div class="pf-l-grid__item product-version__file-description">
+              <p>OpenJDK 8 Windows 64-bit</p>
+          </div>
+          <div class="pf-l-grid__item product-version__release-date-wrapper">
+            <i class="fa fa-calendar-alt"></i> Release date <br/><span class="product-version__release-date">August 8, 2019</span>
+          </div>
+          <div class="pf-l-grid__item product-version__cta">
+            <a class="pf-c-button pf-m-secondary" href="#">Download (10.5 MB)</a>
+          </div>
+        </div>
+        <!-- End of version row item -->
+        <!-- Start of version row item -->
+        <div class="pf-l-grid pf-m-gutter product-version">
+          <div class="pf-l-grid__item product-version__file-label-wrapper">
+            <p class="product-version__file-label">jdk-8u222-x64 ZIP</p>
+          </div>
+          <div class="pf-l-grid__item product-version__file-description">
+              <p>OpenJDK 8 Windows 64-bit</p>
+          </div>
+          <div class="pf-l-grid__item product-version__release-date-wrapper">
+            <i class="fa fa-calendar-alt"></i> Release date <br/><span class="product-version__release-date">August 8, 2019</span>
+          </div>
+          <div class="pf-l-grid__item product-version__cta">
+            <a class="pf-c-button pf-m-secondary" href="#">Download (10.5 MB)</a>
+          </div>
+        </div>
+        <!-- End of version row item -->
       </div>
-    
-      <div class="cta__cta">
-        <a href="https://onlinexperiences.com/Launch/QReg/ShowUUID=6D298284-3770-4C13-914C-77D1033BD5AC" class="pf-c-button pf-m-heavy">Learn more</a>
-      </div>
+      <!-- End of version row -->
     </div>
-  </div>
+</div>
 
             
             
@@ -250,6 +258,14 @@ CTA – RHD Front-end Code and Documentation
       </main>
       
 
+
+<script>
+  var require = {
+    baseUrl: "https:\/\/redhat-developer.github.io\/rhd-frontend\/",
+    deps: []
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 
 
     </div>

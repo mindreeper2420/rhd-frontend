@@ -1,0 +1,592 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+Dynamic Content Component – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
+    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <div class="pf-c-page" id="page-layout-grouped-nav">
+      <header role="banner" class="pf-c-page__header">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link">
+      <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
+    </a>
+  </div>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
+      <ul class="pf-c-nav__horizontal-list">
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/" class="pf-c-nav__link">
+            Home
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/" class="pf-c-nav__link">
+            Assemblies
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/components/" class="pf-c-nav__link">
+            Components
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/" class="pf-c-nav__link">
+            Design
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/" class="pf-c-nav__link">
+            Layout
+          </a>
+        </li>
+        
+        <li class="pf-c-nav__item">
+          <a href="https://redhat-developer.github.io/rhd-frontend/pages/" class="pf-c-nav__link">
+            Pages
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <a href="https://github.com/redhat-developer/rhd-frontend" target="_blank" class="pf-c-button pf-m-plain" aria-label="Alerts">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+      <main role="main" class="pf-c-page__main" tabindex="-1" id="main-content-page-layout">
+        <section class="pf-c-page__main-section pf-m-light">
+          <div class="layout-content">
+            <div id="block-rhdp-content" class="block block-system">
+              <article role="article" class="node">
+                <div class="node__content">
+                  
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/dynamic-content-list/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          Dynamic Content List with Comments
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/dynamic-content/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Dynamic Content Component
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/" class="pf-c-nav__link">
+          Comment List Card Component
+          <i class="fad fa-arrow-right"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"><p><strong>DYNAMIC CONTENT COMPONENT</strong></p>
+
+<p>Sample Variations</p>
+</section>
+
+
+
+
+<section class="pf-c-page__main-section">
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2>DEFAULT CONTEXT</h2>
+    </div>
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Default Variant</h4>
+            
+            
+                <div class="component rhd-c-card-grid pf-c-content">
+  <div class="pf-l-flex">
+    <h2 class="pf-c-title pf-m-3xl">Title for Dynamic Content Assembly</h2>
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__wrapper">
+    <!-- ======== CARD COMPONENTS START HERE ========= -->
+    <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ======== END OF CARD COMPONENTS ========= -->
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__cta">
+    <a class="pf-c-button pf-m-secondary" href="">See More Articles</a>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Center Visual Style Variant</h4>
+            
+            
+                <div class="component rhd-c-card-grid pf-c-content center">
+  <div class="pf-l-flex">
+    <h2 class="pf-c-title pf-m-3xl">Title for Dynamic Content Assembly</h2>
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__wrapper">
+    <!-- ======== CARD COMPONENTS START HERE ========= -->
+    <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ======== END OF CARD COMPONENTS ========= -->
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__cta">
+    <a class="pf-c-button pf-m-secondary" href="">See More Articles</a>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Dark Visual Style Variant</h4>
+            
+            
+                <div class="component rhd-c-card-grid pf-c-content dark">
+  <div class="pf-l-flex">
+    <h2 class="pf-c-title pf-m-3xl">Title for Dynamic Content Assembly</h2>
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__wrapper">
+    <!-- ======== CARD COMPONENTS START HERE ========= -->
+    <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ======== END OF CARD COMPONENTS ========= -->
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__cta">
+    <button class="pf-c-button pf-m-secondary">See More Articles</button>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Dark and Center Visual Styles Variant</h4>
+            
+            
+                <div class="component rhd-c-card-grid pf-c-content dark center">
+  <div class="pf-l-flex">
+    <h2 class="pf-c-title pf-m-3xl">Title for Dynamic Content Assembly</h2>
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__wrapper">
+    <!-- ======== CARD COMPONENTS START HERE ========= -->
+    <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ======== END OF CARD COMPONENTS ========= -->
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__cta">
+    <button class="pf-c-button pf-m-secondary">See More Articles</button>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">No Padding Top Visual Style Variant</h4>
+            
+            
+                <div class="component rhd-c-card-grid pf-c-content no-padding-top">
+  <div class="pf-l-flex">
+    <h2 class="pf-c-title pf-m-3xl">Title for Dynamic Content Assembly</h2>
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__wrapper">
+    <!-- ======== CARD COMPONENTS START HERE ========= -->
+    <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ======== END OF CARD COMPONENTS ========= -->
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__cta">
+    <button class="pf-c-button pf-m-secondary">See More Articles</button>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">No Padding Bottom Visual Style Variant</h4>
+            
+            
+                <div class="component rhd-c-card-grid pf-c-content no-padding-bottom">
+  <div class="pf-l-flex">
+    <h2 class="pf-c-title pf-m-3xl">Title for Dynamic Content Assembly</h2>
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__wrapper">
+    <!-- ======== CARD COMPONENTS START HERE ========= -->
+    <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pf-c-card rhd-c-card">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Title of the article</a></h3>
+          <p class="rhd-c-card__body ">This is the article description that can go to three lines and will be followed by a footer. Must truncate after 3 lines.</p>
+          <div class="rhd-c-card__footer">
+            <div class="rhd-c-card__footer--author">
+              <a href="#" class="rhd-m-link">Author Name</a>
+            </div>
+            <div class="rhd-c-comment">
+              <i class="fas fa-comment"></i> 2
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ======== END OF CARD COMPONENTS ========= -->
+  </div>
+  <div class="pf-l-flex rhd-c-card-grid__cta">
+    <button class="pf-c-button pf-m-secondary">See More Articles</button>
+  </div>
+</div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+
+</div>
+</section>
+
+
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <footer role="footer">
+  <div class="pf-l-grid">
+    <div class="pf-l-grid__item pf-m-3-col pf-m-2-col-on-sm pf-m-1-col-on-md">
+      <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg" class="pf-u-p-sm">
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+      </main>
+      
+
+
+<script>
+  var require = {
+    baseUrl: "https:\/\/redhat-developer.github.io\/rhd-frontend\/",
+    deps: []
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
+    </div>
+  </body>
+</html>
