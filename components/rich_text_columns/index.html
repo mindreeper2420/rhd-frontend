@@ -1,0 +1,361 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+Rich Text Columns – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
+    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <div class="pf-c-page" id="page-layout-grouped-nav">
+      <header role="banner" class="pf-c-page__header">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link">
+      <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
+    </a>
+  </div>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
+      <ul class="pf-c-nav__horizontal-list">
+        
+      </ul>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <a href="https://github.com/redhat-developer/rhd-frontend" target="_blank" class="pf-c-button pf-m-plain" aria-label="Alerts">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+      <main role="main" class="pf-c-page__main" tabindex="-1" id="main-content-page-layout">
+        <section class="pf-c-page__main-section pf-m-light">
+          <div class="layout-content">
+            <div id="block-rhdp-content" class="block block-system">
+              <article role="article" class="node">
+                <div class="node__content">
+                  
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          Product Download Hero
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/rich_text_columns/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Rich Text Columns
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/btn-cta/" class="pf-c-nav__link">
+          Buttons and CTAs
+          <i class="fad fa-arrow-right"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"><p>Rich Text Column Variations</p>
+</section>
+
+
+
+
+<section class="pf-c-page__main-section">
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2></h2>
+    </div>
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Four Across - Dark</h4>
+            
+            
+                <section class="pf-c-page__main-section pf-m-dark-100 pf-c-content">
+  <h1 class="pf-u-mb-lg">Value of Red Hat Fuse</h1>
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Fuse is enterprise-ready.</h3>
+      <p>It starts with the integration framework Camel and then adds a variety of extensions that enterprise developers can use to build in routes and connect JavaEE components. It can use code written in the Red Hat JBoss Enterprise Application Platform and Red Hat Container Development Kit. Fuse can easily provision scalable applications for the largest deployments too.</p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Fuse comes with powerful integrations that enable you to easily connect to your other SaaS applications.</h3>
+      <p>It has a large collection of connectors (what Apache calls Components) to various legacy systems (including Box, Azure, CouchDB, AWS etc.) to make integration and data exchange easier. Many of these integrations are accomplished with a single and simple URI command string. For example, using these URIs, you can exchange data with external websocket and AWS servers, send notifications to Apple iOS devices, download files stored on Box and OneDrive, and integrate with various databases including CouchDB, ElasticSearch and Hadoop).</p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Fuse has solid debugging and monitoring tools.</h3>
+      <p>It incorporates the Hawtio web management console and the Prometheus monitoring tools to make it is easier to track these integrations too. </p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Fuse is very extensible programmatically.</h3>
+      <p>It has a rich collection of APIs and management interfaces. It comes with ApiCurio’s support for Open API, Undertow’s NIO performance monitoring APIs, Swagger API documentation automation, CXF’s web services API and others.</p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Variety of deployment</h3>
+      <p>Fuse is a single platform which can be deployed in three different ways (on-prem up to total cloud). You can build your apps once and then run them anywhere with no change in functionality or coding. Fuse collects the numerous open source projects into a single place to make installation simple and to be able to quickly start building apps.</p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Heightened developer involvement</h3>
+      <p>Fuse is more than just a branded version of Camel and its supporting projects though. It provides a broad set of integrations and connectors/components. This architecture also allows developers to write custom components for specific purposes. </p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Increased productivity with Containers</h3>
+      <p>Containers are supported from the start with Fuse, so developers can create and deploy appropriate microservices immediately. Because of this, you can start in Spring Boot and quickly add your own containers. Using low-code interfaces, you can create your apps quickly and with a series of powerful integrations that can scale and be resilient. </p>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md pf-m-3-col-on-lg">
+      <h3>Red Hat support system</h3>
+      <p>Fuse comes with a large community to help support you, along with sample code and documentation.</p>
+    </div>
+  </div>
+</section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Three Across - Light</h4>
+            
+            
+                <section class="pf-c-content">
+  <h1>EAP integration and open source projects</h1>
+  <p><b>EAP comes in two versions—one standalone, and one that runs in a variety of OpenShift implementations. This <a href="#">page shows the differences between the two versions.</a></b></p>
+  <p>EAP also integrates code from the following open source projects:</p>
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md">
+      <ul>
+        <li>Hibernate ORM (<a href="#">RH docs</a> / <a href="#">OS project</a>) a relational database persistence project</li>
+        <li>IronJacamar (<a href="#">RH docs</a> / <a href="#">OS project</a>) the project for Java Connector architecture</li>
+        <li><a href="#">JBoss Clustering</a>, Web and Web Services projects, extending the JBoss app server</li>
+        <li><a href="#">OSGi</a>, the project for the Open Services Gateway Initiative for modular dynamic code libraries</li>
+      </ul>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md">
+      <ul>
+        <li>JGroups (<a href="#">RH docs</a> / <a href="#">OS project</a>), the project for group communication</li>
+        <li>JBoss Microcontainer (<a href="#">RH docs</a> / <a href="#">OS project</a>) project supporting standalone JMX microkernels</li>
+        <li>Narayana transaction manager project (<a href="#">RH docs</a> / <a href="#">OS project</a>)</li>
+        <li><a href="#">PicketLink</a>, the project for identity management for Java apps</li>
+      </ul>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-4-col-on-md">
+      <ul>
+        <li>RESTEasy (<a href="#">RH docs</a> / <a href="#">OS project</a>), the project for building RESTful services for Java apps</li>
+        <li><a href="#">Weld</a>, the project for creating Contexts and Dependency Injection for Java EE</li>
+        <li><a href="#">Wise</a>, the project for no code web services implementations</li>
+        <li><a href="#">XNIO</a>, the project for low-level IO and an alternative to NIO.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Featured Topics - Cards</h4>
+            
+            
+                <section class="pf-c-content">
+  <h1 class="pf-u-mb-lg">Featured Topics</h1>
+  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card">
+        <img src="https://developers.redhat.com/sites/default/files/inline-images/kubernetes.png" class="rhd-c-card__image">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Kubernetes</a></h3>
+          <p class="rhd-c-card__body">Kubernetes is the foundation of cloud software architecture like microservices and serverless.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card">
+        <img src="https://developers.redhat.com/sites/default/files/inline-images/java.png" class="rhd-c-card__image">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Java</a></h3>
+          <p class="rhd-c-card__body">Skip the noise that can come with developing apps, and instead focus on building apps.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card">
+        <img src="https://developers.redhat.com/sites/default/files/inline-images/devops.png" class="rhd-c-card__image">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">DevOps</a></h3>
+          <p class="rhd-c-card__body">Cloud developers can take advantage of increased speed, decreased risk and improved collaboration with Kubernetes and DevOps.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card">
+        <img src="https://developers.redhat.com/sites/default/files/inline-images/linux.png" class="rhd-c-card__image">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Linux</a></h3>
+          <p class="rhd-c-card__body">Develop applications on the most popular Linux for the enterprise - all while using the latest technologies.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cluster of topics without images -->
+  <div class="pf-l-grid pf-m-gutter pf-u-mt-xl">
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Istio Service Mesh</a></h3>
+          <p class="rhd-c-card__body ">Everything you need to coordinate microservices in a service mesh with the powerful monitoring and management tool, Istio</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Microservices</a></h3>
+          <p class="rhd-c-card__body ">Microservices are the modern approach to building cloud applications as independent services using Kubernetes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Serverless</a></h3>
+          <p class="rhd-c-card__body ">Cloud computing model whereby application developers don't have to provision servers or manage scaling for their app. </p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">CI/CD</a></h3>
+          <p class="rhd-c-card__body ">Continuously deliver apps to customers by introducing automation into the stages of app development and deployment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Istio Service Mesh</a></h3>
+          <p class="rhd-c-card__body ">Everything you need to coordinate microservices in a service mesh with the powerful monitoring and management tool, Istio</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Microservices</a></h3>
+          <p class="rhd-c-card__body ">Microservices are the modern approach to building cloud applications as independent services using Kubernetes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">Serverless</a></h3>
+          <p class="rhd-c-card__body ">Cloud computing model whereby application developers don't have to provision servers or manage scaling for their app. </p>
+        </div>
+      </div>
+    </div>
+    <div class="pf-l-grid__item pf-m-12-col pf-m-3-col-on-md">
+      <div class="pf-c-card rhd-c-card__list">
+        <div class="rhd-c-card-content">
+          <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">CI/CD</a></h3>
+          <p class="rhd-c-card__body ">Continuously deliver apps to customers by introducing automation into the stages of app development and deployment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+
+</div>
+</section>
+
+
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <footer role="footer">
+  <div class="pf-l-grid">
+    <div class="pf-l-grid__item pf-m-3-col pf-m-2-col-on-sm pf-m-1-col-on-md">
+      <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg" class="pf-u-p-sm">
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+      </main>
+      
+
+
+<script>
+  var require = {
+    baseUrl: "https:\/\/redhat-developer.github.io\/rhd-frontend\/",
+    deps: []
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
+    </div>
+  </body>
+</html>

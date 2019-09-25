@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        RHD Front-end Code and Documentation
-    </title>
+Author Tile Component – RHD Front-end Code and Documentation
+</title>
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
@@ -41,42 +41,6 @@
     <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
       <ul class="pf-c-nav__horizontal-list">
         
-        <li class="pf-c-nav__item">
-          <a href="https://redhat-developer.github.io/rhd-frontend/" class="pf-c-nav__link">
-            Home
-          </a>
-        </li>
-        
-        <li class="pf-c-nav__item">
-          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/" class="pf-c-nav__link">
-            Assemblies
-          </a>
-        </li>
-        
-        <li class="pf-c-nav__item">
-          <a href="https://redhat-developer.github.io/rhd-frontend/components/" class="pf-c-nav__link">
-            Components
-          </a>
-        </li>
-        
-        <li class="pf-c-nav__item">
-          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/" class="pf-c-nav__link">
-            Design
-          </a>
-        </li>
-        
-        <li class="pf-c-nav__item">
-          <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/" class="pf-c-nav__link">
-            Layout
-          </a>
-        </li>
-        
-        <li class="pf-c-nav__item">
-          <a href="https://redhat-developer.github.io/rhd-frontend/pages/" class="pf-c-nav__link">
-            Pages
-          </a>
-        </li>
-        
       </ul>
     </nav>
   </div>
@@ -96,39 +60,81 @@
               <article role="article" class="node">
                 <div class="node__content">
                   
-<div class="pf-c-content">
-  <h1>page</h1>
-  
-  
-  <ul data-rhd-col="span12">
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/card-grid/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          Card Grid Component
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/author-tile/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Author Tile Component
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/rich_text/" class="pf-c-nav__link">
+          Rich Text
+          <i class="fad fa-arrow-right"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"><p><strong>TEMPLATE COMPONENT</strong></p>
+
+<p>Sample Variations</p>
+</section>
+
+
+
+
+<section class="pf-c-page__main-section">
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2>DEFAULT CONTEXT</h2>
+    </div>
     
     
-    <li>
-      <a href="https://redhat-developer.github.io/rhd-frontend/">Home</a>
-    </li>
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Default Variant</h4>
+            
+            
+                  <div class="rhd-c-author--tile">
+    <span class="rhd-c-author--tile-hero">
+      <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+    </span>
+    <div class="rhd-c-author--tile-info">
+      <div class="rhd-c-author--tile-name">
+        <a href="#">Burr Sutter</a>
+      </div>
+      <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+    </div>
+  </div>
+
+            
+            
+        
+        </div>
+        
     
-    <li>
-      <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/">Assemblies</a>
-    </li>
     
-    <li>
-      <a href="https://redhat-developer.github.io/rhd-frontend/components/">Components</a>
-    </li>
-    
-    <li>
-      <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/">Design</a>
-    </li>
-    
-    <li>
-      <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/">Layout</a>
-    </li>
-    
-    <li>
-      <a href="https://redhat-developer.github.io/rhd-frontend/pages/">Pages</a>
-    </li>
-    
-  </ul>
+
 </div>
+</section>
+
+
+
 
                 </div>
               </article>
@@ -146,6 +152,17 @@
 
       </main>
       
+
+
+<script>
+  var require = {
+    baseUrl: "https:\/\/redhat-developer.github.io\/rhd-frontend\/",
+    deps: []
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
     </div>
   </body>
 </html>

@@ -80,7 +80,7 @@
   };
 
   /*!
-   * PatternFly Elements: PfeCard 1.0.0-prerelease.24
+   * PatternFly Elements: PfeCard 1.0.0-prerelease.19
    * @license
    * Copyright 2019 Red Hat, Inc.
    * 
@@ -208,7 +208,7 @@
     }], [{
       key: 'version',
       get: function get$$1() {
-        return "1.0.0-prerelease.24";
+        return "1.0.0-prerelease.19";
       }
     }, {
       key: 'properties',

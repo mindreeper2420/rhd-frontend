@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Curated Content</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-content/</link>
+      <pubDate>Tue, 17 Sep 2019 20:41:27 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Curated Products</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/curated-products/</link>
       <pubDate>Thu, 12 Sep 2019 20:22:29 -0700</pubDate>
@@ -121,6 +130,15 @@
     </item>
     
     <item>
+      <title>Rich Text Columns</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/rich_text_columns/</link>
+      <pubDate>Sun, 23 Sep 2018 12:21:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/rich_text_columns/</guid>
+      <description>Rich Text Column Variations</description>
+    </item>
+    
+    <item>
       <title>Product Download Hero</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/</link>
       <pubDate>Mon, 20 Aug 2018 11:15:00 -0400</pubDate>
@@ -148,6 +166,16 @@ Sample Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/rich_text/</guid>
       <description>Articles and Blogs
 Rich Text Variations</description>
+    </item>
+    
+    <item>
+      <title>Author Tile Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/author-tile/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/author-tile/</guid>
+      <description>TEMPLATE COMPONENT
+Sample Variations</description>
     </item>
     
     <item>
@@ -186,6 +214,16 @@ Card Variations</description>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/</guid>
+      <description>TEMPLATE COMPONENT
+Sample Variations</description>
+    </item>
+    
+    <item>
+      <title>Curated Events (Event List)</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-events/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-events/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
     </item>
