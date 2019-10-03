@@ -80,7 +80,7 @@
   };
 
   /*!
-   * PatternFly Elements: PfeCta 1.0.0-prerelease.19
+   * PatternFly Elements: PfeCta 1.0.0-prerelease.24
    * @license
    * Copyright 2019 Red Hat, Inc.
    * 
@@ -137,7 +137,7 @@
     }], [{
       key: "version",
       get: function get$$1() {
-        return "1.0.0-prerelease.19";
+        return "1.0.0-prerelease.24";
       }
     }, {
       key: "properties",
