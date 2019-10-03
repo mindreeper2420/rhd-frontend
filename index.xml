@@ -48,6 +48,35 @@
     </item>
     
     <item>
+      <title>Node author Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</link>
+      <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</guid>
+      <description>Burr Sutter Chief Developer Evangelist
+Red Hat&#39;s Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference.      Round image example simple round image example
+  as a container class &amp;lt;div class=&#34;rhd-c-round-image&#34;&amp;gt; &amp;lt;img src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt; &amp;lt;/div&amp;gt; or as an image class &amp;lt;img class=&#34;rhd-c-round-image&#34; src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt;       </description>
+    </item>
+    
+    <item>
+      <title>Featured Evangelists</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/</link>
+      <pubDate>Tue, 01 Oct 2019 10:28:48 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events Hero</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/events-hero/</link>
+      <pubDate>Wed, 25 Sep 2019 10:51:50 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/events-hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Curated Content</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/curated-content/</link>
       <pubDate>Tue, 17 Sep 2019 20:41:27 -0400</pubDate>
@@ -120,20 +149,20 @@
     </item>
     
     <item>
+      <title>Deprecated Navigation References</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/navigation/</link>
+      <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Footer References</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/footer/</link>
       <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/footer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Navigation References</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/navigation/</link>
-      <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
-      
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/navigation/</guid>
       <description></description>
     </item>
     
@@ -144,7 +173,7 @@
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/video-hero/</guid>
       <description>Single Video Reference    Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
- Burr Sutter  Chief Developer Evangelist</description>
+ Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist</description>
     </item>
     
     <item>
@@ -205,6 +234,16 @@ Rich Text Variations</description>
     </item>
     
     <item>
+      <title>All Products Listing Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/</guid>
+      <description>ALL PRODUCTS LISTING COMPONENT
+Sample Variations</description>
+    </item>
+    
+    <item>
       <title>Author Tile Component</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/author-tile/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
@@ -230,7 +269,7 @@ Sample Variations</description>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/card-html/</guid>
-      <description>Card Examples Articles and Blogs Title of the article that can be two li...&amp;nbsp;  2     Title of the article&amp;nbsp;  2       Title of the article This is the article description that can go to three lines and will be followed by a footer.  2
+      <description>Card Examples Articles and Blogs Title of the article that can be two lines&amp;nbsp;  2     Title of the article&amp;nbsp;  2       Title of the article This is the article description that can go to three lines and will be followed by a footer.  2
   Title of the article This is the article description that can go to three lines and will be followed by a footer.</description>
     </item>
     
@@ -242,6 +281,16 @@ Sample Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/card/</guid>
       <description>Articles and Blogs
 Card Variations</description>
+    </item>
+    
+    <item>
+      <title>Collection Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/collection/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/collection/</guid>
+      <description>Collection COMPONENT
+Sample Variations</description>
     </item>
     
     <item>
@@ -295,6 +344,16 @@ Sample Variations</description>
     </item>
     
     <item>
+      <title>Featured Article</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-article/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-article/</guid>
+      <description>Featured Article
+All Variations</description>
+    </item>
+    
+    <item>
       <title>Featured Resources</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/featured-resources/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
@@ -312,6 +371,16 @@ All Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/jump-to-nav/</guid>
       <description>JUMP-TO NAV COMPONENT
 Jump-To Nav Variations</description>
+    </item>
+    
+    <item>
+      <title>Top Navigation Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/rhd-top-nav/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/rhd-top-nav/</guid>
+      <description>NAVIGATION COMPONENT
+Sample Variations</description>
     </item>
     
     <item>
@@ -403,7 +472,7 @@ Jump-To Nav Variations</description>
       <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</guid>
-      <description>section { margin: 0 32px; } table { width: 100%; background-color: #fff; } table thead tr th { text-align: left; } tr { border-bottom: 1px solid #d7d7d7; } table tbody tr { background-color: #fff; } table thead tr th, table tbody tr td { padding: 16px 0 16px 16px; }  Our font family We use the open source Red Hat Text and Red Hat Display fonts. Header XL    Font family Font size Font weight Line height Class + Modifier     RedHatDisplay 36px 400 46.</description>
+      <description>section { margin: 0 32px; } table { width: 100%; background-color: #fff; } table thead tr th { text-align: left; } tr { border-bottom: 1px solid #d7d7d7; } table tbody tr { background-color: #fff; } table thead tr th, table tbody tr td { padding: 16px 0 16px 16px; }  Our font family We use the open source Red Hat Text and Red Hat Display fonts. Header XL    Font family Font size Font weight Line height Class + Modifier Viewport size     RedHatDisplay 40px 300 53 .</description>
     </item>
     
     <item>

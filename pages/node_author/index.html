@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-Comment List Card Component – RHD Front-end Code and Documentation
+Node author Page – RHD Front-end Code and Documentation
 </title>
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
@@ -66,21 +66,21 @@ Comment List Card Component – RHD Front-end Code and Documentation
     <ul class="pf-c-nav__tertiary-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-events/" class="pf-c-nav__link">
+        <a href="https://redhat-developer.github.io/rhd-frontend/pages/katacoda/" class="pf-c-nav__link">
           <i class="fad fa-arrow-left"></i>
-          Curated Events (Event List)
+          Katacoda Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/" class="pf-c-nav__link pf-m-current" aria-current="page">
-          Comment List Card Component
+        <a href="https://redhat-developer.github.io/rhd-frontend/pages/node_author/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Node author Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/collection/" class="pf-c-nav__link">
-          Collection Component
+        <a href="https://redhat-developer.github.io/rhd-frontend/pages/topic/" class="pf-c-nav__link">
+          Topic Page
           <i class="fad fa-arrow-right"></i>
         </a>
       </li>
@@ -88,78 +88,47 @@ Comment List Card Component – RHD Front-end Code and Documentation
     </ul>
   </nav>
 </section>
-<section class="pf-c-page__main-section"><p><strong>TEMPLATE COMPONENT</strong></p>
-
-<p>Sample Variations</p>
-</section>
-
-
-
-
-<section class="pf-c-page__main-section">
-<div class="pf-l-grid pf-m-gutter">
-
-    <div class="pf-l-grid__item pf-m-offset-1-col">
-        <h2>DEFAULT CONTEXT</h2>
+<section class="pf-c-page__main-section"><div class="pf-c-content">
+    <div class="pf-l-grid pf-m-gutter">
+        <div class="pf-l-grid__item pf-m-9-col-on-lg pf-m-12-col-on-sm">
+            <h2>Burr Sutter</h2>
+            <p><strong>Chief Developer Evangelist</strong></p>
+            <p>Red Hat's Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference. </p>
+        </div>
+        <div class="pf-l-grid__item pf-m-3-col-on-lg pf-m-12-col-on-sm">
+            <div class="rhd-c-avatar--container--large" >
+                <img class="rhd-c-avatar" src="https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg" alt="Burr Sutter">
+            </div>
+        </div>
     </div>
-    
-    
-        
-        <div class="pf-l-grid__item pf-m-offset-1-col">
-        
-            <h4 class="pf-c-title pf-m-lg">Default Variant</h4>
-            
-            
-                <div class="pf-c-card rhd-c-card comment-list">
-  <div class="rhd-c-card-content">
-    <h3 class="rhd-c-card__title">Latest Comments</h3>
-    <div class="rhd-c-card__body">
-      <!-- Start of comment item -->
-      <div class="comment-list__item">
-        <h3 class="comment-list__item-title">10 tips for reviewing code you don’t like</h3>
-        <p class="comment-list__item-content">“I am in a unique situation at work where I have 20+ years of experience developing our software but with an old archaic programming language. My coworkers have rewritten most...”</p>
-        <small class="comment-list__item-date">July 18, 2019</small>
-        <div class="comment-list__item-cta">
-          <a href="">Reply  <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <!-- End of comment item -->
-      <!-- Start of comment item -->
-      <div class="comment-list__item">
-        <h3 class="comment-list__item-title">10 tips for reviewing code you don’t like</h3>
-        <p class="comment-list__item-content">“I am in a unique situation at work where I have 20+ years of experience developing our software but with an old archaic programming language. My coworkers have rewritten most...”</p>
-        <small class="comment-list__item-date">July 18, 2019</small>
-        <div class="comment-list__item-cta">
-          <a href="">Reply  <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <!-- End of comment item -->
-      <!-- Start of comment item -->
-      <div class="comment-list__item">
-        <h3 class="comment-list__item-title">10 tips for reviewing code you don’t like</h3>
-        <p class="comment-list__item-content">“I am in a unique situation at work where I have 20+ years of experience developing our software but with an old archaic programming language. My coworkers have rewritten most...”</p>
-        <small class="comment-list__item-date">July 18, 2019</small>
-        <div class="comment-list__item-cta">
-          <a href="">Reply  <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div> 
-      <!-- End of comment item -->
-    </div>
-  </div>
 </div>
 
-            
-            
-        
-        </div>
-        
-    
-    
+<div class="pf-c-content">
+    <div class="pf-l-grid pf-m-gutter">
+        <div class="pf-l-grid__item pf-m-9-col-on-lg pf-m-12-col-on-sm">
+            <h2>Round image example</h2>
+            <p>simple round image example</p>
+            <pre>
+<code>
+as a container class
 
+&lt;div class="rhd-c-round-image"&gt;
+    &lt;img src="https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg" alt="Burr Sutter"&gt;
+&lt;/div&gt;
+
+or as an image class
+
+&lt;img class="rhd-c-round-image" src="https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg" alt="Burr Sutter"&gt;
+</code>
+            </pre>
+            <div class="rhd-c-round-image">
+                <img src="https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg" alt="Burr Sutter">
+            </div>
+            <img class="rhd-c-round-image" src="https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg" alt="Burr Sutter">
+        </div>
+    </div>
 </div>
 </section>
-
-
 
 
                 </div>
@@ -179,14 +148,6 @@ Comment List Card Component – RHD Front-end Code and Documentation
       </main>
       
 
-
-<script>
-  var require = {
-    baseUrl: "https:\/\/redhat-developer.github.io\/rhd-frontend\/",
-    deps: []
-  };
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 
 
     </div>

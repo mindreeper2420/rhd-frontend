@@ -39,6 +39,17 @@
     </item>
     
     <item>
+      <title>Node author Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</link>
+      <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</guid>
+      <description>Burr Sutter Chief Developer Evangelist
+Red Hat&#39;s Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference.      Round image example simple round image example
+  as a container class &amp;lt;div class=&#34;rhd-c-round-image&#34;&amp;gt; &amp;lt;img src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt; &amp;lt;/div&amp;gt; or as an image class &amp;lt;img class=&#34;rhd-c-round-image&#34; src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt;       </description>
+    </item>
+    
+    <item>
       <title>Katacoda Page</title>
       <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>

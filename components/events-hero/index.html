@@ -1,0 +1,820 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+Events Hero – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
+    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <div class="pf-c-page" id="page-layout-grouped-nav">
+      <header role="banner" class="pf-c-page__header">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link">
+      <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
+    </a>
+  </div>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
+      <ul class="pf-c-nav__horizontal-list">
+        
+      </ul>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <a href="https://github.com/redhat-developer/rhd-frontend" target="_blank" class="pf-c-button pf-m-plain" aria-label="Alerts">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+      <main role="main" class="pf-c-page__main" tabindex="-1" id="main-content-page-layout">
+        <section class="pf-c-page__main-section pf-m-light">
+          <div class="layout-content">
+            <div id="block-rhdp-content" class="block block-system">
+              <article role="article" class="node">
+                <div class="node__content">
+                  
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-content/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          Curated Content
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/events-hero/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Events Hero
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/" class="pf-c-nav__link">
+          Featured Evangelists
+          <i class="fad fa-arrow-right"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"></section>
+
+
+
+
+<section class="pf-c-page__main-section">
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2></h2>
+    </div>
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Events Hero - Default</h4>
+            
+            
+                  <section class="component pf-c-content rhd-c-events-hero dark background">
+    <div class="pf-l-grid pf-m-gutter">
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2>Title of the event</h2>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-7-col-on-md">
+        <h3 class="rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>This is a short description of the event.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-mb-md">
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+        </div>
+        <button class="pf-c-button pf-m-heavy pf-u-mr-lg">Sign up</button>
+        <button class="pf-c-button pf-m-link--secondary-on-dark pf-u-pl-0">This is the light CTA on dark <span class="pf-c-button__icon"><i class="fas fa-arrow-right"></i></span></button>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-5-col-on-md">
+        <div class="pf-l-grid">
+          <div class="pf-l-grid__item pf-m-12-col pf-u-mb-xl">
+            <h4><a href="" class="pf-c-title pf-m-md rhd-c-events-hero__item-title">DevNation Live London</a></h4>
+            <small class="pf-u-mt-sm pf-u-mb-md">October 4, 2019</small>
+            <button class="pf-c-button pf-m-secondary-alt-on-dark">Sign up</button>
+          </div>
+          <div class="pf-l-grid__item pf-m-12-col">
+            <h4><a href="" class="pf-c-title pf-m-md rhd-c-events-hero__item-title">DevNation Live London</a></h4>
+            <small class="pf-u-mt-sm pf-u-mb-md">October 4, 2019</small>
+            <button class="pf-c-button pf-m-secondary-alt-on-dark pf-u-mb-md">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Events Hero - Light</h4>
+            
+            
+                  <section class="component pf-c-content rhd-c-events-hero background">
+    <div class="pf-l-grid pf-m-gutter">
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2>Title of the event</h2>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-7-col-on-md">
+        <h3 class="header-link rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>This is a short description of the event.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-mb-md">
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+          <!-- Start of Author tile -->
+          <div class="rhd-c-author--tile">
+            <span class="rhd-c-author--tile-hero">
+              <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+            </span>
+            <div class="rhd-c-author--tile-info">
+              <div class="rhd-c-author--tile-name">
+                <a href="#">Burr Sutter</a>
+              </div>
+              <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+            </div>
+          </div>
+          <!-- End of Author tile -->
+        </div>
+        <button class="pf-c-button pf-m-heavy pf-u-mr-lg">Sign up</button>
+        <button class="pf-c-button pf-m-link--secondary pf-u-pl-0">This is the light CTA on light <span class="pf-c-button__icon"><i class="fas fa-arrow-right"></i></span></button>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-5-col-on-md">
+        <div class="pf-l-grid">
+          <div class="pf-l-grid__item pf-m-12-col pf-u-mb-xl">
+            <h4 class="header-link"><a href="" class="rhd-c-events-hero__item-title">DevNation Live London</a></h4>
+            <small class="pf-u-mt-sm pf-u-mb-md">October 4, 2019</small>
+            <button class="pf-c-button pf-m-tertiary">Sign up</button>
+          </div>
+          <div class="pf-l-grid__item pf-m-12-col">
+            <h4 class="header-link"><a href="" class="rhd-c-events-hero__item-title">DevNation Live London</a></h4>
+            <small class="pf-u-mt-sm pf-u-mb-md">October 4, 2019</small>
+            <button class="pf-c-button pf-m-tertiary pf-u-mb-md">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Events Hero (2 Events) - Default</h4>
+            
+            
+                  <section class="component pf-c-content rhd-c-events-hero two-events dark background">
+    <div class="pf-l-grid pf-m-gutter">
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2>Title of the event</h2>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-md">
+        <h3 class="rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-mb-md">
+          <div class="pf-l-grid pf-m-12-col">
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+          </div>
+        </div>
+        <button class="pf-c-button pf-m-heavy pf-u-mr-lg">Sign up</button>
+        <button class="pf-c-button pf-m-link--secondary-on-dark pf-u-pl-0">This is the light CTA on dark <span class="pf-c-button__icon"><i class="fas fa-arrow-right"></i></span></button>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-md">
+        <h3 class="rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>This is a short description of the event.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-mb-md">
+          <div class="pf-l-grid pf-m-12-col">
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+          </div>
+        </div>
+        <button class="pf-c-button pf-m-secondary-alt-on-dark pf-u-mb-md">Sign up</button>
+      </div>
+    </div>
+  </section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Events Hero (2 Events) - Light</h4>
+            
+            
+                  <section class="component pf-c-content rhd-c-events-hero two-events background">
+    <div class="pf-l-grid pf-m-gutter">
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2>Title of the event</h2>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-md">
+        <h3 class="header-link rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>This is a short description of the event.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-mb-md">
+          <div class="pf-l-grid pf-m-12-col">
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+              <!-- End of Author tile -->
+            </div>
+          </div>
+        </div>
+        <button class="pf-c-button pf-m-heavy pf-u-mr-lg">Sign up</button>
+        <button class="pf-c-button pf-m-link--secondary pf-u-pl-0">This is the light CTA on dark <span class="pf-c-button__icon"><i class="fas fa-arrow-right"></i></span></button>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-md">
+        <h3 class="header-link rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>This is a short description of the event.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-mb-md">
+          <div class="pf-l-grid pf-m-12-col">
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <!-- Start of Author tile -->
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+              <!-- Start of Author tile -->
+            <div class="pf-l-grid__item pf-m-12-col pf-m-6-col-on-sm">
+              <div class="rhd-c-author--tile">
+                <span class="rhd-c-author--tile-hero">
+                  <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+                </span>
+                <div class="rhd-c-author--tile-info">
+                  <div class="rhd-c-author--tile-name">
+                    <a href="#">Burr Sutter</a>
+                  </div>
+                  <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Author tile -->
+          </div>
+        </div>
+        <button class="pf-c-button pf-m-tertiary pf-u-mb-md">Sign up</button>
+      </div>
+    </div>
+  </section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Events Hero (Slim) - Default</h4>
+            
+            
+                  <section class="component pf-c-content rhd-c-events-hero assembly-slim dark background">
+    <div class="pf-l-grid pf-m-gutter">
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2>Title of the event</h2>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h3 class="rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-ml-0 pf-u-mb-md">
+          <div class="pf-l-flex">
+            <!-- Start of Author tile -->
+            <div class="rhd-c-author--tile">
+              <span class="rhd-c-author--tile-hero">
+                <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+              </span>
+              <div class="rhd-c-author--tile-info">
+                <div class="rhd-c-author--tile-name">
+                  <a href="#">Burr Sutter</a>
+                </div>
+                <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+              </div>
+            </div>
+            <!-- End of Author tile -->
+            <!-- Start of Author tile -->
+            <div class="rhd-c-author--tile">
+              <span class="rhd-c-author--tile-hero">
+                <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+              </span>
+              <div class="rhd-c-author--tile-info">
+                <div class="rhd-c-author--tile-name">
+                  <a href="#">Burr Sutter</a>
+                </div>
+                <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="pf-c-button pf-m-heavy">Sign up</button>
+      </div>
+    </div>
+  </section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Events Hero (Slim) - Light</h4>
+            
+            
+                  <section class="component pf-c-content rhd-c-events-hero assembly-slim background">
+    <div class="pf-l-grid pf-m-gutter">
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2>Title of the event</h2>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h3 class="header-link" rhd-c-events-hero__item-title"><a href="" class="pf-c-title pf-m-lg">Featured event title</a></h3>
+        <small class="pf-u-mt-sm pf-u-mb-sm">October 4, 2019</small>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="rhd-c-events-hero__item-presenters pf-u-ml-0 pf-u-mb-md">
+          <div class="pf-l-flex">
+            <div class="pf-l-flex pf-m-grow">
+            <!-- Start of Author tile -->
+            <div class="rhd-c-author--tile">
+              <span class="rhd-c-author--tile-hero">
+                <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+              </span>
+              <div class="rhd-c-author--tile-info">
+                <div class="rhd-c-author--tile-name">
+                  <a href="#">Burr Sutter</a>
+                </div>
+                <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+              </div>
+            </div>
+            <!-- End of Author tile -->
+            <!-- Start of Author tile -->
+            <div class="rhd-c-author--tile">
+              <span class="rhd-c-author--tile-hero">
+                <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+              </span>
+              <div class="rhd-c-author--tile-info">
+                <div class="rhd-c-author--tile-name">
+                  <a href="#">Burr Sutter</a>
+                </div>
+                <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+              </div>
+            </div>
+            <!-- End of Author tile -->
+            <!-- Start of Author tile -->
+            <div class="rhd-c-author--tile">
+              <span class="rhd-c-author--tile-hero">
+                <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+              </span>
+              <div class="rhd-c-author--tile-info">
+                <div class="rhd-c-author--tile-name">
+                  <a href="#">Burr Sutter</a>
+                </div>
+                <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+              </div>
+            </div>
+            <!-- End of Author tile -->
+            <!-- Start of Author tile -->
+            <div class="rhd-c-author--tile">
+              <span class="rhd-c-author--tile-hero">
+                <img src="https://developers.redhat.com/sites/default/files/styles/square_small/public/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg?itok=7ViRCOCR" alt="Burr Sutter" typeof="foaf:Image" width="200" height="200">
+              </span>
+              <div class="rhd-c-author--tile-info">
+                <div class="rhd-c-author--tile-name">
+                  <a href="#">Burr Sutter</a>
+                </div>
+                <div class="rhd-c-author--tile-title">Chief Developer Evangelist</div>
+              </div>
+            </div>
+            <!-- End of Author tile -->
+            </div>
+          </div>
+        </div>
+        <button class="pf-c-button pf-m-heavy">Sign up</button>
+      </div>
+    </div>
+  </section>
+
+            
+            
+        
+        </div>
+        
+    
+    
+
+</div>
+</section>
+
+
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <footer role="footer">
+  <div class="pf-l-grid">
+    <div class="pf-l-grid__item pf-m-3-col pf-m-2-col-on-sm pf-m-1-col-on-md">
+      <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg" class="pf-u-p-sm">
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+      </main>
+      
+
+
+
+    </div>
+  </body>
+</html>

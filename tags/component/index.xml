@@ -6,10 +6,28 @@
     <description>Recent content in component on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Sep 2019 20:41:27 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2019 10:28:48 -0400</lastBuildDate>
     
 	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/component/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Featured Evangelists</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/</link>
+      <pubDate>Tue, 01 Oct 2019 10:28:48 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events Hero</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/events-hero/</link>
+      <pubDate>Wed, 25 Sep 2019 10:51:50 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/events-hero/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Curated Content</title>
@@ -84,20 +102,20 @@
     </item>
     
     <item>
+      <title>Deprecated Navigation References</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/navigation/</link>
+      <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Footer References</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/footer/</link>
       <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/footer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Navigation References</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/navigation/</link>
-      <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
-      
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/navigation/</guid>
       <description></description>
     </item>
     
@@ -108,7 +126,7 @@
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/video-hero/</guid>
       <description>Single Video Reference    Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
- Burr Sutter  Chief Developer Evangelist</description>
+ Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist</description>
     </item>
     
     <item>
@@ -169,6 +187,16 @@ Rich Text Variations</description>
     </item>
     
     <item>
+      <title>All Products Listing Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/</guid>
+      <description>ALL PRODUCTS LISTING COMPONENT
+Sample Variations</description>
+    </item>
+    
+    <item>
       <title>Author Tile Component</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/author-tile/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
@@ -194,7 +222,7 @@ Sample Variations</description>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
       <guid>https://redhat-developer.github.io/rhd-frontend/components/card-html/</guid>
-      <description>Card Examples Articles and Blogs Title of the article that can be two li...&amp;nbsp;  2     Title of the article&amp;nbsp;  2       Title of the article This is the article description that can go to three lines and will be followed by a footer.  2
+      <description>Card Examples Articles and Blogs Title of the article that can be two lines&amp;nbsp;  2     Title of the article&amp;nbsp;  2       Title of the article This is the article description that can go to three lines and will be followed by a footer.  2
   Title of the article This is the article description that can go to three lines and will be followed by a footer.</description>
     </item>
     
@@ -206,6 +234,16 @@ Sample Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/card/</guid>
       <description>Articles and Blogs
 Card Variations</description>
+    </item>
+    
+    <item>
+      <title>Collection Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/collection/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/collection/</guid>
+      <description>Collection COMPONENT
+Sample Variations</description>
     </item>
     
     <item>
@@ -259,6 +297,16 @@ Sample Variations</description>
     </item>
     
     <item>
+      <title>Featured Article</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-article/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-article/</guid>
+      <description>Featured Article
+All Variations</description>
+    </item>
+    
+    <item>
       <title>Featured Resources</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/featured-resources/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
@@ -276,6 +324,16 @@ All Variations</description>
       <guid>https://redhat-developer.github.io/rhd-frontend/components/jump-to-nav/</guid>
       <description>JUMP-TO NAV COMPONENT
 Jump-To Nav Variations</description>
+    </item>
+    
+    <item>
+      <title>Top Navigation Component</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/rhd-top-nav/</link>
+      <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/rhd-top-nav/</guid>
+      <description>NAVIGATION COMPONENT
+Sample Variations</description>
     </item>
     
     <item>

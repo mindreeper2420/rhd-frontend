@@ -98,7 +98,7 @@ Card in Gallery – RHD Front-end Code and Documentation
       <div class="pf-c-card rhd-c-card__list">
         <div class="rhd-c-card-content">
           <h3 class="rhd-c-card__title">
-            <a href="#" class="rhd-m-link">Title of the article that can be two li...</a>&nbsp;
+            <a href="#" class="rhd-m-link">Title of the article that can be two lines</a>&nbsp;
             <span class="rhd-m-list__comment">
               <i class="fas fa-comment"></i> 2
             </span>
@@ -325,7 +325,7 @@ Card in Gallery – RHD Front-end Code and Documentation
         <i class="far fa-clone"></i>
         More in this series
       </div>
-      <div class="rhd-c-card-content">
+      <div class="rhd-c-card-content rhd-c-card-content--multi-content">
         <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">This is the article title</a></h3>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--author">
@@ -334,7 +334,7 @@ Card in Gallery – RHD Front-end Code and Documentation
         </div>
         <hr>
       </div>
-      <div class="rhd-c-card-content">
+      <div class="rhd-c-card-content rhd-c-card-content--multi-content">
         <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">This is the article title</a></h3>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--author">
@@ -343,7 +343,7 @@ Card in Gallery – RHD Front-end Code and Documentation
         </div>
         <hr>
       </div>
-      <div class="rhd-c-card-content">
+      <div class="rhd-c-card-content rhd-c-card-content--multi-content">
         <h3 class="rhd-c-card__title"><a href="#" class="rhd-m-link">This is the article title</a></h3>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--author">
@@ -504,7 +504,7 @@ Card in Gallery – RHD Front-end Code and Documentation
     <div class="pf-c-card rhd-c-card">
       <div class="rhd-c-card-content">
         <h3 class="rhd-c-card__title">
-          Istio service mesh workshop
+          <a href="#" class="rhd-m-link">Istio service mesh workshop</a>
         </h3>
         <div class="rhd-c-card__subtitle">3 articles</div>
         <p class="rhd-c-card__body ">Install Istio on a Kubernetes cluster and deploy three microservices.</p>
@@ -524,7 +524,7 @@ Card in Gallery – RHD Front-end Code and Documentation
       </div>
       <div class="rhd-c-card-content">
         <h3 class="rhd-c-card__title rhd-m-card-title__no-image">
-          Course title
+          <a href="#" class="rhd-m-link">Course title</a>
         </h3>
         <div class="rhd-c-card__subtitle">3 articles</div>
         <p class="rhd-c-card__body ">Install Istio on a Kubernetes cluster and deploy three microservices.</p>
@@ -545,7 +545,7 @@ Card in Gallery – RHD Front-end Code and Documentation
       <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg" class="rhd-c-card__image"/>
       <div class="rhd-c-card-content">
         <h3 class="rhd-c-card__title">
-          Course title
+          <a href="#" class="rhd-m-link">Course title</a>
         </h3>
         <div class="rhd-c-card__subtitle">3 articles</div>
         <p class="rhd-c-card__body ">Install Istio on a Kubernetes cluster and deploy three microservices.</p>
@@ -615,9 +615,6 @@ Card in Gallery – RHD Front-end Code and Documentation
         </h3>
         <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
         <p class="rhd-c-card__body ">Use the OpenShift Container Platform to build and deploy applications using both...</p>
-        <div class="rhd-c-card__subtitle">
-          Published 24 Apr 2019 by Graham Dumpleton
-        </div>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--download">
             <a href="#" class="rhd-m-link">Start <i class="fas fa-arrow-right"></i></a>
@@ -638,9 +635,6 @@ Card in Gallery – RHD Front-end Code and Documentation
         </h3>
         <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
         <p class="rhd-c-card__body ">Use the OpenShift Container Platform to build and deploy applications using both...</p>
-        <div class="rhd-c-card__subtitle">
-          Published 24 Apr 2019 by Graham Dumpleton
-        </div>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--download">
             <a href="#" class="rhd-m-link">Start <i class="fas fa-arrow-right"></i></a>
@@ -662,9 +656,6 @@ Card in Gallery – RHD Front-end Code and Documentation
         </h3>
         <div class="rhd-c-card__subtitle">25 minutes | Beginner</div>
         <p class="rhd-c-card__body ">Use the OpenShift Container Platform to build and deploy applications using both...</p>
-        <div class="rhd-c-card__subtitle">
-          Published 24 Apr 2019 by Graham Dumpleton
-        </div>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--download">
             <a href="#" class="rhd-m-link">Start <i class="fas fa-arrow-right"></i></a>
@@ -890,11 +881,13 @@ Card in Gallery – RHD Front-end Code and Documentation
   <div class="pf-l-gallery__item">
     <div class="pf-c-card rhd-c-card">
       <div class="rhd-c-card__video">
-        <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg">
+        <div class="rhd-c-card__video-time">2:00</div>
+        <i class="far fa-play-circle"></i>
+        <img src="https://developers.redhat.com/blog/wp-content/uploads/2019/08/2019_Email_Hero_Design_RHEL-copy-2.png">
       </div>
       <div class="rhd-c-card-content">
         <h3 class="rhd-c-card__title">
-          Title of the video that can go to two lines, but will then hide until hovered
+          <a href="#" class="rhd-m-link">Title of the video that can go to two lines, but will then hide until hovered</a>
         </h3>
       </div>
     </div>
@@ -902,11 +895,13 @@ Card in Gallery – RHD Front-end Code and Documentation
   <div class="pf-l-gallery__item">
     <div class="pf-c-card rhd-c-card">
       <div class="rhd-c-card__video">
+        <div class="rhd-c-card__video-time">2:00</div>
+        <i class="far fa-play-circle"></i>
         <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg">
       </div>
       <div class="rhd-c-card-content">
         <h3 class="rhd-c-card__title">
-          Title of the video that can go to two lines, but will then hide until hovered
+          <a href="#" class="rhd-m-link">Title of the video that can go to two lines, but will then hide until hovered</a>
         </h3>
         <div class="rhd-c-card__footer">
           <div class="rhd-c-card__footer--author">
@@ -919,11 +914,13 @@ Card in Gallery – RHD Front-end Code and Documentation
   <div class="pf-l-gallery__item">
     <div class="pf-c-card rhd-c-card">
       <div class="rhd-c-card__video">
-        <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg">
+        <div class="rhd-c-card__video-time">2:00</div>
+        <i class="far fa-play-circle"></i>
+        <img src="https://developers.redhat.com/blog/wp-content/uploads/2019/08/Quarkus.jpg">
       </div>
       <div class="rhd-c-card-content">
         <h3 class="rhd-c-card__title">
-          Title of the video that can go to two lines, but will then hide until hovered
+          <a href="#" class="rhd-m-link">Title of the video that can go to two lines, but will then hide until hovered</a>
         </h3>
         <p class="rhd-c-card__body">
           This is the video description that can go to three lines, as needed.
