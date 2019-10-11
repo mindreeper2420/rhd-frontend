@@ -8,9 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-Deprecated Navigation References – RHD Front-end Code and Documentation
+Navigation References – RHD Front-end Code and Documentation
 </title>
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/patternfly.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
     <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
     <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
@@ -31,7 +30,7 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
   </head>
   <body class="pf-m-redhat-font">
     <div class="pf-c-page" id="page-layout-grouped-nav">
-      <header role="banner" class="pf-c-page__header">
+      <header role="banner" class="pf-c-page__header" style="z-index: 100;">
   <div class="pf-c-page__header-brand">
     <a class="pf-c-page__header-brand-link">
       <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
@@ -66,21 +65,21 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
     <ul class="pf-c-nav__tertiary-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/footer/" class="pf-c-nav__link">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/video-hero/" class="pf-c-nav__link">
           <i class="fad fa-arrow-left"></i>
-          Footer References
+          Video Hero
         </a>
       </li>
       
       <li class="pf-c-nav__item">
         <a href="https://redhat-developer.github.io/rhd-frontend/components/navigation/" class="pf-c-nav__link pf-m-current" aria-current="page">
-          Deprecated Navigation References
+          Navigation References
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/icons/" class="pf-c-nav__link">
-          Icons
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/footer/" class="pf-c-nav__link">
+          Footer References
           <i class="fad fa-arrow-right"></i>
         </a>
       </li>
@@ -104,53 +103,256 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
         
         <div class="pf-l-grid__item pf-m-offset-1-col">
         
-            <h4 class="pf-c-title pf-m-lg">Main Navigation</h4>
+            <h4 class="pf-c-title pf-m-lg">Main RHD Navigation</h4>
             
             
-                <div class="pf-l-flex pf-u-align-items-center pf-u-mt-lg pf-u-px-2xl">
-  <div class="pf-l-flex pf-m-grow">
-    <div>
-      <img class="pf-c-brand" src="https://developers.redhat.com/themes/custom/rhdp/logo.svg" alt="Red Hat Developer logo" width="240px">
+                <!-- START OF RH UNIVERSAL NAV -->
+<div class="rhd-l-rh-universal">
+  <div class="pf-l-flex rhd-c-nav--rh-universal">
+    <div class="pf-l-flex pf-m-grow pf-u-align-self-center">
+      <nav class="pf-c-nav pf-m-start pf-m-end rhd-c-nav--rh-universal-links" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              <img class="pf-c-brand" alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg">
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Customer Portal
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link pf-m-current">
+              Developer
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Hosted IDE
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Openshift
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Partners
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Store
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="pf-l-flex rhd-c-nav--rh-universal-login">
+      <nav class="pf-c-nav" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item pf-u-mr-0 login" style="display:none;">
+            <a href="#" class="pf-c-nav__link">
+              <span class="icon"><i class="fas fa-user"></i></span>Log In
+            </a>
+          </li>
+          <li class="pf-c-nav__item pf-u-mr-0 logged-in">
+            <a href="#" class="pf-c-nav__link">
+              <span class="icon"><i class="fas fa-user"></i></span>John Smith<span class="icon"><i class="fal fa-angle-down"></i></span>
+            </a>
+            <ul>
+              <li>
+                <a href="#">Account Info</a>
+              </li>
+              <li>
+                <a href="#">Log Out</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
+</div>
+<!-- END OF RH UNIVERSAL NAV -->
+<!-- START OF RHD  NAV -->
+<div class="rhd-c-nav pf-l-flex">
+  <div class="pf-l-flex pf-m-grow">
+    <img class="pf-c-brand" src="https://developers.redhat.com/themes/custom/rhdp/logo.svg" alt="Red Hat Developer logo">
+  </div>
   <div class="pf-l-flex">
-    <nav class="pf-c-nav rhd-c-nav" aria-label="Local">
+    <nav class="pf-c-nav rhd-c-nav-desktop" aria-label="Local">
       <ul class="pf-c-nav__tertiary-list">
         <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link pf-m-current" aria-current="page">
-            Events
-          </a>
+          <a href="#" class="pf-c-nav__link pf-m-current" aria-current="page">Build</a>
         </li>
         <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Training
-          </a>
+          <a href="#" class="pf-c-nav__link">Tools</a>
         </li>
         <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Help
-          </a>
+          <a href="#" class="pf-c-nav__link">Events</a>
         </li>
         <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Products
-          </a>
+          <a href="#" class="pf-c-nav__link">Training</a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="#" class="pf-c-nav__link">Products</a>
         </li>
         <li class="pf-c-nav__item pf-u-mr-0">
-          <a href="#" class="pf-u-display-inline-block pf-u-pt-md pf-u-pb-sm">
-            <i class="fas fa-search"></i>
-          </a>
+          <a href="#" class="pf-u-display-inline-block pf-u-pt-md pf-u-pb-sm"><i class="fas fa-search"></i></a>
         </li>
       </ul>
     </nav>
+    <!-- START OF MOBILE RHD NAV -->
+    <div class="rhd-c-nav-mobile">
+      <label for="toggle" class="hamburger">Menu <i class="far fa-bars"></i></label>
+      <input type="checkbox" id="toggle">
+      <nav class="mobile rhd-c-nav-dropdown">
+
+      <ul class="pf-c-dropdown__menu" aria-labelledby="dropdown-navigation-menu">
+        <li class="pf-u-display-flex pf-u-justify-content-space-between pf-u-px-md">
+          <div>
+            <a href=""><i class="fas fa-user"></i> Login</a>
+          </div>
+          <div>
+            <label for="toggle" class="hamburger">Close <i class="fal fa-times-circle"></i></label>
+          </div>
+        </li>
+        <li class="pf-u-display-flex pf-u-justify-content-space-between pf-u-px-md rhd-c-nav-dropdown__user-optns">
+          <div>
+            <a href="">Account Info</a>
+          </div>
+          <div>
+            <a href="">Log Out</a>
+          </div>
+        </li>
+        <li class="rhd-c-nav-dropdown__search">
+          <div class="pf-c-input-group">
+            <input class="pf-c-form-control" type="search" id="textInput11" name="textInput11" aria-label="search input example">
+            <button class="pf-c-button pf-m-tertiary" type="button" aria-label="search button for search input">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </li>
+        <li>
+          <a href="#"><span>Events</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Training</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Help</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a>
+        </li>
+        <li>
+          <a href="#"><span>Products</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a>
+        </li>
+      </ul>
+
+      </nav>
+    </div>
+    <!-- END OF MOBILE RHD NAV -->
   </div>
 </div>
+<!-- END OF RHD NAV -->
+<!-- START OF TOPICS NAV -->
+<div class="pf-c-nav rhd-l-topics">
+  <button class="pf-c-nav__scroll-button" aria-label="Scroll left">
+    <i class="fas fa-angle-left" aria-hidden="true"></i>
+  </button>
+  <div class="pf-l-flex rhd-c-nav--topics-wrapper">
+    <div class="pf-l-flex pf-m-grow">
+      <nav class="pf-m-start pf-m-end rhd-c-nav--topics" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link pf-m-current" aria-current="page">
+              Istio
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Kubernetes
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Microservices
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              DevOps
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Serverless
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Linux
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Java
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Knative
+            </a>
+          </li>
+          <li class="pf-c-nav__item pf-u-mr-0 pf-u-display-flex pf-u-display-none-on-lg">
+            <a href="#" class="pf-c-nav__link">
+              All topics <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="pf-l-flex pf-u-display-none pf-u-display-flex-on-lg">
+      <nav class="pf-c-nav rhd-c-nav--topics" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item pf-u-mr-0">
+            <a href="#" class="pf-c-nav__link">
+              All topics <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
+    <i class="fas fa-angle-right" aria-hidden="true"></i>
+  </button>
+</div>
+<!-- END OF TOPICS NAV -->
 
             
             
         
         </div>
         
+    
+    
+    
+    <div></div>
+    
+    
+    
+    <div></div>
+    
+    
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2>Red Hat Universal Navigation</h2>
+    </div>
+    
+    
+    <div></div>
     
     
     
@@ -161,60 +363,75 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
         
         <div class="pf-l-grid__item pf-m-offset-1-col">
         
-            <h4 class="pf-c-title pf-m-lg">Main Navigation - Mobile</h4>
+            <h4 class="pf-c-title pf-m-lg">Red Hat Universal Navigation</h4>
             
             
-                <div class="pf-l-flex pf-u-align-items-center pf-u-mt-lg pf-u-px-2xl" style="max-width: 768px;">
-  <div class="pf-l-flex">
-    <div>
-      <img class="pf-c-brand" src="https://developers.redhat.com/themes/custom/rhdp/logo.svg" alt="Red Hat Developer logo" width="240px">
+                <div class="rhd-l-rh-universal">
+  <div class="pf-l-flex rhd-c-nav--rh-universal">
+    <div class="pf-l-flex pf-m-grow pf-u-align-self-center">
+      <nav class="pf-c-nav pf-m-start pf-m-end rhd-c-nav--rh-universal-links" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              <img class="pf-c-brand" alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg">
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Customer Portal
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link pf-m-current">
+              Developer
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Hosted IDE
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Openshift
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Partners
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Store
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </div>
-  <div class="pf-l-flex pf-m-grow">
-    <div class="pf-c-dropdown pf-m-align-left pf-m-align-right-on-sm rhd-c-nav-dropdown rhd-m-expanded pf-m-expanded">
-      <button class="pf-c-dropdown__toggle" id="dropdown-basic-example-expanded-button" aria-expanded="true">
-        <span class="pf-c-dropdown__toggle-text">
-          Menu
-        </span>
-        <i class="fas fa-bars pf-c-dropdown__toggle-icon" aria-hidden="true"></i>
-      </button>
-    </div>
-  </div>
-</div>
-
-            
-                <h1 class="pf-c-title pf-m-lg pf-u-my-md">Main Navigation - Mobile: Expanded</h1>
-<div class="pf-l-flex pf-u-align-items-center pf-u-mt-lg pf-u-px-2xl" style="max-width: 768px;">
-  <div style="float: right">
-    <div class="pf-c-dropdown pf-m-align-left pf-m-align-right-on-sm rhd-c-nav-dropdown rhd-m-expanded pf-m-expanded">
-      <button class="pf-c-dropdown__toggle" id="dropdown-basic-example-expanded-button" aria-expanded="true">
-        <span class="pf-c-dropdown__toggle-text">
-          Menu
-        </span>
-        <i class="fas fa-bars pf-c-dropdown__toggle-icon" aria-hidden="true"></i>
-      </button>
-      <ul class="pf-c-dropdown__menu pf-m-align-right" aria-labelledby="dropdown-navigation-menu" style="position: relative; top: -47px;">
-        <li class="pf-u-display-flex pf-u-justify-content-space-between pf-u-px-md">
-          <div>
-            <i class="fas fa-user"></i> Login
-          </div>
-          <div>
-            Close <i class="fal fa-times-circle"></i>
-          </div>
-        </li>
-        <li>
-          <div class="pf-c-input-group">
-            <input class="pf-c-form-control" type="search" id="textInput11" name="textInput11" aria-label="search input example">
-            <button class="pf-c-button pf-m-tertiary" type="button" aria-label="search button for search input">
-              <i class="fas fa-search" aria-hidden="true"></i>
-            </button>
-          </div>
-        </li>
-        <li><a href="#"><span>Events</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a></li>
-        <li><a href="#"><span>Training</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a></li>
-        <li><a href="#"><span>Help</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a></li>
-        <li><a href="#"><span>Products</span><span class="rhd-m-nav-description">Link to Red Hat Developer Events</span></a></li>
-      </ul>
+    <div class="pf-l-flex rhd-c-nav--rh-universal-login">
+      <nav class="pf-c-nav" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item pf-u-mr-0 login">
+            <a href="#" class="pf-c-nav__link">
+              <i class="fas fa-user"></i>Log In
+            </a>
+          </li>
+          <li class="pf-c-nav__item pf-u-mr-0 logged-in" style="display:none;">
+            <a href="#" class="pf-c-nav__link">
+              <i class="fas fa-user"></i>jsmith<i class="fal fa-angle-down"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="#">Account Info</a>
+              </li>
+              <li>
+                <a href="#">Log Out</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
 </div>
@@ -224,10 +441,6 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
         
         </div>
         
-    
-    
-    
-    <div></div>
     
     
 
@@ -246,75 +459,78 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
             <h4 class="pf-c-title pf-m-lg">Topic Navigation</h4>
             
             
-                <div class="pf-l-flex pf-u-align-items-center pf-u-mt-lg pf-u-mx-2xl rhd-l-topics">
-  <div class="pf-l-flex pf-m-grow">
-    <nav class="pf-c-nav rhd-c-nav--topics" aria-label="Local">
-      <button class="pf-c-nav__scroll-button" aria-label="Scroll left">
-        <i class="fas fa-angle-left" aria-hidden="true"></i>
-      </button>
-      <ul class="pf-c-nav__tertiary-list">
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link pf-m-current" aria-current="page">
-            Istio
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Kubernetes
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Microservices
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            DevOps
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Serverless
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Linux
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Java
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Knative
-          </a>
-        </li>
-        <li class="pf-c-nav__item pf-u-mr-0 pf-u-display-flex pf-u-display-none-on-md">
-          <a href="#" class="pf-c-nav__link">
-            All topics <i class="fas fa-arrow-right"></i>
-          </a>
-        </li>
-      </ul>
-      <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
-        <i class="fas fa-angle-right" aria-hidden="true"></i>
-      </button>
-    </nav>
+                <div class="pf-c-nav rhd-l-topics">
+  <button class="pf-c-nav__scroll-button" aria-label="Scroll left">
+    <i class="fas fa-angle-left" aria-hidden="true"></i>
+  </button>
+  <div class="pf-l-flex rhd-c-nav--topics-wrapper">
+    <div class="pf-l-flex pf-m-grow">
+
+      <nav class="pf-m-start pf-m-end rhd-c-nav--topics" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link pf-m-current" aria-current="page">
+              Istio
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Kubernetes
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Microservices
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              DevOps
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Serverless
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Linux
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Java
+            </a>
+          </li>
+          <li class="pf-c-nav__item">
+            <a href="#" class="pf-c-nav__link">
+              Knative
+            </a>
+          </li>
+          <li class="pf-c-nav__item pf-u-mr-0 pf-u-display-flex pf-u-display-none-on-lg">
+            <a href="#" class="pf-c-nav__link">
+              All topics <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="pf-l-flex pf-u-display-none pf-u-display-flex-on-lg">
+      <nav class="pf-c-nav rhd-c-nav--topics" aria-label="Local">
+        <ul class="pf-c-nav__tertiary-list">
+          <li class="pf-c-nav__item pf-u-mr-0">
+            <a href="#" class="pf-c-nav__link">
+              All topics <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-  <div class="pf-l-flex pf-u-display-none pf-u-display-flex-on-md">
-    <nav class="pf-c-nav rhd-c-nav--topics" aria-label="Local">
-      <ul class="pf-c-nav__tertiary-list">
-        <li class="pf-c-nav__item pf-u-mr-0">
-          <a href="#" class="pf-c-nav__link">
-            All topics <i class="fas fa-arrow-right"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
+    <i class="fas fa-angle-right" aria-hidden="true"></i>
+  </button>
 </div>
 
             
@@ -326,80 +542,6 @@ Deprecated Navigation References – RHD Front-end Code and Documentation
     
     
     <div></div>
-    
-    
-    
-        
-        <div class="pf-l-grid__item pf-m-offset-1-col">
-        
-            <h4 class="pf-c-title pf-m-lg">Topic Navigation - Mobile</h4>
-            
-            
-                <div class="pf-l-flex pf-u-align-items-center pf-u-mt-lg pf-u-mx-2xl">
-  <div class="pf-l-flex pf-m-grow">
-    <nav class="pf-c-nav pf-m-start pf-m-end rhd-c-nav--topics rhd-l-topics" aria-label="Local" style="max-width: 768px;">
-      <button class="pf-c-nav__scroll-button" aria-label="Scroll left">
-        <i class="fas fa-angle-left" aria-hidden="true"></i>
-      </button>
-      <ul class="pf-c-nav__tertiary-list">
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Istio
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Kubernetes
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Microservices
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            DevOps
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Serverless
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Linux
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Java
-          </a>
-        </li>
-        <li class="pf-c-nav__item">
-          <a href="#" class="pf-c-nav__link">
-            Knative
-          </a>
-        </li>
-        <li class="pf-c-nav__item pf-u-mr-0">
-          <a href="#" class="pf-c-nav__link">
-            All topics <i class="fas fa-arrow-right"></i>
-          </a>
-        </li>
-      </ul>
-      <button class="pf-c-nav__scroll-button" aria-label="Scroll right">
-        <i class="fas fa-angle-right" aria-hidden="true"></i>
-      </button>
-    </nav>
-  </div>
-</div>
-
-            
-            
-        
-        </div>
-        
     
     
 
