@@ -1,0 +1,137 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+&#39;Old&#39; Search – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.legacy.css">
+    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
+    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <div class="pf-c-page" id="page-layout-grouped-nav">
+      <header role="banner" class="pf-c-page__header" style="z-index: 100;">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link">
+      <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
+    </a>
+  </div>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
+      <ul class="pf-c-nav__horizontal-list">
+        
+      </ul>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <a href="https://github.com/redhat-developer/rhd-frontend" target="_blank" class="pf-c-button pf-m-plain" aria-label="Alerts">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+      <main role="main" class="pf-c-page__main" tabindex="-1" id="main-content-page-layout">
+        <section class="pf-c-page__main-section pf-m-light">
+          <div class="layout-content">
+            <div id="block-rhdp-content" class="block block-system">
+              <article role="article" class="node">
+                <div class="node__content">
+                  
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/search/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          Search
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/search-old/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          &#39;Old&#39; Search
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="https://redhat-developer.github.io/rhd-frontend/components/onebox/" class="pf-c-nav__link">
+          Onebox
+          <i class="fad fa-arrow-right"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"><div class="pf-l-grid">
+  <pre class="pf-m-10-col pf-m-offset-1-col" style="max-height: 10em;">
+    <code class="language-html">&lt;rhdp-search-app url=&#34;https://dcp2.jboss.org/v2/rest/search/developer_materials&#34;&gt;&lt;/rhdp-search-app&gt;</code>
+  </pre>
+</div>
+<div class="code-sample">
+  <rhdp-search-app url="https://dcp2.jboss.org/v2/rest/search/developer_materials"></rhdp-search-app>
+</div>
+
+</section>
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <footer role="footer">
+  <div class="pf-l-grid">
+    <div class="pf-l-grid__item pf-m-3-col pf-m-2-col-on-sm pf-m-1-col-on-md">
+      <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg" class="pf-u-p-sm">
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+      </main>
+      
+
+
+[
+  <script src="https://redhat-developer.github.io/rhd-frontend/@patternfly/pfelement/pfelement.umd.js"></script>
+
+  <script src="https://redhat-developer.github.io/rhd-frontend/@patternfly/pfe-datetime/pfe-datetime.umd.js"></script>
+
+  <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhdp-search/rhdp-search.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
+    </div>
+  </body>
+</html>

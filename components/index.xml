@@ -411,6 +411,15 @@ Sample Variations</description>
     </item>
     
     <item>
+      <title>&#39;Old&#39; Search</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/components/search-old/</link>
+      <pubDate>Wed, 23 Aug 2017 22:25:45 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/components/search-old/</guid>
+      <description>&amp;lt;rhdp-search-app url=&amp;#34;https://dcp2.jboss.org/v2/rest/search/developer_materials&amp;#34;&amp;gt;&amp;lt;/rhdp-search-app&amp;gt;     </description>
+    </item>
+    
+    <item>
       <title>Search</title>
       <link>https://redhat-developer.github.io/rhd-frontend/components/search/</link>
       <pubDate>Wed, 23 Aug 2017 22:25:45 -0400</pubDate>
