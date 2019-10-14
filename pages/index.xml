@@ -50,6 +50,15 @@ Red Hat&#39;s Director of Developer Experience. A Java Champion, former presiden
     </item>
     
     <item>
+      <title>Assemblies Page</title>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/assemblies/</link>
+      <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
+      
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/assemblies/</guid>
+      <description>Browse by product name    .NET Core Compilers: Clang/LLVM, Go, Rust Red Hat 3scale API Management Red Hat AMQ Red Hat Application Migration Toolkit Red Hat CodeReady Studio Red Hat CodeReady Toolchain Red Hat CodeReady Workspaces Red Hat Container Development Kit Red Hat Data Grid Red Hat Decision Manager Red Hat Developer Toolset Red Hat Enterprise Linux Red Hat Enterprise Linux for SAP Solutions Red Hat Fuse Red Hat JBoss Data Virtualization Red Hat JBoss Enterprise Application Platform Red Hat JBoss Web Server Red Hat Mobile Application Platform Red Hat OpenJDK Red Hat OpenShift Application Runtimes Red Hat OpenShift Cloud Functions Red Hat OpenShift Container Platform Red Hat Process Automation Manager Red Hat Software Collections VS Code Extensions   Title for Collection Assembly   Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Pagination Current page1  Page2  Page3  Page4  Page5  Page6  Next page Next ›   Last page Last »       Join us for our next live developer tech talk.</description>
+    </item>
+    
+    <item>
       <title>Katacoda Page</title>
       <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
