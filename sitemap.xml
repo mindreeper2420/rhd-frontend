@@ -3,527 +3,527 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/rhd-frontend/</loc>
+    <loc>/</loc>
     <lastmod>2017-08-03T10:56:11-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/assemblies/assemblies/</loc>
+    <loc>/patterns/assemblies/assemblies/</loc>
     <lastmod>2017-08-03T14:58:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/home/</loc>
+    <loc>/pages/home/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/product/</loc>
+    <loc>/pages/product/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/topic/</loc>
+    <loc>/pages/topic/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/node_author/</loc>
+    <loc>/pages/node_author/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/event-schedule/</loc>
+    <loc>/components/event-schedule/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/nav-search/</loc>
+    <loc>/components/nav-search/</loc>
     <lastmod>2019-10-14T13:40:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/featured-evangelists/</loc>
+    <loc>/components/featured-evangelists/</loc>
     <lastmod>2019-10-01T10:28:48-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/events-hero/</loc>
+    <loc>/components/events-hero/</loc>
     <lastmod>2019-09-25T10:51:50-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/curated-content/</loc>
+    <loc>/components/curated-content/</loc>
     <lastmod>2019-09-17T20:41:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/curated-products/</loc>
+    <loc>/components/curated-products/</loc>
     <lastmod>2019-09-12T20:22:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/cta/</loc>
+    <loc>/components/cta/</loc>
     <lastmod>2019-09-12T15:32:54-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/product-try-it/</loc>
+    <loc>/components/product-try-it/</loc>
     <lastmod>2019-09-11T14:57:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/code-snippet/</loc>
+    <loc>/components/code-snippet/</loc>
     <lastmod>2019-09-11T09:44:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/bonus-content-item/</loc>
+    <loc>/components/bonus-content-item/</loc>
     <lastmod>2019-09-10T13:38:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/curated-links/</loc>
+    <loc>/components/curated-links/</loc>
     <lastmod>2019-09-10T12:59:11-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/icons/</loc>
+    <loc>/components/icons/</loc>
     <lastmod>2019-09-09T12:45:46-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/footer/</loc>
+    <loc>/components/footer/</loc>
     <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/navigation/</loc>
+    <loc>/components/navigation/</loc>
     <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/video-hero/</loc>
+    <loc>/components/video-hero/</loc>
     <lastmod>2019-08-16T08:22:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/dynamic-list/</loc>
+    <loc>/components/dynamic-list/</loc>
     <lastmod>2019-08-15T14:30:10-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/btn-cta/</loc>
+    <loc>/components/btn-cta/</loc>
     <lastmod>2019-08-14T11:19:07-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/rich_text_columns/</loc>
+    <loc>/components/rich_text_columns/</loc>
     <lastmod>2018-09-23T12:21:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/product-download-hero/</loc>
+    <loc>/components/product-download-hero/</loc>
     <lastmod>2018-08-20T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/product-download-list/</loc>
+    <loc>/components/product-download-list/</loc>
     <lastmod>2018-08-20T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/cta_form/</loc>
+    <loc>/components/cta_form/</loc>
     <lastmod>2018-08-14T16:12:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/rich_text/</loc>
+    <loc>/components/rich_text/</loc>
     <lastmod>2018-08-14T16:12:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/all-products-listing/</loc>
+    <loc>/components/all-products-listing/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/author-tile/</loc>
+    <loc>/components/author-tile/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/card-grid/</loc>
+    <loc>/components/card-grid/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/card-html/</loc>
+    <loc>/components/card-html/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/card/</loc>
+    <loc>/components/card/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/collection/</loc>
+    <loc>/components/collection/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/comment-list-card/</loc>
+    <loc>/components/comment-list-card/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/curated-events/</loc>
+    <loc>/components/curated-events/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/dynamic-content/</loc>
+    <loc>/components/dynamic-content/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/dynamic-content-list/</loc>
+    <loc>/components/dynamic-content-list/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/template/</loc>
+    <loc>/components/template/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/featured-article/</loc>
+    <loc>/components/featured-article/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/featured-resources/</loc>
+    <loc>/components/featured-resources/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/jump-to-nav/</loc>
+    <loc>/components/jump-to-nav/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/logos/</loc>
+    <loc>/components/logos/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/stack-overflow/</loc>
+    <loc>/components/stack-overflow/</loc>
     <lastmod>2018-04-30T13:12:43-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/rhdp-downloads/</loc>
+    <loc>/components/rhdp-downloads/</loc>
     <lastmod>2018-04-19T13:22:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/alerts/</loc>
+    <loc>/components/alerts/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/community/</loc>
+    <loc>/components/community/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/referrer/</loc>
+    <loc>/components/referrer/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/expandable-groups/</loc>
+    <loc>/components/expandable-groups/</loc>
     <lastmod>2018-04-13T03:00:54-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/onebox/</loc>
+    <loc>/components/onebox/</loc>
     <lastmod>2017-08-23T22:56:37-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/search-old/</loc>
+    <loc>/components/search-old/</loc>
     <lastmod>2017-08-23T22:25:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/search/</loc>
+    <loc>/components/search/</loc>
     <lastmod>2017-08-23T22:25:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/component/</loc>
+    <loc>/categories/component/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/component/</loc>
+    <loc>/tags/component/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/assemblies/</loc>
+    <loc>/pages/assemblies/</loc>
     <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/katacoda/</loc>
+    <loc>/pages/katacoda/</loc>
     <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/page/</loc>
+    <loc>/tags/page/</loc>
     <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/page_example/</loc>
+    <loc>/categories/page_example/</loc>
     <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/design/</loc>
+    <loc>/tags/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/design/</loc>
+    <loc>/categories/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/typography/</loc>
+    <loc>/patterns/design/typography/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/code/</loc>
+    <loc>/tags/code/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/code/</loc>
+    <loc>/categories/code/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/code/css-variables/</loc>
+    <loc>/patterns/code/css-variables/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/cards/</loc>
+    <loc>/tags/cards/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/assemblies/</loc>
+    <loc>/patterns/assemblies/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/code/</loc>
+    <loc>/patterns/code/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/components/</loc>
+    <loc>/components/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/content/</loc>
+    <loc>/patterns/content/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/</loc>
+    <loc>/patterns/design/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/layout/</loc>
+    <loc>/patterns/layout/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/misc/</loc>
+    <loc>/patterns/misc/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/pages/</loc>
+    <loc>/pages/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/assemblies/all-product-listing/</loc>
+    <loc>/patterns/assemblies/all-product-listing/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/assembly/</loc>
+    <loc>/tags/assembly/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/assembly/</loc>
+    <loc>/categories/assembly/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/assemblies/featured_products/</loc>
+    <loc>/patterns/assemblies/featured_products/</loc>
     <lastmod>2018-04-13T00:18:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/layout/home/</loc>
+    <loc>/patterns/layout/home/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/layout/</loc>
+    <loc>/tags/layout/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/layout/</loc>
+    <loc>/categories/layout/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/code/ts/</loc>
+    <loc>/patterns/code/ts/</loc>
     <lastmod>2017-08-18T15:15:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/code/html/</loc>
+    <loc>/patterns/code/html/</loc>
     <lastmod>2017-08-03T15:06:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/code/css/</loc>
+    <loc>/patterns/code/css/</loc>
     <lastmod>2017-08-03T15:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/code/js/</loc>
+    <loc>/patterns/code/js/</loc>
     <lastmod>2017-08-03T15:06:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/misc/a11y/</loc>
+    <loc>/patterns/misc/a11y/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/misc/</loc>
+    <loc>/tags/misc/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/misc/</loc>
+    <loc>/categories/misc/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/misc/interactive/</loc>
+    <loc>/patterns/misc/interactive/</loc>
     <lastmod>2017-08-03T15:05:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/content/</loc>
+    <loc>/tags/content/</loc>
     <lastmod>2017-08-03T15:04:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/content/</loc>
+    <loc>/categories/content/</loc>
     <lastmod>2017-08-03T15:04:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/content/notifications/</loc>
+    <loc>/patterns/content/notifications/</loc>
     <lastmod>2017-08-03T15:04:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/content/style/</loc>
+    <loc>/patterns/content/style/</loc>
     <lastmod>2017-08-03T15:04:33-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/misc/handoffs/</loc>
+    <loc>/patterns/misc/handoffs/</loc>
     <lastmod>2017-08-03T15:03:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/misc/links/</loc>
+    <loc>/patterns/misc/links/</loc>
     <lastmod>2017-08-03T15:03:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/2019summit/</loc>
+    <loc>/tags/2019summit/</loc>
     <lastmod>2017-08-03T14:58:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/graphics/</loc>
+    <loc>/patterns/design/graphics/</loc>
     <lastmod>2017-08-03T14:57:35-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/layout/grid/</loc>
+    <loc>/patterns/layout/grid/</loc>
     <lastmod>2017-08-03T14:22:23-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/logos/</loc>
+    <loc>/patterns/design/logos/</loc>
     <lastmod>2017-08-03T14:11:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/system/</loc>
+    <loc>/patterns/design/system/</loc>
     <lastmod>2017-08-03T14:11:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/background/</loc>
+    <loc>/patterns/design/background/</loc>
     <lastmod>2017-08-03T14:11:21-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/design/color/</loc>
+    <loc>/patterns/design/color/</loc>
     <lastmod>2017-08-03T14:11:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/layout/boxmodel/</loc>
+    <loc>/patterns/layout/boxmodel/</loc>
     <lastmod>2017-08-03T14:10:42-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/patterns/</loc>
+    <loc>/patterns/</loc>
   </url>
   
 </urlset>

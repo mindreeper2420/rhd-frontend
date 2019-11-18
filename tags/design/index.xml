@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on RHD Front-end Code and Documentation</title>
-    <link>/rhd-frontend/tags/design/</link>
+    <link>/tags/design/</link>
     <description>Recent content in design on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Aug 2019 16:18:01 -0400</lastBuildDate>
     
-	<atom:link href="/rhd-frontend/tags/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Typography</title>
-      <link>/rhd-frontend/patterns/design/typography/</link>
+      <link>/patterns/design/typography/</link>
       <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
       
-      <guid>/rhd-frontend/patterns/design/typography/</guid>
+      <guid>/patterns/design/typography/</guid>
       <description>section { margin: 0 32px; } table { width: 100%; background-color: #fff; } table thead tr th { text-align: left; } tr { border-bottom: 1px solid #d7d7d7; } table tbody tr { background-color: #fff; } table thead tr th, table tbody tr td { padding: 16px 0 16px 16px; }  Our font family We use the open source Red Hat Text and Red Hat Display fonts. Header XL    Font family Font size Font weight Line height Class + Modifier Viewport size     RedHatDisplay 40px 300 53 .</description>
     </item>
     
     <item>
       <title>Graphics</title>
-      <link>/rhd-frontend/patterns/design/graphics/</link>
+      <link>/patterns/design/graphics/</link>
       <pubDate>Thu, 03 Aug 2017 14:57:35 -0400</pubDate>
       
-      <guid>/rhd-frontend/patterns/design/graphics/</guid>
+      <guid>/patterns/design/graphics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Logos</title>
-      <link>/rhd-frontend/patterns/design/logos/</link>
+      <link>/patterns/design/logos/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:29 -0400</pubDate>
       
-      <guid>/rhd-frontend/patterns/design/logos/</guid>
+      <guid>/patterns/design/logos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>System</title>
-      <link>/rhd-frontend/patterns/design/system/</link>
+      <link>/patterns/design/system/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:29 -0400</pubDate>
       
-      <guid>/rhd-frontend/patterns/design/system/</guid>
+      <guid>/patterns/design/system/</guid>
       <description>&amp;lt;h1&amp;gt;Heading&amp;lt;/h1&amp;gt;   Heading  </description>
     </item>
     
     <item>
       <title>Background</title>
-      <link>/rhd-frontend/patterns/design/background/</link>
+      <link>/patterns/design/background/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:21 -0400</pubDate>
       
-      <guid>/rhd-frontend/patterns/design/background/</guid>
+      <guid>/patterns/design/background/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Color</title>
-      <link>/rhd-frontend/patterns/design/color/</link>
+      <link>/patterns/design/color/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:06 -0400</pubDate>
       
-      <guid>/rhd-frontend/patterns/design/color/</guid>
+      <guid>/patterns/design/color/</guid>
       <description></description>
     </item>
     
