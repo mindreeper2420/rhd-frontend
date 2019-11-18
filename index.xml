@@ -2,694 +2,712 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on RHD Front-end Code and Documentation</title>
-    <link>https://redhat-developer.github.io/rhd-frontend/</link>
+    <link>/rhd-frontend/</link>
     <description>Recent content in Home on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Aug 2017 10:56:11 -0400</lastBuildDate>
     
-	<atom:link href="https://redhat-developer.github.io/rhd-frontend/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/rhd-frontend/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Assemblies</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/assemblies/</link>
+      <link>/rhd-frontend/patterns/assemblies/assemblies/</link>
       <pubDate>Thu, 03 Aug 2017 14:58:26 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/assemblies/</guid>
+      <guid>/rhd-frontend/patterns/assemblies/assemblies/</guid>
       <description>Content with Image Has a background &amp;lt;section class=&amp;#34;assembly-dark assembly-image-left assembly assembly-type-content_with_image has-background&amp;#34; id=&amp;#34;assembly-field-sections-9285&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;assembly-content&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;clearfix text-formatted field field--name-field-content field--type-text-long field--label-hidden field__items&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;field__item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;REGISTER FOR SUMMIT!&amp;lt;/h2&amp;gt; &amp;lt;h4&amp;gt;BOSTON, MA&amp;amp;nbsp; &amp;amp;nbsp;&amp;lt;strong&amp;gt;|&amp;lt;/strong&amp;gt;&amp;amp;nbsp; &amp;amp;nbsp;MAY 7-9 2019&amp;lt;/h4&amp;gt; &amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; &amp;lt;a class=&amp;#34;button heavy-cta white&amp;#34; href=&amp;#34;https://www.redhat.com/en/summit/2019/?intcmp=701f20000012i8UAAQ&amp;#34;&amp;gt;Register Now&amp;lt;/a&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp; &amp;lt;a class=&amp;#34;button medium-cta white&amp;#34; href=&amp;#34;https://developers.redhat.com/blog/2019/03/25/dive-into-developer-focused-sessions-at-red-hat-summit/&amp;#34;&amp;gt;Learn more&amp;lt;/a&amp;gt; &amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;assembly-image&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;field field--name-field-image field--type-image field--label-hidden field__items&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;field__item&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;/sites/default/files/styles/large/public/RH_Summit_Logo_1color_reverse.png?itok=clzg_jMW&amp;#34; width=&amp;#34;445&amp;#34; height=&amp;#34;211&amp;#34; alt=&amp;#34;Summit_logo&amp;#34; typeof=&amp;#34;foaf:Image&amp;#34; class=&amp;#34;image-style-large&amp;#34;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;background&amp;#34; style=&amp;#34;background-image: url(https://developers.</description>
     </item>
     
     <item>
       <title>Home Page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/pages/home/</link>
+      <link>/rhd-frontend/pages/home/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/pages/home/</guid>
+      <guid>/rhd-frontend/pages/home/</guid>
       <description>Learn about the Developer program   Learn about Red Hat and communities       Build here    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>
       <title>Product Page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/pages/product/</link>
+      <link>/rhd-frontend/pages/product/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/pages/product/</guid>
+      <guid>/rhd-frontend/pages/product/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title>Topic Page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/pages/topic/</link>
+      <link>/rhd-frontend/pages/topic/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/pages/topic/</guid>
+      <guid>/rhd-frontend/pages/topic/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title>Node author Page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</link>
+      <link>/rhd-frontend/pages/node_author/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</guid>
+      <guid>/rhd-frontend/pages/node_author/</guid>
       <description>Burr Sutter Chief Developer Evangelist
 Red Hat&#39;s Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference.      Round image example simple round image example
   as a container class &amp;lt;div class=&#34;rhd-c-round-image&#34;&amp;gt; &amp;lt;img src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt; &amp;lt;/div&amp;gt; or as an image class &amp;lt;img class=&#34;rhd-c-round-image&#34; src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt;       </description>
     </item>
     
     <item>
+      <title>Event Schedule Table</title>
+      <link>/rhd-frontend/components/event-schedule/</link>
+      <pubDate>Tue, 29 Oct 2019 10:49:56 -0400</pubDate>
+      
+      <guid>/rhd-frontend/components/event-schedule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nav-search</title>
+      <link>/rhd-frontend/components/nav-search/</link>
+      <pubDate>Mon, 14 Oct 2019 13:40:51 -0600</pubDate>
+      
+      <guid>/rhd-frontend/components/nav-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Featured Evangelists</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/</link>
+      <link>/rhd-frontend/components/featured-evangelists/</link>
       <pubDate>Tue, 01 Oct 2019 10:28:48 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/</guid>
+      <guid>/rhd-frontend/components/featured-evangelists/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Events Hero</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/events-hero/</link>
+      <link>/rhd-frontend/components/events-hero/</link>
       <pubDate>Wed, 25 Sep 2019 10:51:50 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/events-hero/</guid>
+      <guid>/rhd-frontend/components/events-hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Curated Content</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-content/</link>
+      <link>/rhd-frontend/components/curated-content/</link>
       <pubDate>Tue, 17 Sep 2019 20:41:27 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-content/</guid>
+      <guid>/rhd-frontend/components/curated-content/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Curated Products</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-products/</link>
+      <link>/rhd-frontend/components/curated-products/</link>
       <pubDate>Thu, 12 Sep 2019 20:22:29 -0700</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-products/</guid>
+      <guid>/rhd-frontend/components/curated-products/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CTA</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/cta/</link>
+      <link>/rhd-frontend/components/cta/</link>
       <pubDate>Thu, 12 Sep 2019 15:32:54 -0700</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/cta/</guid>
+      <guid>/rhd-frontend/components/cta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Product Try-it</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/product-try-it/</link>
+      <link>/rhd-frontend/components/product-try-it/</link>
       <pubDate>Wed, 11 Sep 2019 14:57:16 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/product-try-it/</guid>
+      <guid>/rhd-frontend/components/product-try-it/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code snippet</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/code-snippet/</link>
+      <link>/rhd-frontend/components/code-snippet/</link>
       <pubDate>Wed, 11 Sep 2019 09:44:23 -0700</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/code-snippet/</guid>
+      <guid>/rhd-frontend/components/code-snippet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bonus Content Item</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/bonus-content-item/</link>
+      <link>/rhd-frontend/components/bonus-content-item/</link>
       <pubDate>Tue, 10 Sep 2019 13:38:01 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/bonus-content-item/</guid>
+      <guid>/rhd-frontend/components/bonus-content-item/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Curated links</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-links/</link>
+      <link>/rhd-frontend/components/curated-links/</link>
       <pubDate>Tue, 10 Sep 2019 12:59:11 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-links/</guid>
+      <guid>/rhd-frontend/components/curated-links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Icons</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/icons/</link>
+      <link>/rhd-frontend/components/icons/</link>
       <pubDate>Mon, 09 Sep 2019 12:45:46 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/icons/</guid>
+      <guid>/rhd-frontend/components/icons/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Footer References</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/footer/</link>
+      <link>/rhd-frontend/components/footer/</link>
       <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/footer/</guid>
+      <guid>/rhd-frontend/components/footer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Navigation References</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/navigation/</link>
+      <link>/rhd-frontend/components/navigation/</link>
       <pubDate>Mon, 26 Aug 2019 17:14:15 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/navigation/</guid>
+      <guid>/rhd-frontend/components/navigation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video Hero</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/video-hero/</link>
+      <link>/rhd-frontend/components/video-hero/</link>
       <pubDate>Fri, 16 Aug 2019 08:22:26 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/video-hero/</guid>
-      <description>Single Video Reference    Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
- Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist         Double Video Reference    Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system.</description>
+      <guid>/rhd-frontend/components/video-hero/</guid>
+      <description>Single Video Reference default 16:9     Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
+ Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist    Burr Sutter  Chief Developer Evangelist        Single Video Reference 4:3     Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system.</description>
     </item>
     
     <item>
       <title>Deprecated Dynamic Content List</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/</link>
+      <link>/rhd-frontend/components/dynamic-list/</link>
       <pubDate>Thu, 15 Aug 2019 14:30:10 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/</guid>
+      <guid>/rhd-frontend/components/dynamic-list/</guid>
       <description> Dynamic Content List </description>
     </item>
     
     <item>
       <title>Buttons and CTAs</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/btn-cta/</link>
+      <link>/rhd-frontend/components/btn-cta/</link>
       <pubDate>Wed, 14 Aug 2019 11:19:07 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/btn-cta/</guid>
-      <description>Button variations Heavy Primary Secondary (blue) Secondary (red) Secondary (black) Link button (blue)   Link button (black)     Button variations - dark background Secondary blue (dark) Secondary red (dark) Secondary black (dark) Link button   Link button     Legacy Button Styles for existing rich text content Primary / Heavy CTA Primary / Heavy CTA Blue Secondary / Medium CTA Secondary / Medium CTA Blue Secondary / Medium CTA Red   Button states Heavy CTA button styles Heavy CTA Heavy CTA active Heavy CTA focus Heavy CTA disabled  Primary button styles Primary Primary active Primary focus Primary disabled  Secondary (blue outline) button styles Secondary (blue outline) Secondary (blue outline) active Secondary (blue outline) focus Secondary (blue outline) disabled  Secondary (red outline) button styles Secondary (red outline) Secondary (red outline) active Secondary (red outline) focus Secondary (red outline) disabled  Secondary (black outline) button styles Secondary (black outline) Secondary (black outline) active Secondary (black outline) focus Secondary (black outline) disabled  Link button (default) Link button   Link button   Link button   Link button    Link button (black) Link button   Link button   Link button   Link button    Join Red Hat Developer&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Learn more</description>
+      <guid>/rhd-frontend/components/btn-cta/</guid>
+      <description>Button variations Heavy Primary Secondary (blue) Secondary (red) Secondary (black) Link button (blue)   Link button (black)      Button variations - dark background - -on-dark variants of buttons Secondary blue (dark) Secondary red (dark) Secondary black (dark) Link button   Link button      Button variations - dark background - dark class on container Secondary blue (dark) Secondary red (dark) Secondary black (dark) Link button   Link button      Legacy Button Styles for existing rich text content Primary / Heavy CTA Primary / Heavy CTA Blue Secondary / Medium CTA Secondary / Medium CTA Blue Secondary / Medium CTA Red    Legacy Button Styles for existing rich text content on dark Primary / Heavy CTA Primary / Heavy CTA Blue Secondary / Medium CTA Secondary / Medium CTA Blue Secondary / Medium CTA Red    Button states Heavy CTA button styles Heavy CTA Heavy CTA active Heavy CTA focus Heavy CTA disabled  Primary button styles Primary Primary active Primary focus Primary disabled  Secondary (blue outline) button styles Secondary (blue outline) Secondary (blue outline) active Secondary (blue outline) focus Secondary (blue outline) disabled  Secondary (red outline) button styles Secondary (red outline) Secondary (red outline) active Secondary (red outline) focus Secondary (red outline) disabled  Secondary (black outline) button styles Secondary (black outline) Secondary (black outline) active Secondary (black outline) focus Secondary (black outline) disabled  Link button (default) Link button   Link button   Link button   Link button    Link button (black) Link button   Link button   Link button   Link button     </description>
     </item>
     
     <item>
       <title>Rich Text Columns</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/rich_text_columns/</link>
+      <link>/rhd-frontend/components/rich_text_columns/</link>
       <pubDate>Sun, 23 Sep 2018 12:21:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/rich_text_columns/</guid>
+      <guid>/rhd-frontend/components/rich_text_columns/</guid>
       <description>Rich Text Column Variations</description>
     </item>
     
     <item>
       <title>Product Download Hero</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/</link>
+      <link>/rhd-frontend/components/product-download-hero/</link>
       <pubDate>Mon, 20 Aug 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/</guid>
+      <guid>/rhd-frontend/components/product-download-hero/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Product Download List</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/product-download-list/</link>
+      <link>/rhd-frontend/components/product-download-list/</link>
       <pubDate>Mon, 20 Aug 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/product-download-list/</guid>
+      <guid>/rhd-frontend/components/product-download-list/</guid>
       <description>PRODUCT DOWNLOAD LIST COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>CTA Form</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/cta_form/</link>
+      <link>/rhd-frontend/components/cta_form/</link>
       <pubDate>Tue, 14 Aug 2018 16:12:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/cta_form/</guid>
+      <guid>/rhd-frontend/components/cta_form/</guid>
       <description>Articles and Blogs
 CTA Form Variations</description>
     </item>
     
     <item>
       <title>Rich Text</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/rich_text/</link>
+      <link>/rhd-frontend/components/rich_text/</link>
       <pubDate>Tue, 14 Aug 2018 16:12:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/rich_text/</guid>
+      <guid>/rhd-frontend/components/rich_text/</guid>
       <description>Articles and Blogs
 Rich Text Variations</description>
     </item>
     
     <item>
       <title>All Products Listing Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/</link>
+      <link>/rhd-frontend/components/all-products-listing/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/</guid>
+      <guid>/rhd-frontend/components/all-products-listing/</guid>
       <description>ALL PRODUCTS LISTING COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Author Tile Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/author-tile/</link>
+      <link>/rhd-frontend/components/author-tile/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/author-tile/</guid>
+      <guid>/rhd-frontend/components/author-tile/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Card Grid Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/card-grid/</link>
+      <link>/rhd-frontend/components/card-grid/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/card-grid/</guid>
+      <guid>/rhd-frontend/components/card-grid/</guid>
       <description>CARD GRID COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Card in Gallery</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/card-html/</link>
+      <link>/rhd-frontend/components/card-html/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/card-html/</guid>
+      <guid>/rhd-frontend/components/card-html/</guid>
       <description>Card Examples Articles and Blogs Title of the article that can be two lines&amp;nbsp;  2     Title of the article&amp;nbsp;  2       Title of the article This is the article description that can go to three lines and will be followed by a footer.  2
   Title of the article This is the article description that can go to three lines and will be followed by a footer.</description>
     </item>
     
     <item>
       <title>Card in Grid</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/card/</link>
+      <link>/rhd-frontend/components/card/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/card/</guid>
+      <guid>/rhd-frontend/components/card/</guid>
       <description>Articles and Blogs
 Card Variations</description>
     </item>
     
     <item>
       <title>Collection Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/collection/</link>
+      <link>/rhd-frontend/components/collection/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/collection/</guid>
+      <guid>/rhd-frontend/components/collection/</guid>
       <description>Collection COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Comment List Card Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/</link>
+      <link>/rhd-frontend/components/comment-list-card/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/</guid>
+      <guid>/rhd-frontend/components/comment-list-card/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Curated Events (Event List)</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/curated-events/</link>
+      <link>/rhd-frontend/components/curated-events/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/curated-events/</guid>
+      <guid>/rhd-frontend/components/curated-events/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Dynamic Content Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content/</link>
+      <link>/rhd-frontend/components/dynamic-content/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content/</guid>
+      <guid>/rhd-frontend/components/dynamic-content/</guid>
       <description>DYNAMIC CONTENT COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Dynamic Content List with Comments</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content-list/</link>
+      <link>/rhd-frontend/components/dynamic-content-list/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/dynamic-content-list/</guid>
+      <guid>/rhd-frontend/components/dynamic-content-list/</guid>
       <description>DYNAMIC CONTENT LIST COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Example Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/template/</link>
+      <link>/rhd-frontend/components/template/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/template/</guid>
+      <guid>/rhd-frontend/components/template/</guid>
       <description>TEMPLATE COMPONENT
 Sample Variations</description>
     </item>
     
     <item>
       <title>Featured Article</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-article/</link>
+      <link>/rhd-frontend/components/featured-article/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-article/</guid>
+      <guid>/rhd-frontend/components/featured-article/</guid>
       <description>Featured Article
 All Variations</description>
     </item>
     
     <item>
       <title>Featured Resources</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/featured-resources/</link>
+      <link>/rhd-frontend/components/featured-resources/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/featured-resources/</guid>
+      <guid>/rhd-frontend/components/featured-resources/</guid>
       <description>Featured Resources
 All Variations</description>
     </item>
     
     <item>
       <title>Jump-to Nav</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/jump-to-nav/</link>
+      <link>/rhd-frontend/components/jump-to-nav/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/jump-to-nav/</guid>
+      <guid>/rhd-frontend/components/jump-to-nav/</guid>
       <description>JUMP-TO NAV COMPONENT
 Jump-To Nav Variations</description>
     </item>
     
     <item>
       <title>Logo Components</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/logos/</link>
+      <link>/rhd-frontend/components/logos/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/logos/</guid>
+      <guid>/rhd-frontend/components/logos/</guid>
       <description>Logo Components
 Sample Variations</description>
     </item>
     
     <item>
       <title>Stack Overflow</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/stack-overflow/</link>
+      <link>/rhd-frontend/components/stack-overflow/</link>
       <pubDate>Mon, 30 Apr 2018 13:12:43 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/stack-overflow/</guid>
+      <guid>/rhd-frontend/components/stack-overflow/</guid>
       <description>&amp;lt;div ng-app=&amp;#34;search&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34; ng-controller=&amp;#34;SearchController&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;large-24 columns&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;large-24 columns&amp;#34;&amp;gt; &amp;lt;form class=&amp;#34;search-bar&amp;#34; ng-submit=&amp;#34;updateSearch(); resetPagination();&amp;#34; role=&amp;#34;search&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;large-24 columns&amp;#34; id=&amp;#34;scrollPoint&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;large-14 columns stackoverflow-filters&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;filterByProduct&amp;#34;&amp;gt;Filter by Product&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;styled-select&amp;#34;&amp;gt; &amp;lt;select id=&amp;#34;filterByProduct&amp;#34; name=&amp;#34;filter-by-product&amp;#34; ng-change=&amp;#34;updateSearch(); resetPagination();&amp;#34; ng-model=&amp;#34;params.product&amp;#34;&amp;gt;&amp;lt;option value=&amp;#34;&amp;#34;&amp;gt;Show all&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;openjdk&amp;#34;&amp;gt;OpenJDK&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhamt&amp;#34;&amp;gt;Red Hat Application Migration Toolkit&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;cdk&amp;#34;&amp;gt;Red Hat Developer Container Kit&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;developertoolset&amp;#34;&amp;gt;Red Hat Developer Toolset&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhel&amp;#34;&amp;gt;Red Hat Enterprise Linux&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;amq&amp;#34;&amp;gt;Red Hat JBoss AMQ&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;bpmsuite&amp;#34;&amp;gt;Red Hat JBoss BPM Suite&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;brms&amp;#34;&amp;gt;Red Hat Decision Manager&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;datagrid&amp;#34;&amp;gt;Red Hat JBoss Data Grid&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;datavirt&amp;#34;&amp;gt;Red Hat JBoss Data Virtualization&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;devstudio&amp;#34;&amp;gt;Red Hat JBoss Developer Studio&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;eap&amp;#34;&amp;gt;Red Hat JBoss Enterprise Application Platform&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;fuse&amp;#34;&amp;gt;Red Hat JBoss Fuse&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;webserver&amp;#34;&amp;gt;Red Hat JBoss Web Server&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhmap&amp;#34;&amp;gt;Red Hat Mobile Application Platform&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;rhoar&amp;#34;&amp;gt;Red Hat Openshift Application Runtimes&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;openshift&amp;#34;&amp;gt;Red Hat OpenShift Container Platform&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;softwarecollections&amp;#34;&amp;gt;Red Hat Software Collections&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;#34;dotnet&amp;#34;&amp;gt;.</description>
     </item>
     
     <item>
       <title>RHDP Downloads Component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/rhdp-downloads/</link>
+      <link>/rhd-frontend/components/rhdp-downloads/</link>
       <pubDate>Thu, 19 Apr 2018 13:22:06 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/rhdp-downloads/</guid>
+      <guid>/rhd-frontend/components/rhdp-downloads/</guid>
       <description>&amp;lt;rhdp-os-download product-code=&amp;#34;rhel&amp;#34; download-url=&amp;#34;https://developers.redhat.com/download-manager/content/origin/files/sha256/60/60a0be5aeed1f08f2bb7599a578c89ec134b4016cd62a8604b29f15d543a469c/rhel-server-7.6-x86_64-dvd.iso&amp;#34; name=&amp;#34;Red Hat Enterprise Linux&amp;#34; version=&amp;#34;7.6.0&amp;#34; platform-type=&amp;#34;RHEL&amp;#34;&amp;gt;&amp;lt;/rhdp-os-download&amp;gt;     &amp;lt;rhdp-downloads-app url=&amp;#34;https://developers.redhat.com/download-manager/rest/available/rhel,eap,devstudio,fuse,datagrid,eap,webserver,cdk,devsuite,amq,brms,bpmsuite,datavirt,mobileplatform,openshift,openjdk,dotnet,migrationtoolkit?nv=1&amp;#34;&amp;gt;&amp;lt;/rhdp-downloads&amp;gt;     </description>
     </item>
     
     <item>
       <title>Alerts</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/alerts/</link>
+      <link>/rhd-frontend/components/alerts/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/alerts/</guid>
+      <guid>/rhd-frontend/components/alerts/</guid>
       <description>&amp;lt;dp-alert&amp;gt;This is the alert text&amp;lt;/dp-alert&amp;gt;   This is the alert text  &amp;lt;dp-alert heading=&amp;#34;Alert with a Heading:&amp;#34;&amp;gt;This is the alert text&amp;lt;/dp-alert&amp;gt;   This is the alert text  &amp;lt;dp-alert type=&amp;#34;success&amp;#34; heading=&amp;#34;Success Heading:&amp;#34;&amp;gt;This is the success text&amp;lt;/dp-alert&amp;gt;   This is the success text  &amp;lt;dp-alert type=&amp;#34;warning&amp;#34; heading=&amp;#34;Warning Heading:&amp;#34;&amp;gt;This is the warning text&amp;lt;/dp-alert&amp;gt;   This is the warning text  &amp;lt;dp-alert type=&amp;#34;error&amp;#34; heading=&amp;#34;Error Heading:&amp;#34;&amp;gt;This is the error text&amp;lt;/dp-alert&amp;gt;   This is the error text  &amp;lt;dp-alert type=&amp;#34;info&amp;#34; size=&amp;#34;xl&amp;#34; heading=&amp;#34;Welcome jboss.</description>
     </item>
     
     <item>
       <title>Community</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/community/</link>
+      <link>/rhd-frontend/components/community/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/community/</guid>
+      <guid>/rhd-frontend/components/community/</guid>
       <description>&amp;lt;div data-product-id=&amp;#34;fuse&amp;#34;&amp;gt; &amp;lt;rhdp-projects dcp-url=&amp;#34;https://dcp2.jboss.org/v2/rest/search/suggest_project_name_ngram_more_fields?sort=sys_title&amp;amp;amp;query=&amp;#34; upstream-product-id=&amp;#34;fuse&amp;#34;&amp;gt; &amp;lt;rhdp-project-query&amp;gt;&amp;lt;/rhdp-project-query&amp;gt; &amp;lt;rhdp-project-url&amp;gt;&amp;lt;/rhdp-project-url&amp;gt; &amp;lt;/rhdp-projects&amp;gt; &amp;lt;/div&amp;gt;        </description>
     </item>
     
     <item>
       <title>Referrer</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/referrer/</link>
+      <link>/rhd-frontend/components/referrer/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/referrer/</guid>
+      <guid>/rhd-frontend/components/referrer/</guid>
       <description>Add JBD Referrer
 &amp;lt;dp-referrer&amp;gt;&amp;lt;/dp-referrer&amp;gt;     </description>
     </item>
     
     <item>
       <title>Expandable Groups</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/expandable-groups/</link>
+      <link>/rhd-frontend/components/expandable-groups/</link>
       <pubDate>Fri, 13 Apr 2018 03:00:54 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/expandable-groups/</guid>
+      <guid>/rhd-frontend/components/expandable-groups/</guid>
       <description>&amp;lt;dp-category-list&amp;gt; &amp;lt;dp-category name=&amp;#34;Application Automation&amp;#34; image=&amp;#34;/rhd-frontend/img/Icon_RH_Automation.svg&amp;#34;&amp;gt; &amp;lt;dp-category-item-list&amp;gt; &amp;lt;dp-category-item&amp;gt; &amp;lt;dp-product-short-teaser name=&amp;#34;Red Hat Decision Manager&amp;#34; link=&amp;#34;/products/red-hat-decision-manager&amp;#34; download-link=&amp;#34;/products/red-hat-decision-manager/download&amp;#34;&amp;gt; A programming platform to easily capture and maintain rules for business changes, without impacting static applications. &amp;lt;/dp-product-short-teaser&amp;gt; &amp;lt;/dp-category-item&amp;gt; &amp;lt;dp-category-item&amp;gt; &amp;lt;dp-product-short-teaser name=&amp;#34;Red Hat JBoss BPM Suite&amp;#34; link=&amp;#34;/products/bpmsuite&amp;#34; download-link=&amp;#34;/products/bpmsuite/download&amp;#34; &amp;gt; A platform that combines business rules and process management (BPM), and complex event processing. &amp;lt;/dp-product-short-teaser&amp;gt; &amp;lt;/dp-category-item&amp;gt; &amp;lt;/dp-category-item-list&amp;gt; &amp;lt;/dp-category&amp;gt; &amp;lt;dp-category name=&amp;#34;Application Integration&amp;#34; image=&amp;#34;/rhd-frontend/img/Icon_RH_Object_Gear-Group_RGB_Flat.svg&amp;#34;&amp;gt; &amp;lt;dp-category-item-list&amp;gt; &amp;lt;dp-category-item&amp;gt; &amp;lt;dp-product-short-teaser name=&amp;#34;Red Hat AMQ&amp;#34; link=&amp;#34;/products/amq&amp;#34; download-link=&amp;#34;/products/amq/download&amp;#34;&amp;gt; A small-footprint, performant, robust messaging platform that enables real-time app, device, and service integration.</description>
     </item>
     
     <item>
       <title>Onebox</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/onebox/</link>
+      <link>/rhd-frontend/components/onebox/</link>
       <pubDate>Wed, 23 Aug 2017 22:56:37 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/onebox/</guid>
+      <guid>/rhd-frontend/components/onebox/</guid>
       <description>&amp;lt;dp-search-onebox url=&amp;#34;../../json/onebox.json&amp;#34; term=&amp;#34;fuse&amp;#34;&amp;gt;&amp;lt;/dp-search-onebox&amp;gt;     </description>
     </item>
     
     <item>
       <title>&#39;Old&#39; Search</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/search-old/</link>
+      <link>/rhd-frontend/components/search-old/</link>
       <pubDate>Wed, 23 Aug 2017 22:25:45 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/search-old/</guid>
+      <guid>/rhd-frontend/components/search-old/</guid>
       <description>&amp;lt;rhdp-search-app url=&amp;#34;https://dcp2.jboss.org/v2/rest/search/developer_materials&amp;#34;&amp;gt;&amp;lt;/rhdp-search-app&amp;gt;     </description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/components/search/</link>
+      <link>/rhd-frontend/components/search/</link>
       <pubDate>Wed, 23 Aug 2017 22:25:45 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/components/search/</guid>
+      <guid>/rhd-frontend/components/search/</guid>
       <description>&amp;lt;dp-search-app url=&amp;#34;https://dcp2.jboss.org/v2/rest/search/developer_materials&amp;#34;&amp;gt; &amp;lt;dp-search-box slot=&amp;#34;query&amp;#34;&amp;gt;&amp;lt;/dp-search-box&amp;gt; &amp;lt;dp-search-filters title=&amp;#34;Filter By&amp;#34; slot=&amp;#34;filters&amp;#34;&amp;gt; &amp;lt;dp-search-filter-group name=&amp;#34;CONTENT TYPE&amp;#34; name=&amp;#34;type&amp;#34;&amp;gt; &amp;lt;!-- &amp;lt;dp-search-filter-item group=&amp;#34;type&amp;#34; key=&amp;#34;topic_page&amp;#34; value=&amp;#34;topic_page&amp;#34; name=&amp;#34;Topic&amp;#34;&amp;gt;Topic&amp;lt;/dp-search-filter-item&amp;gt; --&amp;gt; &amp;lt;dp-search-filter-item group=&amp;#34;type&amp;#34; key=&amp;#34;article&amp;#34; value=&amp;#34;article&amp;#34; name=&amp;#34;Articles&amp;#34;&amp;gt;Articles&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;!-- &amp;lt;dp-search-filter-item group=&amp;#34;type&amp;#34; key=&amp;#34;product&amp;#34; value=&amp;#34;product&amp;#34; name=&amp;#34;Product&amp;#34;&amp;gt;Product&amp;lt;/dp-search-filter-item&amp;gt; --&amp;gt; &amp;lt;dp-search-filter-item group=&amp;#34;type&amp;#34; key=&amp;#34;books&amp;#34; value=&amp;#34;books&amp;#34; name=&amp;#34;Books&amp;#34;&amp;gt;Books&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item group=&amp;#34;type&amp;#34; key=&amp;#34;video_resource&amp;#34; value=&amp;#34;video_resource&amp;#34; name=&amp;#34;Videos&amp;#34;&amp;gt;Videos&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item group=&amp;#34;type&amp;#34; key=&amp;#34;katacoda&amp;#34; value=&amp;#34;katacoda_course,katacoda_individual_lesson&amp;#34; name=&amp;#34;Interactive Tutorials&amp;#34;&amp;gt;Interactive Tutorials&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;!-- &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;katacoda_individual_lesson&amp;#34; value=&amp;#34;katacoda_individual_lesson&amp;#34; name=&amp;#34;Katacoda Individual Lesson&amp;#34;&amp;gt;Katacoda Individual Lesson&amp;lt;/dp-search-filter-item&amp;gt; --&amp;gt; &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;cheat_sheet&amp;#34; value=&amp;#34;cheat_sheet&amp;#34; name=&amp;#34;Cheat Sheet&amp;#34;&amp;gt;Cheat Sheet&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;coding_resource&amp;#34; value=&amp;#34;coding_resource&amp;#34; name=&amp;#34;Coding Resource&amp;#34;&amp;gt;Coding Resource&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;webpage&amp;#34; value=&amp;#34;webpage&amp;#34; name=&amp;#34;Webpage&amp;#34;&amp;gt;Webpage&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;assembly_page&amp;#34; value=&amp;#34;assembly_page&amp;#34; name=&amp;#34;New Assembly Page&amp;#34;&amp;gt;New Assembly Page&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;author&amp;#34; value=&amp;#34;author&amp;#34; name=&amp;#34;Author&amp;#34;&amp;gt;Author&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;dp-search-filter-item slot=&amp;#34;secondary&amp;#34; group=&amp;#34;type&amp;#34; key=&amp;#34;learning_path&amp;#34; value=&amp;#34;learning_path&amp;#34; name=&amp;#34;Learning Guides&amp;#34;&amp;gt;Learning Guides&amp;lt;/dp-search-filter-item&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
       <title>Assemblies Page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/pages/assemblies/</link>
+      <link>/rhd-frontend/pages/assemblies/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/pages/assemblies/</guid>
+      <guid>/rhd-frontend/pages/assemblies/</guid>
       <description>Browse by product name    .NET Core Compilers: Clang/LLVM, Go, Rust Red Hat 3scale API Management Red Hat AMQ Red Hat Application Migration Toolkit Red Hat CodeReady Studio Red Hat CodeReady Toolchain Red Hat CodeReady Workspaces Red Hat Container Development Kit Red Hat Data Grid Red Hat Decision Manager Red Hat Developer Toolset Red Hat Enterprise Linux Red Hat Enterprise Linux for SAP Solutions Red Hat Fuse Red Hat JBoss Data Virtualization Red Hat JBoss Enterprise Application Platform Red Hat JBoss Web Server Red Hat Mobile Application Platform Red Hat OpenJDK Red Hat OpenShift Application Runtimes Red Hat OpenShift Cloud Functions Red Hat OpenShift Container Platform Red Hat Process Automation Manager Red Hat Software Collections VS Code Extensions   Title for Collection Assembly   Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Pagination Current page1  Page2  Page3  Page4  Page5  Page6  Next page Next ›   Last page Last »       Join us for our next live developer tech talk.</description>
     </item>
     
     <item>
       <title>Katacoda Page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
+      <link>/rhd-frontend/pages/katacoda/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</guid>
+      <guid>/rhd-frontend/pages/katacoda/</guid>
       <description>Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
  Burr Sutter  Chief Developer Evangelist       Introduction to Istio Service Mesh A service mesh provides traffic monitoring, access control, discovery, security, resiliency, and other useful things to a group of services.</description>
     </item>
     
     <item>
       <title>Typography</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</link>
+      <link>/rhd-frontend/patterns/design/typography/</link>
       <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/</guid>
+      <guid>/rhd-frontend/patterns/design/typography/</guid>
       <description>section { margin: 0 32px; } table { width: 100%; background-color: #fff; } table thead tr th { text-align: left; } tr { border-bottom: 1px solid #d7d7d7; } table tbody tr { background-color: #fff; } table thead tr th, table tbody tr td { padding: 16px 0 16px 16px; }  Our font family We use the open source Red Hat Text and Red Hat Display fonts. Header XL    Font family Font size Font weight Line height Class + Modifier Viewport size     RedHatDisplay 40px 300 53 .</description>
     </item>
     
     <item>
       <title>CSS Variables</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/css-variables/</link>
+      <link>/rhd-frontend/patterns/code/css-variables/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/code/css-variables/</guid>
+      <guid>/rhd-frontend/patterns/code/css-variables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>All Product Listing</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/all-product-listing/</link>
+      <link>/rhd-frontend/patterns/assemblies/all-product-listing/</link>
       <pubDate>Fri, 13 Apr 2018 02:45:06 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/all-product-listing/</guid>
+      <guid>/rhd-frontend/patterns/assemblies/all-product-listing/</guid>
       <description>&amp;lt;div class=&amp;#34;view-content grid all-products-listing&amp;#34; data-rhd-grid=&amp;#34;normal&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/dotnet/overview&amp;#34;&amp;gt;.NET Core 2.0&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/devsuite/overview&amp;#34;&amp;gt;Red Hat Development Suite&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/cdk/overview&amp;#34;&amp;gt;Red Hat Container Development Kit&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/devstudio/overview&amp;#34;&amp;gt;Red Hat JBoss Developer Studio&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/openshift/overview&amp;#34;&amp;gt;Red Hat OpenShift Container Platform&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/red-hat-decision-manager/overview&amp;#34;&amp;gt;Red Hat Decision Manager&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/bpmsuite/overview&amp;#34;&amp;gt;Red Hat JBoss BPM Suite&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/amq/overview&amp;#34;&amp;gt;Red Hat AMQ&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/softwarecollections/overview&amp;#34;&amp;gt;Red Hat Software Collections&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/eap/overview&amp;#34;&amp;gt;Red Hat JBoss Enterprise Application Platform&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/datagrid/overview&amp;#34;&amp;gt;Red Hat JBoss Data Grid&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/webserver/overview&amp;#34;&amp;gt;Red Hat JBoss Web Server&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/rhel/overview&amp;#34;&amp;gt;Red Hat Enterprise Linux&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/datavirt/overview&amp;#34;&amp;gt;Red Hat JBoss Data Virtualization&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/fuse/overview&amp;#34;&amp;gt;Red Hat JBoss Fuse&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/mobileplatform/overview&amp;#34;&amp;gt;Red Hat Mobile Application Platform&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/openjdk/overview&amp;#34;&amp;gt;OpenJDK&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/developertoolset/overview&amp;#34;&amp;gt;Red Hat Developer Toolset&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/rhamt/overview&amp;#34;&amp;gt;Red Hat Application Migration Toolkit&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/rhoar/overview&amp;#34;&amp;gt;Red Hat OpenShift Application Runtimes&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/clang-llvm-go-rust/overview&amp;#34;&amp;gt;Compilers: Clang/LLVM, Go, Rust&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;views-row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;views-field views-field-title&amp;#34;&amp;gt;&amp;lt;span class=&amp;#34;field-content&amp;#34;&amp;gt;&amp;lt;a href=&amp;#34;/products/sap/overview&amp;#34;&amp;gt;Red Hat Enterprise Linux for SAP Solutions&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;    .</description>
     </item>
     
     <item>
       <title>Featured Products</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/featured_products/</link>
+      <link>/rhd-frontend/patterns/assemblies/featured_products/</link>
       <pubDate>Fri, 13 Apr 2018 00:18:55 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/featured_products/</guid>
+      <guid>/rhd-frontend/patterns/assemblies/featured_products/</guid>
       <description>&amp;lt;section data-quickedit-entity-id=&amp;#34;assembly/29&amp;#34; id=&amp;#34;assembly-field-sections-29&amp;#34; class=&amp;#34;assembly assembly-type-featured_products&amp;#34; data-quickedit-entity-instance-id=&amp;#34;0&amp;#34;&amp;gt; &amp;lt;h2 data-quickedit-field-id=&amp;#34;assembly/29/field_title/en/default&amp;#34; class=&amp;#34;field field--name-field-title field--type-string field--label-hidden field__item&amp;#34;&amp;gt;Featured Products&amp;lt;/h2&amp;gt; &amp;lt;article data-quickedit-entity-id=&amp;#34;node/33805&amp;#34; role=&amp;#34;article&amp;#34; class=&amp;#34;contextual-region node node--type-product node--view-mode-featured-tile&amp;#34; about=&amp;#34;/node/33805&amp;#34; data-quickedit-entity-instance-id=&amp;#34;0&amp;#34;&amp;gt; &amp;lt;h2&amp;gt; &amp;lt;a href=&amp;#34;/node/33805&amp;#34; rel=&amp;#34;bookmark&amp;#34;&amp;gt;&amp;lt;span data-quickedit-field-id=&amp;#34;node/33805/title/en/featured_tile&amp;#34; class=&amp;#34;field field--name-title field--type-string field--label-hidden quickedit-field&amp;#34;&amp;gt;Red Hat OpenShift Container Platform&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/h2&amp;gt; &amp;lt;div class=&amp;#34;node__content&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;description field field--name-field-short-description field--type-string-long field--label-hidden field__items quickedit-field&amp;#34; data-quickedit-field-id=&amp;#34;node/33805/field_short_description/en/featured_tile&amp;#34;&amp;gt; An open, hybrid Platform-as-a-Service (PaaS) to quickly develop, host, scale, and deliver apps in the cloud. &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/article&amp;gt; &amp;lt;article data-quickedit-entity-id=&amp;#34;node/47235&amp;#34; role=&amp;#34;article&amp;#34; class=&amp;#34;contextual-region node node--type-product node--view-mode-featured-tile&amp;#34; about=&amp;#34;/node/47235&amp;#34; data-quickedit-entity-instance-id=&amp;#34;0&amp;#34;&amp;gt; &amp;lt;h2&amp;gt; &amp;lt;a href=&amp;#34;/node/47235&amp;#34; rel=&amp;#34;bookmark&amp;#34;&amp;gt;&amp;lt;span data-quickedit-field-id=&amp;#34;node/47235/title/en/featured_tile&amp;#34; class=&amp;#34;field field--name-title field--type-string field--label-hidden quickedit-field&amp;#34;&amp;gt;Red Hat OpenShift Application Runtimes&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/h2&amp;gt; &amp;lt;div class=&amp;#34;node__content&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;description field field--name-field-short-description field--type-string-long field--label-hidden field__items quickedit-field&amp;#34; data-quickedit-field-id=&amp;#34;node/47235/field_short_description/en/featured_tile&amp;#34;&amp;gt; Cloud native application runtimes optimized for OpenShift.</description>
     </item>
     
     <item>
       <title>Home Page Layout</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/layout/home/</link>
+      <link>/rhd-frontend/patterns/layout/home/</link>
       <pubDate>Wed, 04 Oct 2017 08:06:49 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/layout/home/</guid>
+      <guid>/rhd-frontend/patterns/layout/home/</guid>
       <description>&amp;lt;a class=&amp;#34;spotlight-item dotnet-spotlight&amp;#34; href=&amp;#34;https://developers.redhat.com/blog/?p=438176&amp;#34;&amp;gt;.NET Core for RHEL and the OpenShift Container Platform.&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;spotlight-item&amp;#34; href=&amp;#34;https://developers.redhat.com/blog/?p=438176&amp;#34;&amp;gt;.NET Core for RHEL and the OpenShift Container Platform.&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;spotlight-item&amp;#34; href=&amp;#34;https://developers.redhat.com/blog/?p=438176&amp;#34;&amp;gt;.NET Core for RHEL and the OpenShift Container Platform.&amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;spotlight-item&amp;#34; href=&amp;#34;https://developers.redhat.com/blog/?p=438176&amp;#34;&amp;gt;.NET Core for RHEL and the OpenShift Container Platform.&amp;lt;/a&amp;gt;    .NET Core for RHEL and the OpenShift Container Platform. .NET Core for RHEL and the OpenShift Container Platform. .NET Core for RHEL and the OpenShift Container Platform.</description>
     </item>
     
     <item>
       <title>TS - TypeScript</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/ts/</link>
+      <link>/rhd-frontend/patterns/code/ts/</link>
       <pubDate>Fri, 18 Aug 2017 15:15:45 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/code/ts/</guid>
+      <guid>/rhd-frontend/patterns/code/ts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML - Hypertext Markup Language</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/html/</link>
+      <link>/rhd-frontend/patterns/code/html/</link>
       <pubDate>Thu, 03 Aug 2017 15:06:55 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/code/html/</guid>
+      <guid>/rhd-frontend/patterns/code/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS - Cascading Stylesheets</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/css/</link>
+      <link>/rhd-frontend/patterns/code/css/</link>
       <pubDate>Thu, 03 Aug 2017 15:06:49 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/code/css/</guid>
+      <guid>/rhd-frontend/patterns/code/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JS - JavaScript</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/code/js/</link>
+      <link>/rhd-frontend/patterns/code/js/</link>
       <pubDate>Thu, 03 Aug 2017 15:06:41 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/code/js/</guid>
+      <guid>/rhd-frontend/patterns/code/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accessibility (a11y)</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/a11y/</link>
+      <link>/rhd-frontend/patterns/misc/a11y/</link>
       <pubDate>Thu, 03 Aug 2017 15:05:58 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/a11y/</guid>
+      <guid>/rhd-frontend/patterns/misc/a11y/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Elements</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/interactive/</link>
+      <link>/rhd-frontend/patterns/misc/interactive/</link>
       <pubDate>Thu, 03 Aug 2017 15:05:26 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/interactive/</guid>
+      <guid>/rhd-frontend/patterns/misc/interactive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Notifications</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/content/notifications/</link>
+      <link>/rhd-frontend/patterns/content/notifications/</link>
       <pubDate>Thu, 03 Aug 2017 15:04:51 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/content/notifications/</guid>
+      <guid>/rhd-frontend/patterns/content/notifications/</guid>
       <description>Alerts Information &amp;lt;div class=&amp;#34;alert-box alert-info&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;icon&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert-content&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Info:&amp;lt;/strong&amp;gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, per id case aliquam expetenda.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;     Info:Lorem ipsum dolor sit amet, per id case aliquam expetenda.
    Success &amp;lt;div class=&amp;#34;alert-box alert-success&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;icon&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert-content&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Success:&amp;lt;/strong&amp;gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, per id case aliquam expetenda.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;     Success:Lorem ipsum dolor sit amet, per id case aliquam expetenda.</description>
     </item>
     
     <item>
       <title>Style</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/content/style/</link>
+      <link>/rhd-frontend/patterns/content/style/</link>
       <pubDate>Thu, 03 Aug 2017 15:04:33 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/content/style/</guid>
+      <guid>/rhd-frontend/patterns/content/style/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Handshakes, Log In, and Registration</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/handoffs/</link>
+      <link>/rhd-frontend/patterns/misc/handoffs/</link>
       <pubDate>Thu, 03 Aug 2017 15:03:56 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/handoffs/</guid>
+      <guid>/rhd-frontend/patterns/misc/handoffs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/links/</link>
+      <link>/rhd-frontend/patterns/misc/links/</link>
       <pubDate>Thu, 03 Aug 2017 15:03:17 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/links/</guid>
+      <guid>/rhd-frontend/patterns/misc/links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphics</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/graphics/</link>
+      <link>/rhd-frontend/patterns/design/graphics/</link>
       <pubDate>Thu, 03 Aug 2017 14:57:35 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/graphics/</guid>
+      <guid>/rhd-frontend/patterns/design/graphics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Responsive Grid</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/layout/grid/</link>
+      <link>/rhd-frontend/patterns/layout/grid/</link>
       <pubDate>Thu, 03 Aug 2017 14:22:23 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/layout/grid/</guid>
-      <description>&amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;&amp;#34; style=&amp;#34;padding: 1em; background-color:orange; height: 50px;&amp;#34;&amp;gt; No Column Width &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;   No Column Width    &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-m-6-col pf-m-offset-6-col&amp;#34; style=&amp;#34;padding: 1em; background-color:orange; height: 50px;&amp;#34;&amp;gt; Static Column Width: 6 &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;   Static Column Width: 6    &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-m-10-col-on-lg pf-m-offset-2-col-on-lg&amp;#34; style=&amp;#34;padding: 1em; background-color:red; height: 50px;&amp;#34;&amp;gt; Dynamic Column Width: 10 &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;   Dynamic Column Width: 10    &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-m-8-col-on-lg pf-m-offset-4-col-on-lg&amp;#34; style=&amp;#34;padding: 1em; background-color:green; height: 50px;&amp;#34;&amp;gt; Dynamic Column Width: 8 &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;   Dynamic Column Width: 8    &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-m-6-col-on-lg pf-m-offset-5-col-on-lg&amp;#34; style=&amp;#34;padding: 1em; background-color:blue; height: 50px;&amp;#34;&amp;gt; Dynamic Column Width: 6 &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;   Dynamic Column Width: 6    &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid pf-m-gutter pf-m-all-6-col&amp;#34; style=&amp;#34;padding:var(--pf-theme--container-spacer);&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div style=&amp;#34;background: #EEE;&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;padding:var(--pf-theme--container-spacer);&amp;#34;&amp;gt;No Column Width&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div style=&amp;#34;background: #EEE;&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;padding: 16px;&amp;#34;&amp;gt;No Column Width&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div style=&amp;#34;background: #EEE;&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;padding: 16px;&amp;#34;&amp;gt;No Column Width&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;    No Column Width    No Column Width    No Column Width      &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid pf-m-gutter pf-m-all-4-col&amp;#34; style=&amp;#34;background-color:orange;padding:var(--pf-theme--container-spacer);&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div style=&amp;#34;background: #EEE;&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;padding: 16px;&amp;#34;&amp;gt;No Column Width&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div style=&amp;#34;background: #EEE;&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;padding: 16px;&amp;#34;&amp;gt;No Column Width&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div style=&amp;#34;background: #EEE;&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;padding: 16px;&amp;#34;&amp;gt;No Column Width&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;    No Column Width    No Column Width    No Column Width      </description>
+      <guid>/rhd-frontend/patterns/layout/grid/</guid>
+      <description>nav.pf-c-nav.jump-nav { position: sticky; top: 0; background-color: #fff; margin-bottom: 25px; } .pf-l-grid  * { border: 1px dashed #000; font-weight: 700; padding: 1em; } hr { margin: 3em 0; }   Base grid    Base grid with gutters    Smart grid    Row span    Example     Base grid &amp;lt;section class=&amp;#34;pf-l-grid&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-12-col&amp;#34;&amp;gt;12 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-11-col&amp;#34;&amp;gt;11 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-1-col&amp;#34;&amp;gt;1 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-10-col&amp;#34;&amp;gt;10 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt;2 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-9-col&amp;#34;&amp;gt;9 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-3-col&amp;#34;&amp;gt;3 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-8-col&amp;#34;&amp;gt;8 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col&amp;#34;&amp;gt;4 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-7-col&amp;#34;&amp;gt;7 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-5-col&amp;#34;&amp;gt;5 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-6-col&amp;#34;&amp;gt;6 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-6-col&amp;#34;&amp;gt;6 col&amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;    12 col 11 col1 col 10 col2 col 9 col3 col 8 col4 col 7 col5 col 6 col6 col    Base grid with gutters &amp;lt;section class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-12-col&amp;#34;&amp;gt;12 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-11-col&amp;#34;&amp;gt;11 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-1-col&amp;#34;&amp;gt;1 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-10-col&amp;#34;&amp;gt;10 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt;2 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-9-col&amp;#34;&amp;gt;9 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-3-col&amp;#34;&amp;gt;3 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-8-col&amp;#34;&amp;gt;8 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col&amp;#34;&amp;gt;4 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-7-col&amp;#34;&amp;gt;7 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-5-col&amp;#34;&amp;gt;5 col&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-6-col&amp;#34;&amp;gt;6 col&amp;lt;/div&amp;gt;&amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-6-col&amp;#34;&amp;gt;6 col&amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;    12 col 11 col1 col 10 col2 col 9 col3 col 8 col4 col 7 col5 col 6 col6 col    Smart grid &amp;lt;div class=&amp;#34;pf-l-grid pf-m-all-6-col-on-sm pf-m-all-4-col-on-md pf-m-all-2-col-on-lg pf-m-all-1-col-on-xl&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 1 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 2 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 3 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 4 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 5 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 6 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 7 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 8 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 9 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 10 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 11 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item&amp;#34;&amp;gt; item 12 &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;    item 1  item 2  item 3  item 4  item 5  item 6  item 7  item 8  item 9  item 10  item 11  item 12     Row span &amp;lt;div class=&amp;#34;pf-l-grid pf-m-gutter&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-8-col&amp;#34;&amp;gt; 8 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col pf-m-2-row&amp;#34;&amp;gt; 4 col, 2 row &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col pf-m-3-row&amp;#34;&amp;gt; 2 col, 3 row &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt; 2 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col&amp;#34;&amp;gt; 4 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt; 2 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt; 2 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt; 2 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col&amp;#34;&amp;gt; 4 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-2-col&amp;#34;&amp;gt; 2 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col&amp;#34;&amp;gt; 4 col &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-4-col&amp;#34;&amp;gt; 4 col &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;    8 col  4 col, 2 row  2 col, 3 row  2 col  4 col  2 col  2 col  2 col  4 col  2 col  4 col  4 col     Example &amp;lt;div class=&amp;#34;pf-l-grid&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-12-col pf-m-6-col-on-md&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;pf-l-grid__item pf-m-12-col pf-u-mx-auto pf-u-my-0&amp;#34;&amp;gt; &amp;lt;img src=&amp;#34;https://via.</description>
     </item>
     
     <item>
       <title>Logos</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/logos/</link>
+      <link>/rhd-frontend/patterns/design/logos/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:29 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/logos/</guid>
+      <guid>/rhd-frontend/patterns/design/logos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>System</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/system/</link>
+      <link>/rhd-frontend/patterns/design/system/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:29 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/system/</guid>
+      <guid>/rhd-frontend/patterns/design/system/</guid>
       <description>&amp;lt;h1&amp;gt;Heading&amp;lt;/h1&amp;gt;   Heading  </description>
     </item>
     
     <item>
       <title>Background</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/background/</link>
+      <link>/rhd-frontend/patterns/design/background/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:21 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/background/</guid>
+      <guid>/rhd-frontend/patterns/design/background/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Color</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/design/color/</link>
+      <link>/rhd-frontend/patterns/design/color/</link>
       <pubDate>Thu, 03 Aug 2017 14:11:06 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/design/color/</guid>
+      <guid>/rhd-frontend/patterns/design/color/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Box Model Properties</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/layout/boxmodel/</link>
+      <link>/rhd-frontend/patterns/layout/boxmodel/</link>
       <pubDate>Thu, 03 Aug 2017 14:10:42 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/layout/boxmodel/</guid>
+      <guid>/rhd-frontend/patterns/layout/boxmodel/</guid>
       <description></description>
     </item>
     

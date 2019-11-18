@@ -1,7 +1,7 @@
 (function (factory) {
     typeof define === 'function' && define.amd ? define(factory) :
     factory();
-}(function () { 'use strict';
+}((function () { 'use strict';
 
     var __extends = (undefined && undefined.__extends) || (function () {
         var extendStatics = function (d, b) {
@@ -2144,4 +2144,4 @@
     new RHDPSearchSortPage();
     new RHDPSearchURL();
 
-}));
+})));

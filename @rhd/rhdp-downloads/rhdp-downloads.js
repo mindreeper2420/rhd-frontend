@@ -1,7 +1,7 @@
 (function (factory) {
     typeof define === 'function' && define.amd ? define(factory) :
     factory();
-}(function () { 'use strict';
+}((function () { 'use strict';
 
     var __extends = (undefined && undefined.__extends) || (function () {
         var extendStatics = function (d, b) {
@@ -29,13 +29,13 @@
             _this._winURL = "";
             _this.stage_download_url = 'https://developers.stage.redhat.com';
             _this.productDownloads = {
-                "cdk": { "windowsUrl": "/download-manager/file/cdk-3.5.0-1-minishift-windows-amd64.exe", "macUrl": "/download-manager/file/cdk-3.5.0-1-minishift-darwin-amd64", "rhelUrl": "/download-manager/file/cdk-3.5.0-1-minishift-linux-amd64" }
+                "cdk": { "windowsUrl": "/download-manager/file/cdk-3.10.0-1-minishift-windows-amd64.exe", "macUrl": "/download-manager/file/cdk-3.10.0-1-minishift-darwin-amd64", "rhelUrl": "/download-manager/file/cdk-3.10.0-1-minishift-linux-amd64" }
             };
             _this.template = function (strings, product, downloadUrl, platform, version) {
-                return "<div class=\"large-8 columns download-link\">\n                    <a class=\"button heavy-cta\" href=\"" + downloadUrl + "\">\n                        <i class=\"fa fa-download\"></i> Download</a>\n                    <div class=\"version-name\">" + product + " " + version + " " + (_this.displayOS ? "for " + platform : '') + "</div>\n                </div>\n                ";
+                return "<div class=\"large-8 columns download-link\">\n                    <a class=\"button heavy-cta\" href=\"" + downloadUrl + "\">\n                        <i class=\"fa fa-download\"></i> Download</a>\n                    <div class=\"version-name\">\n                        <span id=\"rhdp-os-dl-product\">" + product + "</span> \n                        <span id=\"rhdp-os-dl-version\">" + version + "</span> \n                        <span id=\"rhdp-os-dl-os\">" + (_this.displayOS ? "for <span id=\"rhdp-os-dl-platform\">" + platform + "</span></span>" : '') + "\n                    </div>\n                </div>\n                ";
             };
             _this.downloadsTemplate = function (strings, product, downloadUrl, platform, version) {
-                return "<div class=\"large-8 columns download-link\">\n                    <a class=\"button heavy-cta\" href=\"" + downloadUrl + "\">\n                        <i class=\"fa fa-download\"></i> Download</a>\n                    <div class=\"version-name\">" + product + " " + version + " " + (_this.displayOS ? "for " + platform : '') + "</div>\n                </div>\n                ";
+                return "<div class=\"large-8 columns download-link\">\n                    <a class=\"button heavy-cta\" href=\"" + downloadUrl + "\">\n                        <i class=\"fa fa-download\"></i> Download</a>\n                    <div class=\"version-name\">\n                        <span id=\"rhdp-os-dl-product\">" + product + "</span> \n                        <span id=\"rhdp-os-dl-version\">" + version + "</span> \n                        " + (_this.displayOS ? "for <span id=\"rhdp-os-dl-platform\">" + platform + "</span>" : '') + "\n                    </div>\n                </div>\n                ";
             };
             return _this;
         }
@@ -61,6 +61,7 @@
                     return;
                 this._productCode = value;
                 this.setAttribute('product-code', this._productCode);
+                this.render();
             },
             enumerable: true,
             configurable: true
@@ -74,6 +75,7 @@
                     return;
                 this._platformType = value;
                 this.setAttribute('platform-type', this._platformType);
+                this.render();
             },
             enumerable: true,
             configurable: true
@@ -126,6 +128,7 @@
                     return;
                 this._winURL = value;
                 this.setAttribute('windows-download', this._winURL);
+                this.render();
             },
             enumerable: true,
             configurable: true
@@ -139,6 +142,7 @@
                     return;
                 this._productName = value;
                 this.setAttribute('name', this._productName);
+                this.render();
             },
             enumerable: true,
             configurable: true
@@ -152,6 +156,7 @@
                     return;
                 this._version = value;
                 this.setAttribute('version', this._version);
+                this.render();
             },
             enumerable: true,
             configurable: true
@@ -165,6 +170,7 @@
                     return;
                 this._displayOS = value;
                 this.setAttribute('display-os', this._displayOS);
+                this.render();
             },
             enumerable: true,
             configurable: true
@@ -172,17 +178,27 @@
         RHDPOSDownload.prototype.connectedCallback = function () {
             this.platformType = this.getUserAgent();
             this.setDownloadURLByPlatform();
-            this.innerHTML = this.template(templateObject_1 || (templateObject_1 = __makeTemplateObject(["", "", "", "", ""], ["", "", "", "", ""])), this.productName, this.downloadURL, this.platformType, this.version);
+            this.render();
         };
         Object.defineProperty(RHDPOSDownload, "observedAttributes", {
             get: function () {
-                return ['product-code', 'platform-type', 'download-url', 'name'];
+                return ['product-code', 'platform-type', 'download-url', 'name', 'version'];
             },
             enumerable: true,
             configurable: true
         });
         RHDPOSDownload.prototype.attributeChangedCallback = function (name, oldVal, newVal) {
-            this[name] = newVal;
+            var m = {
+                'product-code': 'productCode',
+                'platform-type': 'platformType',
+                'download-url': 'downloadURL',
+                'name': 'productName',
+                'version': 'version'
+            };
+            this[m[name]] = newVal;
+        };
+        RHDPOSDownload.prototype.render = function () {
+            this.innerHTML = this.template(templateObject_1 || (templateObject_1 = __makeTemplateObject(["", "", "", "", ""], ["", "", "", "", ""])), this.productName, this.downloadURL, this.platformType, this.version);
         };
         RHDPOSDownload.prototype.getUserAgent = function () {
             var OSName = "Windows";
@@ -232,9 +248,7 @@
         };
         return RHDPOSDownload;
     }(HTMLElement));
-    window.addEventListener('WebComponentsReady', function () {
-        customElements.define('rhdp-os-download', RHDPOSDownload);
-    });
+    customElements.define('rhdp-os-download', RHDPOSDownload);
     var templateObject_1;
 
     var __extends$1 = (undefined && undefined.__extends) || (function () {
@@ -991,4 +1005,4 @@
     new RHDPDownloadsPopularProducts();
     new RHDPDownloadsProducts();
 
-}));
+})));

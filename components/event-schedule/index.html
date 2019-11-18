@@ -1,0 +1,279 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+Event Schedule Table – RHD Front-end Code and Documentation
+</title>
+    <link rel="stylesheet" href="/rhd-frontend/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="/rhd-frontend/rhd-frontend/css/rhd.legacy.css">
+    <link rel="stylesheet" href="/rhd-frontend/css/prism-ghcolors.css">
+    <script src="/rhd-frontend/js/base.js"></script>
+    <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.min.js"></script>
+
+  </head>
+  <body class="pf-m-redhat-font">
+    <div class="pf-c-page" id="page-layout-grouped-nav">
+      <header role="banner" class="pf-c-page__header" style="z-index: 100;">
+  <div class="pf-c-page__header-brand">
+    <a class="pf-c-page__header-brand-link" href="/rhd-frontend/">
+      <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
+    </a>
+  </div>
+  <div class="pf-c-page__header-nav">
+    <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
+      <ul class="pf-c-nav__horizontal-list">
+        
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/categories/" class="pf-c-nav__link">
+            Categories
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/components/" class="pf-c-nav__link">
+            Components
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/pages/" class="pf-c-nav__link">
+            Pages
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/patterns/" class="pf-c-nav__link">
+            Patterns
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/tags/" class="pf-c-nav__link">
+            Tags
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="pf-c-page__header-tools">
+    <div class="pf-c-page__header-tools-group pf-m-icons">
+      <a href="https://github.com/redhat-developer/rhd-frontend" target="_blank" class="pf-c-button pf-m-plain" aria-label="Alerts">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+      <main role="main" class="pf-c-page__main" tabindex="-1" id="main-content-page-layout">
+        <section class="pf-c-page__main-section pf-m-light">
+          <div class="layout-content">
+            <div id="block-rhdp-content" class="block block-system">
+              <article role="article" class="node">
+                <div class="node__content">
+                  
+
+<section class="pf-c-page__main-breadcrumb">
+  <nav class="pf-c-nav" aria-label="Local">
+    <ul class="pf-c-nav__tertiary-list">
+      
+      <li class="pf-c-nav__item">
+        <a href="/rhd-frontend/rhd-frontend/components/nav-search/" class="pf-c-nav__link">
+          <i class="fad fa-arrow-left"></i>
+          nav-search
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="/rhd-frontend/rhd-frontend/components/event-schedule/" class="pf-c-nav__link pf-m-current" aria-current="page">
+          Event Schedule Table
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+</section>
+<section class="pf-c-page__main-section"></section>
+
+
+
+
+<section class="pf-c-page__main-section">
+<div class="pf-l-grid pf-m-gutter">
+
+    <div class="pf-l-grid__item pf-m-offset-1-col">
+        <h2>DEFAULT CONTEXT</h2>
+    </div>
+    
+    
+        
+        <div class="pf-l-grid__item pf-m-offset-1-col">
+        
+            <h4 class="pf-c-title pf-m-lg">Default Variant</h4>
+            
+            
+                  <div class="pf-l-grid pf-m-gutter">
+    <div class="pf-l-grid__item pf-m-12-col-on-lg">
+      <table aria-label="This is an event schedule" class="pf-c-table pf-m-grid-md" id="simple-table" role="grid">
+        <caption>
+          <h2>Event schedule</h2>
+        </caption>
+        <thead>
+          <tr>
+            <th>Session time</th>
+            <th>Track 1</th>
+            <th>Track 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Session time">8:00 - 8:50</td>
+            <td class="pf-u-text-align-left pf-u-text-align-center-on-md" colspan="2" data-label="Track 1 and 2"><strong>Registration</strong></td>
+          </tr>
+          <tr>
+            <td data-label="Session time">8:50 - 9:10</td>
+            <td class="pf-u-text-align-left pf-u-text-align-center-on-md" colspan="2" data-label="Track 1and 2"><strong>Welcome</strong></td>
+          </tr>
+          <tr>
+            <td data-label="Session time">9:10 - 9:40</td>
+            <td class="pf-u-text-align-left pf-u-text-align-center-on-md" colspan="2" data-label="Track 1 and 2">
+              <p><strong>Keynote: Next-generation microservices</strong></p>
+              <p>Burr Sutter</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">10:00 - 11:00</td>
+            <td data-label="Track 1">
+              <p><strong>Coding that sparks joy with Quarkus</strong></p>
+              <p>Edson Yanaga</p>
+            </td>
+            <td data-label="Track 2">
+              <p><strong>9 steps to awesome with Kubernetes</strong></p>
+              <p>Burr Sutter</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">11:10 - 12:10</td>
+            <td data-label="Track 1">
+              <p><strong>Subatomic reactie streaming, programming</strong></p>
+              <p>Jason Greene</p>
+            </td>
+            <td data-label="Track 2">
+              <p><strong>Sail into the cloud with Istio service mesh</strong></p>
+              <p>Kamesh Sampath</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">12:10 - 1:00</td>
+            <td class="pf-u-text-align-left pf-u-text-align-center-on-md" colspan="2" data-label="Track 1 and 2">
+              <p><strong>Lunch</strong></p>
+              <p>Networking with your fellow attendees, discuss your solutions strategies</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">1:00 - 2:00</td>
+            <td data-label="Track 1">
+              <p><em>*Hands-on workshop:</em>&nbsp;<strong>The Java microservices tutorial with Quarkus</strong></p>
+              <p>Edson Yanaga and Alex Soto</p>
+            </td>
+            <td data-label="Track 2">
+              <p><strong>Kafka, Knative, and Kubernetes! Oh my!</strong></p>
+              <p>William Markito Oliveira</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">2:00 - 3:00</td>
+            <td data-label="Track 1">
+              <p><em>*Hands-on workshop:</em>&nbsp;<strong>The Java microservices tutorial with Quarkus (continued)</strong></p>
+            </td>
+            <td data-label="Track 2">
+              <p><strong>Plumbing Kubernetes CI/CD with Tekton</strong></p>
+              <p>Kamesh Sampath</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">3:00 - 3:30</td>
+            <td class="pf-u-text-align-left pf-u-text-align-center-on-md" colspan="2" data-label="Track 1 and 2">
+              <p><strong>Coffee break</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">3:30 - 4:30</td>
+            <td data-label="Track 1">
+              <p><em>*Hands-on workshop:</em>&nbsp;<strong>Kubernetes, service mesh, &amp; serverless</strong></p>
+              <p>Kamesh Sampath and Burr Sutter</p>
+            </td>
+            <td data-label="Track 2">
+              <p><strong>Cloud-native integration with Camel K</strong></p>
+              <p>Scott McCarty</p>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Session time">4:30 - 5:30</td>
+            <td data-label="Track 1">
+              <p><em>*Hands-on workshop:</em>&nbsp;<strong>Kubernetes, service mesh, &amp; serverless (continued)</strong></p>
+            </td>
+            <td data-label="Track 2">
+              <p><strong>Microservices testing &amp; automation</strong></p>
+              <p>Alex Soto</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" data-label="Note" style="text-align: center;"><em>*This is a hands-on, bring your own laptop coding workshop. Space is limited.</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+            
+            
+        
+        </div>
+        
+    
+    
+
+</div>
+</section>
+
+
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <footer role="footer">
+  <div class="pf-l-grid">
+    <div class="pf-l-grid__item pf-m-3-col pf-m-2-col-on-sm pf-m-1-col-on-md">
+      <img alt="Red Hat Logo" src="https://developers.redhat.com/themes/custom/rhdp/images/branding/RHLogo_white.svg" class="pf-u-p-sm">
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js"></script>
+
+      </main>
+      
+
+
+
+    </div>
+  </body>
+</html>

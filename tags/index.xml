@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RHD Front-end Code and Documentation</title>
-    <link>https://redhat-developer.github.io/rhd-frontend/tags/</link>
+    <link>/rhd-frontend/tags/</link>
     <description>Recent content in Tags on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2019 10:28:48 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 10:49:56 -0400</lastBuildDate>
     
-	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/rhd-frontend/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>component</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/component/</link>
-      <pubDate>Tue, 01 Oct 2019 10:28:48 -0400</pubDate>
+      <link>/rhd-frontend/tags/component/</link>
+      <pubDate>Tue, 29 Oct 2019 10:49:56 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/component/</guid>
+      <guid>/rhd-frontend/tags/component/</guid>
       <description></description>
     </item>
     
     <item>
       <title>page</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/page/</link>
+      <link>/rhd-frontend/tags/page/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/page/</guid>
+      <guid>/rhd-frontend/tags/page/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/design/</link>
+      <link>/rhd-frontend/tags/design/</link>
       <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/design/</guid>
+      <guid>/rhd-frontend/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/code/</link>
+      <link>/rhd-frontend/tags/code/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/code/</guid>
+      <guid>/rhd-frontend/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cards</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/cards/</link>
+      <link>/rhd-frontend/tags/cards/</link>
       <pubDate>Sun, 22 Jul 2018 11:15:00 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/cards/</guid>
+      <guid>/rhd-frontend/tags/cards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>assembly</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/assembly/</link>
+      <link>/rhd-frontend/tags/assembly/</link>
       <pubDate>Fri, 13 Apr 2018 02:45:06 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/assembly/</guid>
+      <guid>/rhd-frontend/tags/assembly/</guid>
       <description></description>
     </item>
     
     <item>
       <title>layout</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/layout/</link>
+      <link>/rhd-frontend/tags/layout/</link>
       <pubDate>Wed, 04 Oct 2017 08:06:49 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/layout/</guid>
+      <guid>/rhd-frontend/tags/layout/</guid>
       <description></description>
     </item>
     
     <item>
       <title>misc</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/misc/</link>
+      <link>/rhd-frontend/tags/misc/</link>
       <pubDate>Thu, 03 Aug 2017 15:05:58 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/misc/</guid>
+      <guid>/rhd-frontend/tags/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>content</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/content/</link>
+      <link>/rhd-frontend/tags/content/</link>
       <pubDate>Thu, 03 Aug 2017 15:04:51 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/content/</guid>
+      <guid>/rhd-frontend/tags/content/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2019summit</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/tags/2019summit/</link>
+      <link>/rhd-frontend/tags/2019summit/</link>
       <pubDate>Thu, 03 Aug 2017 14:58:26 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/tags/2019summit/</guid>
+      <guid>/rhd-frontend/tags/2019summit/</guid>
       <description></description>
     </item>
     

@@ -1,8 +1,8 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@patternfly/pfelement/pfelement.umd')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@patternfly/pfelement/pfelement.umd'], factory) :
-    (global = global || self, factory(global.DPReferrer = {}, global.PFElement));
-}(this, function (exports, PFElement) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@patternfly/pfelement/pfelement.umd')) :
+    typeof define === 'function' && define.amd ? define(['@patternfly/pfelement/pfelement.umd'], factory) :
+    (global = global || self, global.DPReferrer = factory(global.PFElement));
+}(this, (function (PFElement) { 'use strict';
 
     PFElement = PFElement && PFElement.hasOwnProperty('default') ? PFElement['default'] : PFElement;
 
@@ -148,8 +148,6 @@
     }(PFElement));
     PFElement.create(DPReferrer);
 
-    exports.default = DPReferrer;
+    return DPReferrer;
 
-    Object.defineProperty(exports, '__esModule', { value: true });
-
-}));
+})));

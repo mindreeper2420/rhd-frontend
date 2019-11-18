@@ -12,10 +12,10 @@
     <title>
 Product Download List – RHD Front-end Code and Documentation
 </title>
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.legacy.css">
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
-    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <link rel="stylesheet" href="/rhd-frontend/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="/rhd-frontend/rhd-frontend/css/rhd.legacy.css">
+    <link rel="stylesheet" href="/rhd-frontend/css/prism-ghcolors.css">
+    <script src="/rhd-frontend/js/base.js"></script>
     <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
@@ -26,16 +26,16 @@ Product Download List – RHD Front-end Code and Documentation
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
-    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
-    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
-    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.min.js"></script>
 
   </head>
   <body class="pf-m-redhat-font">
     <div class="pf-c-page" id="page-layout-grouped-nav">
       <header role="banner" class="pf-c-page__header" style="z-index: 100;">
   <div class="pf-c-page__header-brand">
-    <a class="pf-c-page__header-brand-link">
+    <a class="pf-c-page__header-brand-link" href="/rhd-frontend/">
       <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
     </a>
   </div>
@@ -43,6 +43,31 @@ Product Download List – RHD Front-end Code and Documentation
     <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
       <ul class="pf-c-nav__horizontal-list">
         
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/categories/" class="pf-c-nav__link">
+            Categories
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/components/" class="pf-c-nav__link">
+            Components
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/pages/" class="pf-c-nav__link">
+            Pages
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/patterns/" class="pf-c-nav__link">
+            Patterns
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/tags/" class="pf-c-nav__link">
+            Tags
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -68,20 +93,20 @@ Product Download List – RHD Front-end Code and Documentation
     <ul class="pf-c-nav__tertiary-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/cta_form/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/cta_form/" class="pf-c-nav__link">
           <i class="fad fa-arrow-left"></i>
           CTA Form
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-download-list/" class="pf-c-nav__link pf-m-current" aria-current="page">
+        <a href="/rhd-frontend/rhd-frontend/components/product-download-list/" class="pf-c-nav__link pf-m-current" aria-current="page">
           Product Download List
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/product-download-hero/" class="pf-c-nav__link">
           Product Download Hero
           <i class="fad fa-arrow-right"></i>
         </a>
@@ -112,7 +137,28 @@ Product Download List – RHD Front-end Code and Documentation
             <h4 class="pf-c-title pf-m-lg">Default Variant</h4>
             
             
-                <div class="component rhd-c-product-download-list pf-c-content">
+                <section>
+  <div class="component rhd-c-product-download-alert pf-c-content hide" id="downloadthankyou" style="display: block;">
+    <div class="downloadthankyou pf-l-grid">
+      <div class="thankyouclose pf-l-grid__item pf-m-1-col pf-m-offset-11-col">
+        <a href="#" onclick="app.termsAndConditions.hideDownloadMessage();"><i class="fas fa-times"></i></a>
+      </div>
+      <div class="pf-l-grid__item pf-m-12-col">
+        <h2 id="thank-you">Thank you for downloading OpenJDK 8 Windows 64-bit</h2>
+        <p id="download-problems" style="display: block;">Your download should start automatically. If you have any problems with the download, please use the<a id="tcDownloadLink" href="https://access.cdn.redhat.com/content/origin/files/sha256/af/af5f64df96eab1b8ef50065293d0c567d0abe3a0d831414aaf66769a3afecd06/codeready-workspaces-1.2.2.GA-operator-installer.tar.gz?_auth_=1571142538_6a38edf8cf92b5673e169a9b3bcdfdc7"> direct link</a>.</p><br>
+      </div>
+      <div class="thankyoupanels" style="display: block;">
+        <div class="pf-l-grid">
+          <div class="pf-l-grid__item pf-m-12-col">
+            <p style="display: block;">By downloading this product you have agreed with our <a href="/rhd-frontend/terms-and-conditions/">terms and conditions </a>on <span id="tcWhenSigned">August 13, 2019</span>. You will be notified again in <span id="tcEndsIn">302 days </span> after your subscription ends. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="component rhd-c-product-download-list pf-c-content">
     <div class="pf-l-grid pf-m-gutter pf-u-pt-lg pf-u-pb-lg">
       <h3 class="pf-c-title pf-m-2xl">All Downloads</h3>
       <!-- Start of version row -->

@@ -4,16 +4,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta name="generator" content="Hugo 0.59.0-DEV" />
+	<meta name="generator" content="Hugo 0.58.3" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
         RHD Front-end Code and Documentation
     </title>
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/rhd.css">
-    <link rel="stylesheet" href="https://redhat-developer.github.io/rhd-frontend/css/prism-ghcolors.css">
-    <script src="https://redhat-developer.github.io/rhd-frontend/js/base.js"></script>
+    <link rel="stylesheet" href="/rhd-frontend/rhd-frontend/css/rhd.css">
+    <link rel="stylesheet" href="/rhd-frontend/css/prism-ghcolors.css">
+    <script src="/rhd-frontend/js/base.js"></script>
     <script src="https://kit.fontawesome.com/3f83b4c6d2.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.5/es6-shim.min.js"></script>
@@ -24,16 +24,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
-    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.old.min.js"></script>
-    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
-    <script src="https://redhat-developer.github.io/rhd-frontend/@rhd/rhd.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.old.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.microsites.min.js"></script>
+    <script src="/rhd-frontend/rhd-frontend/@rhd/rhd.min.js"></script>
 
   </head>
   <body class="pf-m-redhat-font">
     <div class="pf-c-page" id="page-layout-index">
       <header role="banner" class="pf-c-page__header" style="z-index: 100;">
   <div class="pf-c-page__header-brand">
-    <a class="pf-c-page__header-brand-link">
+    <a class="pf-c-page__header-brand-link" href="/rhd-frontend/">
       <img class="pf-c-brand" src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png" alt="PatternFly logo">
     </a>
   </div>
@@ -41,6 +41,31 @@
     <nav class="pf-c-nav pf-m-end" id="page-layout-horizontal-nav-horizontal-nav" aria-label="Global">
       <ul class="pf-c-nav__horizontal-list">
         
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/categories/" class="pf-c-nav__link">
+            Categories
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/components/" class="pf-c-nav__link">
+            Components
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/pages/" class="pf-c-nav__link">
+            Pages
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/patterns/" class="pf-c-nav__link">
+            Patterns
+          </a>
+        </li>
+        <li class="pf-c-nav__item">
+          <a href="/rhd-frontend/tags/" class="pf-c-nav__link">
+            Tags
+          </a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -62,253 +87,265 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/search-old/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/search-old/" class="pf-c-nav__link">
           &#39;Old&#39; Search
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/alerts/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/alerts/" class="pf-c-nav__link">
           Alerts
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/all-products-listing/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/all-products-listing/" class="pf-c-nav__link">
           All Products Listing Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/author-tile/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/author-tile/" class="pf-c-nav__link">
           Author Tile Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/bonus-content-item/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/bonus-content-item/" class="pf-c-nav__link">
           Bonus Content Item
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/btn-cta/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/btn-cta/" class="pf-c-nav__link">
           Buttons and CTAs
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/card-grid/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/card-grid/" class="pf-c-nav__link">
           Card Grid Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/card-html/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/card-html/" class="pf-c-nav__link">
           Card in Gallery
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/card/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/card/" class="pf-c-nav__link">
           Card in Grid
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/code-snippet/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/code-snippet/" class="pf-c-nav__link">
           Code snippet
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/collection/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/collection/" class="pf-c-nav__link">
           Collection Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/comment-list-card/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/comment-list-card/" class="pf-c-nav__link">
           Comment List Card Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/community/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/community/" class="pf-c-nav__link">
           Community
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/cta/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/cta/" class="pf-c-nav__link">
           CTA
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/cta_form/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/cta_form/" class="pf-c-nav__link">
           CTA Form
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-content/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/curated-content/" class="pf-c-nav__link">
           Curated Content
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-events/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/curated-events/" class="pf-c-nav__link">
           Curated Events (Event List)
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/curated-links/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/curated-links/" class="pf-c-nav__link">
           Curated links
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/dynamic-list/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/dynamic-list/" class="pf-c-nav__link">
           Deprecated Dynamic Content List
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/dynamic-content/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/dynamic-content/" class="pf-c-nav__link">
           Dynamic Content Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/dynamic-content-list/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/dynamic-content-list/" class="pf-c-nav__link">
           Dynamic Content List with Comments
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/events-hero/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/event-schedule/" class="pf-c-nav__link">
+          Event Schedule Table
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="/rhd-frontend/rhd-frontend/components/events-hero/" class="pf-c-nav__link">
           Events Hero
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/template/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/template/" class="pf-c-nav__link">
           Example Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/expandable-groups/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/expandable-groups/" class="pf-c-nav__link">
           Expandable Groups
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/featured-article/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/featured-article/" class="pf-c-nav__link">
           Featured Article
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/featured-evangelists/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/featured-evangelists/" class="pf-c-nav__link">
           Featured Evangelists
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/featured-resources/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/featured-resources/" class="pf-c-nav__link">
           Featured Resources
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/footer/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/footer/" class="pf-c-nav__link">
           Footer References
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/icons/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/icons/" class="pf-c-nav__link">
           Icons
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/jump-to-nav/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/jump-to-nav/" class="pf-c-nav__link">
           Jump-to Nav
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/logos/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/logos/" class="pf-c-nav__link">
           Logo Components
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/navigation/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/nav-search/" class="pf-c-nav__link">
+          nav-search
+        </a>
+      </li>
+      
+      <li class="pf-c-nav__item">
+        <a href="/rhd-frontend/rhd-frontend/components/navigation/" class="pf-c-nav__link">
           Navigation References
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/onebox/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/onebox/" class="pf-c-nav__link">
           Onebox
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-download-hero/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/product-download-hero/" class="pf-c-nav__link">
           Product Download Hero
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/product-try-it/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/product-try-it/" class="pf-c-nav__link">
           Product Try-it
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/referrer/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/referrer/" class="pf-c-nav__link">
           Referrer
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/rhdp-downloads/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/rhdp-downloads/" class="pf-c-nav__link">
           RHDP Downloads Component
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/rich_text/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/rich_text/" class="pf-c-nav__link">
           Rich Text
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/rich_text_columns/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/rich_text_columns/" class="pf-c-nav__link">
           Rich Text Columns
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/search/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/search/" class="pf-c-nav__link">
           Search
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/stack-overflow/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/stack-overflow/" class="pf-c-nav__link">
           Stack Overflow
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/components/video-hero/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/components/video-hero/" class="pf-c-nav__link">
           Video Hero
         </a>
       </li>
@@ -322,37 +359,37 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/pages/assemblies/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/pages/assemblies/" class="pf-c-nav__link">
           Assemblies Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/pages/home/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/pages/home/" class="pf-c-nav__link">
           Home Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/pages/katacoda/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/pages/katacoda/" class="pf-c-nav__link">
           Katacoda Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/pages/node_author/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/pages/node_author/" class="pf-c-nav__link">
           Node author Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/pages/product/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/pages/product/" class="pf-c-nav__link">
           Product Page
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/pages/topic/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/pages/topic/" class="pf-c-nav__link">
           Topic Page
         </a>
       </li>
@@ -366,19 +403,19 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/all-product-listing/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/assemblies/all-product-listing/" class="pf-c-nav__link">
           All Product Listing
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/assemblies/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/assemblies/assemblies/" class="pf-c-nav__link">
           Assemblies
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/assemblies/featured_products/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/assemblies/featured_products/" class="pf-c-nav__link">
           Featured Products
         </a>
       </li>
@@ -392,31 +429,31 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/code/css/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/code/css/" class="pf-c-nav__link">
           CSS - Cascading Stylesheets
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/code/css-variables/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/code/css-variables/" class="pf-c-nav__link">
           CSS Variables
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/code/html/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/code/html/" class="pf-c-nav__link">
           HTML - Hypertext Markup Language
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/code/js/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/code/js/" class="pf-c-nav__link">
           JS - JavaScript
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/code/ts/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/code/ts/" class="pf-c-nav__link">
           TS - TypeScript
         </a>
       </li>
@@ -430,13 +467,13 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/content/notifications/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/content/notifications/" class="pf-c-nav__link">
           Notifications
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/content/style/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/content/style/" class="pf-c-nav__link">
           Style
         </a>
       </li>
@@ -450,37 +487,37 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/background/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/design/background/" class="pf-c-nav__link">
           Background
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/color/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/design/color/" class="pf-c-nav__link">
           Color
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/graphics/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/design/graphics/" class="pf-c-nav__link">
           Graphics
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/logos/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/design/logos/" class="pf-c-nav__link">
           Logos
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/system/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/design/system/" class="pf-c-nav__link">
           System
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/design/typography/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/design/typography/" class="pf-c-nav__link">
           Typography
         </a>
       </li>
@@ -494,19 +531,19 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/boxmodel/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/layout/boxmodel/" class="pf-c-nav__link">
           Box Model Properties
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/home/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/layout/home/" class="pf-c-nav__link">
           Home Page Layout
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/layout/grid/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/layout/grid/" class="pf-c-nav__link">
           Responsive Grid
         </a>
       </li>
@@ -520,25 +557,25 @@
     <ul class="pf-c-nav__simple-list">
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/misc/a11y/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/misc/a11y/" class="pf-c-nav__link">
           Accessibility (a11y)
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/misc/handoffs/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/misc/handoffs/" class="pf-c-nav__link">
           Handshakes, Log In, and Registration
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/misc/interactive/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/misc/interactive/" class="pf-c-nav__link">
           Interactive Elements
         </a>
       </li>
       
       <li class="pf-c-nav__item">
-        <a href="https://redhat-developer.github.io/rhd-frontend/patterns/misc/links/" class="pf-c-nav__link">
+        <a href="/rhd-frontend/rhd-frontend/patterns/misc/links/" class="pf-c-nav__link">
           Links
         </a>
       </li>

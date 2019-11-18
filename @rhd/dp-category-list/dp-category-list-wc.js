@@ -2,7 +2,7 @@
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('@patternfly/pfelement/pfelement.umd')) :
     typeof define === 'function' && define.amd ? define(['@patternfly/pfelement/pfelement.umd'], factory) :
     (global = global || self, factory(global.PFElement));
-}(this, function (PFElement) { 'use strict';
+}(this, (function (PFElement) { 'use strict';
 
     PFElement = PFElement && PFElement.hasOwnProperty('default') ? PFElement['default'] : PFElement;
 
@@ -526,4 +526,4 @@
     new DPCategory();
     new DPProductShortTeaser();
 
-}));
+})));
