@@ -303,12 +303,12 @@
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/design/</loc>
+    <loc>/rhd-frontend/tags/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/design/</loc>
+    <loc>/rhd-frontend/categories/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
@@ -383,12 +383,12 @@
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/assembly/</loc>
+    <loc>/rhd-frontend/tags/assembly/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/assembly/</loc>
+    <loc>/rhd-frontend/categories/assembly/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
@@ -438,12 +438,12 @@
   </url>
   
   <url>
-    <loc>/rhd-frontend/tags/misc/</loc>
+    <loc>/rhd-frontend/categories/misc/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/rhd-frontend/categories/misc/</loc>
+    <loc>/rhd-frontend/tags/misc/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
