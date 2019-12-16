@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>page_example on RHD Front-end Code and Documentation</title>
-    <link>/categories/page_example/</link>
+    <link>https://redhat-developer.github.io/rhd-frontend/categories/page_example/</link>
     <description>Recent content in page_example on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Aug 2019 08:39:15 -0400</lastBuildDate>
     
-	<atom:link href="/categories/page_example/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://redhat-developer.github.io/rhd-frontend/categories/page_example/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home Page</title>
-      <link>/pages/home/</link>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/home/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>/pages/home/</guid>
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/home/</guid>
       <description>Learn about the Developer program   Learn about Red Hat and communities       Build here    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>
       <title>Product Page</title>
-      <link>/pages/product/</link>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/product/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>/pages/product/</guid>
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/product/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title>Topic Page</title>
-      <link>/pages/topic/</link>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/topic/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>/pages/topic/</guid>
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/topic/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title>Node author Page</title>
-      <link>/pages/node_author/</link>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>/pages/node_author/</guid>
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/node_author/</guid>
       <description>Burr Sutter Chief Developer Evangelist
 Red Hat&#39;s Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference.      Round image example simple round image example
   as a container class &amp;lt;div class=&#34;rhd-c-round-image&#34;&amp;gt; &amp;lt;img src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt; &amp;lt;/div&amp;gt; or as an image class &amp;lt;img class=&#34;rhd-c-round-image&#34; src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt;       </description>
@@ -51,19 +51,19 @@ Red Hat&#39;s Director of Developer Experience. A Java Champion, former presiden
     
     <item>
       <title>Assemblies Page</title>
-      <link>/pages/assemblies/</link>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/assemblies/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>/pages/assemblies/</guid>
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/assemblies/</guid>
       <description>Browse by product name    .NET Core Compilers: Clang/LLVM, Go, Rust Red Hat 3scale API Management Red Hat AMQ Red Hat Application Migration Toolkit Red Hat CodeReady Studio Red Hat CodeReady Toolchain Red Hat CodeReady Workspaces Red Hat Container Development Kit Red Hat Data Grid Red Hat Decision Manager Red Hat Developer Toolset Red Hat Enterprise Linux Red Hat Enterprise Linux for SAP Solutions Red Hat Fuse Red Hat JBoss Data Virtualization Red Hat JBoss Enterprise Application Platform Red Hat JBoss Web Server Red Hat Mobile Application Platform Red Hat OpenJDK Red Hat OpenShift Application Runtimes Red Hat OpenShift Cloud Functions Red Hat OpenShift Container Platform Red Hat Process Automation Manager Red Hat Software Collections VS Code Extensions   Title for Collection Assembly   Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Pagination Current page1  Page2  Page3  Page4  Page5  Page6  Next page Next ›   Last page Last »       Join us for our next live developer tech talk.</description>
     </item>
     
     <item>
       <title>Katacoda Page</title>
-      <link>/pages/katacoda/</link>
+      <link>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>/pages/katacoda/</guid>
+      <guid>https://redhat-developer.github.io/rhd-frontend/pages/katacoda/</guid>
       <description>Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
  Burr Sutter  Chief Developer Evangelist       Introduction to Istio Service Mesh A service mesh provides traffic monitoring, access control, discovery, security, resiliency, and other useful things to a group of services.</description>
     </item>

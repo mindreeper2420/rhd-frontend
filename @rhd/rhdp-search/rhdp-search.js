@@ -1502,7 +1502,7 @@
         Object.defineProperty(RHDPSearchResult.prototype, "url", {
             get: function () {
                 var stage = window.location.href.indexOf('stage') >= 0 || window.location.href.indexOf('developers') < 0 ? '.stage' : '';
-                return !this.premium ? this._url : "https://broker" + stage + ".redhat.com/partner/drc/userMapping?redirect=" + encodeURIComponent(this._url);
+                return !this.premium ? this._url : "https://developers" + stage + ".redhat.com/download-manager/link/3867444?redirect=" + encodeURIComponent(this._url);
             },
             set: function (val) {
                 if (this._url === val)
