@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>misc on RHD Front-end Code and Documentation</title>
-    <link>https://redhat-developer.github.io/rhd-frontend/tags/misc/</link>
+    <link>https://rhd-frontend-demo.netlify.com/tags/misc/</link>
     <description>Recent content in misc on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Aug 2017 15:05:58 -0400</lastBuildDate>
     
-	<atom:link href="https://redhat-developer.github.io/rhd-frontend/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rhd-frontend-demo.netlify.com/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessibility (a11y)</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/a11y/</link>
+      <link>https://rhd-frontend-demo.netlify.com/patterns/misc/a11y/</link>
       <pubDate>Thu, 03 Aug 2017 15:05:58 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/a11y/</guid>
+      <guid>https://rhd-frontend-demo.netlify.com/patterns/misc/a11y/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Elements</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/interactive/</link>
+      <link>https://rhd-frontend-demo.netlify.com/patterns/misc/interactive/</link>
       <pubDate>Thu, 03 Aug 2017 15:05:26 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/interactive/</guid>
+      <guid>https://rhd-frontend-demo.netlify.com/patterns/misc/interactive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Handshakes, Log In, and Registration</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/handoffs/</link>
+      <link>https://rhd-frontend-demo.netlify.com/patterns/misc/handoffs/</link>
       <pubDate>Thu, 03 Aug 2017 15:03:56 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/handoffs/</guid>
+      <guid>https://rhd-frontend-demo.netlify.com/patterns/misc/handoffs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>https://redhat-developer.github.io/rhd-frontend/patterns/misc/links/</link>
+      <link>https://rhd-frontend-demo.netlify.com/patterns/misc/links/</link>
       <pubDate>Thu, 03 Aug 2017 15:03:17 -0400</pubDate>
       
-      <guid>https://redhat-developer.github.io/rhd-frontend/patterns/misc/links/</guid>
+      <guid>https://rhd-frontend-demo.netlify.com/patterns/misc/links/</guid>
       <description></description>
     </item>
     
