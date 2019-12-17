@@ -6,7 +6,7 @@
     <description>Recent content in page on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Aug 2019 08:39:15 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 08:39:15 -0400</lastBuildDate>
     
 	<atom:link href="https://rhd-frontend-demo.netlify.com/tags/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -47,6 +47,15 @@
       <description>Burr Sutter Chief Developer Evangelist
 Red Hat&#39;s Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference.      Round image example simple round image example
   as a container class &amp;lt;div class=&#34;rhd-c-round-image&#34;&amp;gt; &amp;lt;img src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt; &amp;lt;/div&amp;gt; or as an image class &amp;lt;img class=&#34;rhd-c-round-image&#34; src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt;       </description>
+    </item>
+    
+    <item>
+      <title>Articles Page</title>
+      <link>https://rhd-frontend-demo.netlify.com/pages/articles/</link>
+      <pubDate>Mon, 16 Dec 2019 08:39:15 -0400</pubDate>
+      
+      <guid>https://rhd-frontend-demo.netlify.com/pages/articles/</guid>
+      <description>Test article for design components August 9, 2019  More on: Java, Microservices    First Last  Author Title      First section title Here is an example of a long section title Third section title   Nulla sed tellus ultricies, feugiat ante dapibus, elementum ligula. Nam et mauris sed nibh cursus auctor vehicula ut nisi. Sed vestibulum nisi eget urna tempor placerat. Sed in vestibulum urna.</description>
     </item>
     
     <item>
