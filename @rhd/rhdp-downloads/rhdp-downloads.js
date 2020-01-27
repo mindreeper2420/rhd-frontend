@@ -29,7 +29,7 @@
             _this._winURL = "";
             _this.stage_download_url = 'https://developers.stage.redhat.com';
             _this.productDownloads = {
-                "cdk": { "windowsUrl": "/download-manager/file/cdk-3.10.0-1-minishift-windows-amd64.exe", "macUrl": "/download-manager/file/cdk-3.10.0-1-minishift-darwin-amd64", "rhelUrl": "/download-manager/file/cdk-3.10.0-1-minishift-linux-amd64" }
+                "cdk": { "windowsUrl": "/download-manager/file/cdk-3.11.0-1-minishift-windows-amd64.exe", "macUrl": "/download-manager/file/cdk-3.11.0-1-minishift-darwin-amd64", "rhelUrl": "/download-manager/file/cdk-3.11.0-1-minishift-linux-amd64" }
             };
             _this.template = function (strings, product, downloadUrl, platform, version) {
                 return "<div class=\"large-8 columns download-link\">\n                    <a class=\"button heavy-cta\" href=\"" + downloadUrl + "\">\n                        <i class=\"fa fa-download\"></i> Download</a>\n                    <div class=\"version-name\">\n                        <span id=\"rhdp-os-dl-product\">" + product + "</span> \n                        <span id=\"rhdp-os-dl-version\">" + version + "</span> \n                        <span id=\"rhdp-os-dl-os\">" + (_this.displayOS ? "for <span id=\"rhdp-os-dl-platform\">" + platform + "</span></span>" : '') + "\n                    </div>\n                </div>\n                ";

@@ -1,544 +1,544 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/</loc>
+    <loc>/</loc>
     <lastmod>2017-08-03T10:56:11-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/assemblies/assemblies/</loc>
+    <loc>/patterns/assemblies/assemblies/</loc>
     <lastmod>2017-08-03T14:58:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/home/</loc>
+    <loc>/pages/home/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/product/</loc>
+    <loc>/pages/product/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/topic/</loc>
+    <loc>/pages/topic/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/node_author/</loc>
+    <loc>/pages/node_author/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/event-schedule/</loc>
+    <loc>/components/event-schedule/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/nav-search/</loc>
+    <loc>/components/nav-search/</loc>
     <lastmod>2019-10-14T13:40:51-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/featured-evangelists/</loc>
+    <loc>/components/featured-evangelists/</loc>
     <lastmod>2019-10-01T10:28:48-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/events-hero/</loc>
+    <loc>/components/events-hero/</loc>
     <lastmod>2019-09-25T10:51:50-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/curated-content/</loc>
+    <loc>/components/curated-content/</loc>
     <lastmod>2019-09-17T20:41:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/curated-products/</loc>
+    <loc>/components/curated-products/</loc>
     <lastmod>2019-09-12T20:22:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/cta/</loc>
+    <loc>/components/cta/</loc>
     <lastmod>2019-09-12T15:32:54-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/product-try-it/</loc>
+    <loc>/components/product-try-it/</loc>
     <lastmod>2019-09-11T14:57:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/code-snippet/</loc>
+    <loc>/components/code-snippet/</loc>
     <lastmod>2019-09-11T09:44:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/bonus-content-item/</loc>
+    <loc>/components/bonus-content-item/</loc>
     <lastmod>2019-09-10T13:38:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/curated-links/</loc>
+    <loc>/components/curated-links/</loc>
     <lastmod>2019-09-10T12:59:11-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/icons/</loc>
+    <loc>/components/icons/</loc>
     <lastmod>2019-09-09T12:45:46-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/footer/</loc>
+    <loc>/components/footer/</loc>
     <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/navigation/</loc>
+    <loc>/components/navigation/</loc>
     <lastmod>2019-08-26T17:14:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/video-hero/</loc>
+    <loc>/components/video-hero/</loc>
     <lastmod>2019-08-16T08:22:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/dynamic-list/</loc>
+    <loc>/components/dynamic-list/</loc>
     <lastmod>2019-08-15T14:30:10-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/btn-cta/</loc>
+    <loc>/components/btn-cta/</loc>
     <lastmod>2019-08-14T11:19:07-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/rich_text_columns/</loc>
+    <loc>/components/rich_text_columns/</loc>
     <lastmod>2018-09-23T12:21:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/product-download-hero/</loc>
+    <loc>/components/product-download-hero/</loc>
     <lastmod>2018-08-20T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/product-download-list/</loc>
+    <loc>/components/product-download-list/</loc>
     <lastmod>2018-08-20T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/cta_form/</loc>
+    <loc>/components/cta_form/</loc>
     <lastmod>2018-08-14T16:12:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/rich_text/</loc>
+    <loc>/components/rich_text/</loc>
     <lastmod>2018-08-14T16:12:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/all-products-listing/</loc>
+    <loc>/components/all-products-listing/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/author-tile/</loc>
+    <loc>/components/author-tile/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/card-grid/</loc>
+    <loc>/components/card-grid/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/card-html/</loc>
+    <loc>/components/card-html/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/card/</loc>
+    <loc>/components/card/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/collection/</loc>
+    <loc>/components/collection/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/comment-list-card/</loc>
+    <loc>/components/comment-list-card/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/curated-events/</loc>
+    <loc>/components/curated-events/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/dynamic-content/</loc>
+    <loc>/components/dynamic-content/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/dynamic-content-list-compact/</loc>
+    <loc>/components/dynamic-content-list-compact/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/dynamic-content-list/</loc>
+    <loc>/components/dynamic-content-list/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/template/</loc>
+    <loc>/components/template/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/featured-article/</loc>
+    <loc>/components/featured-article/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/featured-resources/</loc>
+    <loc>/components/featured-resources/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/jump-to-nav/</loc>
+    <loc>/components/jump-to-nav/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/logos/</loc>
+    <loc>/components/logos/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/two-col-hero-layout/</loc>
+    <loc>/components/two-col-hero-layout/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/stack-overflow/</loc>
+    <loc>/components/stack-overflow/</loc>
     <lastmod>2018-04-30T13:12:43-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/rhdp-downloads/</loc>
+    <loc>/components/rhdp-downloads/</loc>
     <lastmod>2018-04-19T13:22:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/alerts/</loc>
+    <loc>/components/alerts/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/community/</loc>
+    <loc>/components/community/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/referrer/</loc>
+    <loc>/components/referrer/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/expandable-groups/</loc>
+    <loc>/components/expandable-groups/</loc>
     <lastmod>2018-04-13T03:00:54-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/onebox/</loc>
+    <loc>/components/onebox/</loc>
     <lastmod>2017-08-23T22:56:37-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/search-old/</loc>
+    <loc>/components/search-old/</loc>
     <lastmod>2017-08-23T22:25:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/search/</loc>
+    <loc>/components/search/</loc>
     <lastmod>2017-08-23T22:25:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/articles/</loc>
+    <loc>/pages/articles/</loc>
     <lastmod>2019-12-16T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-12-16T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/page/</loc>
+    <loc>/tags/page/</loc>
     <lastmod>2019-12-16T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/page_example/</loc>
+    <loc>/categories/page_example/</loc>
     <lastmod>2019-12-16T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-12-16T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/component/</loc>
+    <loc>/categories/component/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/component/</loc>
+    <loc>/tags/component/</loc>
     <lastmod>2019-10-29T10:49:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/assemblies/</loc>
+    <loc>/pages/assemblies/</loc>
     <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/katacoda/</loc>
+    <loc>/pages/katacoda/</loc>
     <lastmod>2019-08-22T08:39:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/design/</loc>
+    <loc>/tags/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/design/</loc>
+    <loc>/categories/design/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/typography/</loc>
+    <loc>/patterns/design/typography/</loc>
     <lastmod>2019-08-15T16:18:01-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/code/</loc>
+    <loc>/tags/code/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/code/</loc>
+    <loc>/categories/code/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/code/css-variables/</loc>
+    <loc>/patterns/code/css-variables/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/cards/</loc>
+    <loc>/tags/cards/</loc>
     <lastmod>2018-07-22T11:15:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/assemblies/</loc>
+    <loc>/patterns/assemblies/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/code/</loc>
+    <loc>/patterns/code/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/components/</loc>
+    <loc>/components/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/content/</loc>
+    <loc>/patterns/content/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/</loc>
+    <loc>/patterns/design/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/layout/</loc>
+    <loc>/patterns/layout/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/misc/</loc>
+    <loc>/patterns/misc/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/pages/</loc>
+    <loc>/pages/</loc>
     <lastmod>2018-04-17T14:39:40-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/assemblies/all-product-listing/</loc>
+    <loc>/patterns/assemblies/all-product-listing/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/assembly/</loc>
+    <loc>/tags/assembly/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/assembly/</loc>
+    <loc>/categories/assembly/</loc>
     <lastmod>2018-04-13T02:45:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/assemblies/featured_products/</loc>
+    <loc>/patterns/assemblies/featured_products/</loc>
     <lastmod>2018-04-13T00:18:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/layout/home/</loc>
+    <loc>/patterns/layout/home/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/layout/</loc>
+    <loc>/categories/layout/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/layout/</loc>
+    <loc>/tags/layout/</loc>
     <lastmod>2017-10-04T08:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/code/ts/</loc>
+    <loc>/patterns/code/ts/</loc>
     <lastmod>2017-08-18T15:15:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/code/html/</loc>
+    <loc>/patterns/code/html/</loc>
     <lastmod>2017-08-03T15:06:55-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/code/css/</loc>
+    <loc>/patterns/code/css/</loc>
     <lastmod>2017-08-03T15:06:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/code/js/</loc>
+    <loc>/patterns/code/js/</loc>
     <lastmod>2017-08-03T15:06:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/misc/a11y/</loc>
+    <loc>/patterns/misc/a11y/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/misc/</loc>
+    <loc>/categories/misc/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/misc/</loc>
+    <loc>/tags/misc/</loc>
     <lastmod>2017-08-03T15:05:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/misc/interactive/</loc>
+    <loc>/patterns/misc/interactive/</loc>
     <lastmod>2017-08-03T15:05:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/content/</loc>
+    <loc>/tags/content/</loc>
     <lastmod>2017-08-03T15:04:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/categories/content/</loc>
+    <loc>/categories/content/</loc>
     <lastmod>2017-08-03T15:04:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/content/notifications/</loc>
+    <loc>/patterns/content/notifications/</loc>
     <lastmod>2017-08-03T15:04:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/content/style/</loc>
+    <loc>/patterns/content/style/</loc>
     <lastmod>2017-08-03T15:04:33-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/misc/handoffs/</loc>
+    <loc>/patterns/misc/handoffs/</loc>
     <lastmod>2017-08-03T15:03:56-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/misc/links/</loc>
+    <loc>/patterns/misc/links/</loc>
     <lastmod>2017-08-03T15:03:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/tags/2019summit/</loc>
+    <loc>/tags/2019summit/</loc>
     <lastmod>2017-08-03T14:58:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/graphics/</loc>
+    <loc>/patterns/design/graphics/</loc>
     <lastmod>2017-08-03T14:57:35-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/layout/grid/</loc>
+    <loc>/patterns/layout/grid/</loc>
     <lastmod>2017-08-03T14:22:23-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/logos/</loc>
+    <loc>/patterns/design/logos/</loc>
     <lastmod>2017-08-03T14:11:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/system/</loc>
+    <loc>/patterns/design/system/</loc>
     <lastmod>2017-08-03T14:11:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/background/</loc>
+    <loc>/patterns/design/background/</loc>
     <lastmod>2017-08-03T14:11:21-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/design/color/</loc>
+    <loc>/patterns/design/color/</loc>
     <lastmod>2017-08-03T14:11:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/layout/boxmodel/</loc>
+    <loc>/patterns/layout/boxmodel/</loc>
     <lastmod>2017-08-03T14:10:42-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rhd-frontend-demo.netlify.com/patterns/</loc>
+    <loc>/patterns/</loc>
   </url>
   
 </urlset>

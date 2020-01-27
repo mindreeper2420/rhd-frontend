@@ -1,80 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on RHD Front-end Code and Documentation</title>
-    <link>https://rhd-frontend-demo.netlify.com/pages/</link>
+    <link>/pages/</link>
     <description>Recent content in Pages on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Apr 2018 14:39:40 -0400</lastBuildDate>
     
-	<atom:link href="https://rhd-frontend-demo.netlify.com/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/home/</link>
+      <link>/pages/home/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/home/</guid>
-      <description>Learn about the Developer program   Learn about Red Hat and communities       Build here    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+      <guid>/pages/home/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Product Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/product/</link>
+      <link>/pages/product/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/product/</guid>
+      <guid>/pages/product/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title>Topic Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/topic/</link>
+      <link>/pages/topic/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/topic/</guid>
+      <guid>/pages/topic/</guid>
       <description>    </description>
     </item>
     
     <item>
       <title>Node author Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/node_author/</link>
+      <link>/pages/node_author/</link>
       <pubDate>Tue, 17 Apr 2018 14:39:40 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/node_author/</guid>
-      <description>Burr Sutter Chief Developer Evangelist
-Red Hat&#39;s Director of Developer Experience. A Java Champion, former president of the Atlanta Java User Group, and founder of the DevNexus conference.      Round image example simple round image example
-  as a container class &amp;lt;div class=&#34;rhd-c-round-image&#34;&amp;gt; &amp;lt;img src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt; &amp;lt;/div&amp;gt; or as an image class &amp;lt;img class=&#34;rhd-c-round-image&#34; src=&#34;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&#34; alt=&#34;Burr Sutter&#34;&amp;gt;       </description>
+      <guid>/pages/node_author/</guid>
+      <description>&amp;lt;div class=&amp;quot;rhd-c-round-image&amp;rdquo;&amp;gt; &amp;lt;img src=&amp;quot;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&amp;rdquo; alt=&amp;quot;Burr Sutter&amp;rdquo;&amp;gt; &amp;lt;/div&amp;gt;
+or as an image class
+&amp;lt;img class=&amp;quot;rhd-c-round-image&amp;rdquo; src=&amp;quot;https://developers.redhat.com/sites/default/files/080817_BURRSUTTER_6INX6IN_300DPI-min.jpg&amp;rdquo; alt=&amp;quot;Burr Sutter&amp;rdquo;&amp;gt; </description>
     </item>
     
     <item>
       <title>Articles Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/articles/</link>
+      <link>/pages/articles/</link>
       <pubDate>Mon, 16 Dec 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/articles/</guid>
-      <description>Test article for design components August 9, 2019  More on: Java, Microservices    First Last  Author Title      First section title Here is an example of a long section title Third section title   Nulla sed tellus ultricies, feugiat ante dapibus, elementum ligula. Nam et mauris sed nibh cursus auctor vehicula ut nisi. Sed vestibulum nisi eget urna tempor placerat. Sed in vestibulum urna.</description>
+      <guid>/pages/articles/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Assemblies Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/assemblies/</link>
+      <link>/pages/assemblies/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/assemblies/</guid>
-      <description>Browse by product name    .NET Core Compilers: Clang/LLVM, Go, Rust Red Hat 3scale API Management Red Hat AMQ Red Hat Application Migration Toolkit Red Hat CodeReady Studio Red Hat CodeReady Toolchain Red Hat CodeReady Workspaces Red Hat Container Development Kit Red Hat Data Grid Red Hat Decision Manager Red Hat Developer Toolset Red Hat Enterprise Linux Red Hat Enterprise Linux for SAP Solutions Red Hat Fuse Red Hat JBoss Data Virtualization Red Hat JBoss Enterprise Application Platform Red Hat JBoss Web Server Red Hat Mobile Application Platform Red Hat OpenJDK Red Hat OpenShift Application Runtimes Red Hat OpenShift Cloud Functions Red Hat OpenShift Container Platform Red Hat Process Automation Manager Red Hat Software Collections VS Code Extensions   Title for Collection Assembly   Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Title of the video that can go to two lines, but will then hide until hovered     Pagination Current page1  Page2  Page3  Page4  Page5  Page6  Next page Next ›   Last page Last »       Join us for our next live developer tech talk.</description>
+      <guid>/pages/assemblies/</guid>
+      <description>&amp;lt;!-- All Product Listing --&amp;gt; &amp;lt;div class=&amp;quot;assembly component pf-c-content rhd-c-all-products-list&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;pf-l-grid pf-m-gutter&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;pf-l-grid__item&amp;quot;&amp;gt; &amp;lt;h2 class=&amp;quot;pf-c-title&amp;quot;&amp;gt;Browse by product name&amp;lt;/h2&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;.NET Core&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Compilers: Clang/LLVM, Go, Rust&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat 3scale API Management&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat AMQ&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Application Migration Toolkit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat CodeReady Studio&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat CodeReady Toolchain&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat CodeReady Workspaces&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Container Development Kit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Data Grid&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Decision Manager&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Developer Toolset&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Enterprise Linux&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Enterprise Linux for SAP Solutions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Fuse&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat JBoss Data Virtualization&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat JBoss Enterprise Application Platform&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat JBoss Web Server&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Mobile Application Platform&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat OpenJDK&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat OpenShift Application Runtimes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat OpenShift Cloud Functions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat OpenShift Container Platform&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Process Automation Manager&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Red Hat Software Collections&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;VS Code Extensions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
       <title>Katacoda Page</title>
-      <link>https://rhd-frontend-demo.netlify.com/pages/katacoda/</link>
+      <link>/pages/katacoda/</link>
       <pubDate>Thu, 22 Aug 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/pages/katacoda/</guid>
-      <description>Advanced Microservices Tracing with Jaeger One of the greatest challenges of moving from traditional monolithic application design to a microservices architecture is being able to monitor your business transaction flow—the flow of events via micro service calls throughout your entire system. Business transaction flow—the flow of events via micro service calls throughout your entire system.
- Burr Sutter  Chief Developer Evangelist       Introduction to Istio Service Mesh A service mesh provides traffic monitoring, access control, discovery, security, resiliency, and other useful things to a group of services.</description>
+      <guid>/pages/katacoda/</guid>
+      <description></description>
     </item>
     
   </channel>

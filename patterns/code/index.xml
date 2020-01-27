@@ -1,58 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code on RHD Front-end Code and Documentation</title>
-    <link>https://rhd-frontend-demo.netlify.com/patterns/code/</link>
+    <link>/patterns/code/</link>
     <description>Recent content in Code on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Apr 2018 14:39:40 -0400</lastBuildDate>
     
-	<atom:link href="https://rhd-frontend-demo.netlify.com/patterns/code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/patterns/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CSS Variables</title>
-      <link>https://rhd-frontend-demo.netlify.com/patterns/code/css-variables/</link>
+      <link>/patterns/code/css-variables/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/patterns/code/css-variables/</guid>
+      <guid>/patterns/code/css-variables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TS - TypeScript</title>
-      <link>https://rhd-frontend-demo.netlify.com/patterns/code/ts/</link>
+      <link>/patterns/code/ts/</link>
       <pubDate>Fri, 18 Aug 2017 15:15:45 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/patterns/code/ts/</guid>
+      <guid>/patterns/code/ts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML - Hypertext Markup Language</title>
-      <link>https://rhd-frontend-demo.netlify.com/patterns/code/html/</link>
+      <link>/patterns/code/html/</link>
       <pubDate>Thu, 03 Aug 2017 15:06:55 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/patterns/code/html/</guid>
+      <guid>/patterns/code/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS - Cascading Stylesheets</title>
-      <link>https://rhd-frontend-demo.netlify.com/patterns/code/css/</link>
+      <link>/patterns/code/css/</link>
       <pubDate>Thu, 03 Aug 2017 15:06:49 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/patterns/code/css/</guid>
+      <guid>/patterns/code/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JS - JavaScript</title>
-      <link>https://rhd-frontend-demo.netlify.com/patterns/code/js/</link>
+      <link>/patterns/code/js/</link>
       <pubDate>Thu, 03 Aug 2017 15:06:41 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/patterns/code/js/</guid>
+      <guid>/patterns/code/js/</guid>
       <description></description>
     </item>
     

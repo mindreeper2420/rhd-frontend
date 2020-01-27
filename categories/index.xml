@@ -1,85 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RHD Front-end Code and Documentation</title>
-    <link>https://rhd-frontend-demo.netlify.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on RHD Front-end Code and Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Dec 2019 08:39:15 -0400</lastBuildDate>
     
-	<atom:link href="https://rhd-frontend-demo.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>page_example</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/page_example/</link>
+      <link>/categories/page_example/</link>
       <pubDate>Mon, 16 Dec 2019 08:39:15 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/page_example/</guid>
+      <guid>/categories/page_example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>component</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/component/</link>
+      <link>/categories/component/</link>
       <pubDate>Tue, 29 Oct 2019 10:49:56 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/component/</guid>
+      <guid>/categories/component/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/design/</link>
+      <link>/categories/design/</link>
       <pubDate>Thu, 15 Aug 2019 16:18:01 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/design/</guid>
+      <guid>/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/code/</link>
+      <link>/categories/code/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/code/</guid>
+      <guid>/categories/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>assembly</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/assembly/</link>
+      <link>/categories/assembly/</link>
       <pubDate>Fri, 13 Apr 2018 02:45:06 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/assembly/</guid>
+      <guid>/categories/assembly/</guid>
       <description></description>
     </item>
     
     <item>
       <title>layout</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/layout/</link>
+      <link>/categories/layout/</link>
       <pubDate>Wed, 04 Oct 2017 08:06:49 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/layout/</guid>
+      <guid>/categories/layout/</guid>
       <description></description>
     </item>
     
     <item>
       <title>misc</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/misc/</link>
+      <link>/categories/misc/</link>
       <pubDate>Thu, 03 Aug 2017 15:05:58 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/misc/</guid>
+      <guid>/categories/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>content</title>
-      <link>https://rhd-frontend-demo.netlify.com/categories/content/</link>
+      <link>/categories/content/</link>
       <pubDate>Thu, 03 Aug 2017 15:04:51 -0400</pubDate>
       
-      <guid>https://rhd-frontend-demo.netlify.com/categories/content/</guid>
+      <guid>/categories/content/</guid>
       <description></description>
     </item>
     
