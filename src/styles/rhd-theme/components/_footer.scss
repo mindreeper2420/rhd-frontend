@@ -9,6 +9,9 @@
     .section-toggle {
       text-transform: uppercase;
     }
+    &:last-child {
+      margin-bottom: 24px;
+    }
   }
 }
 
@@ -195,6 +198,23 @@
       width: 140px;
     }
   }
+  &-summit-logo {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    justify-self: end;
+    img {
+      max-height: 40px;
+    }
+
+  }
+
+  .cookie-consent {
+    display: inline-block;
+    margin-left: 10px;
+    a {
+      margin-left: 10px;
+    }
+  }
 
   &-legal {
     grid-column-start: 3;
@@ -238,12 +258,6 @@
         display: none;
       }
     }
-  }
-
-  &-summit-logo {
-    grid-column-start: 11;
-    grid-column-end: 12;
-    justify-self: end;
   }
 }
 
@@ -324,6 +338,7 @@
       grid-column-start: 12;
       grid-column-end: -1;
       justify-self: center;
+
     }
   }
 }
@@ -358,7 +373,17 @@
 @media screen and (max-width: $pf-global--breakpoint--sm) {
   .rhd-c-footer {
     padding: 0;
+    .rhd-menu {
+        margin-left: 16px;
+        margin-right: 16px;
+        & > .menu-item--expanded {
+        &:last-child {
+          margin-bottom: 24px;
+        }
+      }
+    }
   }
+
 
   .rhd-c-footer-links,
   .rhd-c-footer-sidebar {
@@ -368,6 +393,8 @@
 
   .rhd-c-footer-sidebar {
     order: 1;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .rhd-c-footer-links {
